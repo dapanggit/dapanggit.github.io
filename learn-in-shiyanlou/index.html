@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>在实验楼学习linux的一次实验报告 | 傻傻的程序猿</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="今天下午在实验楼学了一个下午的linux,感觉还是蛮有收获的.再加上实验楼可以边动手边记笔记.
+于是.我把我的学习过程全部记下来了.然后不费吹灰之力.直接copy到我的博客.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在实验楼学习linux的一次实验报告">
+<meta property="og:url" content="http://sparkrat.github.io/learn-in-shiyanlou/index.html">
+<meta property="og:site_name" content="傻傻的程序猿">
+<meta property="og:description" content="今天下午在实验楼学了一个下午的linux,感觉还是蛮有收获的.再加上实验楼可以边动手边记笔记.
+于是.我把我的学习过程全部记下来了.然后不费吹灰之力.直接copy到我的博客.">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435304970187.png">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435306220490.png">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435306255942.png">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435306711772.png">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435306986475.png">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435307347371.png">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435307824883.png">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435308697622.png">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435308812913.png">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435309036662.png">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435309112155.png">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435309602088.png">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435310926814.png">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435311474188.png">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435311586005.png">
+<meta property="og:image" content="http://simplecloud.qiniudn.com/question/undefined/1435309806434.png">
+<meta property="og:updated_time" content="2015-06-26T09:59:20.608Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="在实验楼学习linux的一次实验报告">
+<meta name="twitter:description" content="今天下午在实验楼学了一个下午的linux,感觉还是蛮有收获的.再加上实验楼可以边动手边记笔记.
+于是.我把我的学习过程全部记下来了.然后不费吹灰之力.直接copy到我的博客.">
+  
+    <link rel="alternative" href="atom.xml" title="傻傻的程序猿" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Lyeec</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">一只傻傻的程序猿</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/memo">备忘录</a></li>
+				        
+							<li><a href="/about">关于</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+					        
+								<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+					        
+								<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/ACM/" style="font-size: 16.67px;">ACM</a> <a href="/tags/C/" style="font-size: 10px;">C++</a> <a href="/tags/C语言/" style="font-size: 16.67px;">C语言</a> <a href="/tags/GFW/" style="font-size: 11.67px;">GFW</a> <a href="/tags/blog/" style="font-size: 13.33px;">blog</a> <a href="/tags/codeforces/" style="font-size: 10px;">codeforces</a> <a href="/tags/contest/" style="font-size: 10px;">contest</a> <a href="/tags/crawler/" style="font-size: 10px;">crawler</a> <a href="/tags/cygwin/" style="font-size: 10px;">cygwin</a> <a href="/tags/editor/" style="font-size: 11.67px;">editor</a> <a href="/tags/file-system/" style="font-size: 10px;">file-system</a> <a href="/tags/git/" style="font-size: 11.67px;">git</a> <a href="/tags/github/" style="font-size: 11.67px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/html-js-css/" style="font-size: 15px;">html&js&css</a> <a href="/tags/jekyll/" style="font-size: 11.67px;">jekyll</a> <a href="/tags/learn/" style="font-size: 10px;">learn</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/msys/" style="font-size: 13.33px;">msys</a> <a href="/tags/program/" style="font-size: 16.67px;">program</a> <a href="/tags/python/" style="font-size: 11.67px;">python</a> <a href="/tags/ssh/" style="font-size: 10px;">ssh</a> <a href="/tags/theme/" style="font-size: 11.67px;">theme</a> <a href="/tags/vps/" style="font-size: 10px;">vps</a> <a href="/tags/windows/" style="font-size: 11.67px;">windows</a> <a href="/tags/分享/" style="font-size: 10px;">分享</a> <a href="/tags/前端/" style="font-size: 18.33px;">前端</a> <a href="/tags/图床/" style="font-size: 10px;">图床</a> <a href="/tags/数据结构/" style="font-size: 13.33px;">数据结构</a> <a href="/tags/旅行/" style="font-size: 10px;">旅行</a> <a href="/tags/游戏/" style="font-size: 10px;">游戏</a> <a href="/tags/科学上网/" style="font-size: 11.67px;">科学上网</a> <a href="/tags/算法/" style="font-size: 11.67px;">算法</a> <a href="/tags/读书观影/" style="font-size: 11.67px;">读书观影</a> <a href="/tags/软件/" style="font-size: 11.67px;">软件</a> <a href="/tags/随笔/" style="font-size: 20px;">随笔</a>
+					</div>
+				</section>
+				
+				
+				
+
+				
+			</div>
+		</div>
+	</header>				
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Lyeec</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Lyeec</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">一只傻傻的程序猿</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/memo">备忘录</a></li>
+		        
+					<li><a href="/about">关于</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+			        
+						<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+			        
+						<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-learn-in-shiyanlou" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/learn-in-shiyanlou/" class="article-date">
+  	<time datetime="2015-06-26T09:47:35.000Z" itemprop="datePublished">Jun 26</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      在实验楼学习linux的一次实验报告
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/learn/">learn</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>今天下午在实验楼学了一个下午的linux,感觉还是蛮有收获的.再加上实验楼可以边动手边记笔记.</p>
+<p>于是.我把我的学习过程全部记下来了.然后不费吹灰之力.直接copy到我的博客.</p>
+<a id="more"></a>
+<h2 id="df_命令">df 命令</h2><p>查看文件系统和磁盘容量</p>
+<p>使用 -h 参数来让结果以更易懂的方式显示.</p>
+<h2 id="du命令">du命令</h2><p>直接使用 du 命令会显示出当前目录下所有的子文件和子文件夹, 并以block的方式显示文件的大小.</p>
+<p>在du命令后面加上绝对路径 可以以绝对路径输出要显示的文件.例如: <code>du ~</code> 查看家目录下所有的子文件夹.</p>
+<p>使用参数 -h 来令 du 显示的文件大小以更易懂的方式表示</p>
+<p>使用参数-d 来表示 所要查看的深度.. 例如:<code>du -d 0</code> 就表示查看当前目录..不看任何一个子文件夹.</p>
+<p>比较以下几个命令的不同..<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">du </span><br><span class="line">du -<span class="literal">h</span></span><br><span class="line">du ~</span><br><span class="line">du -<span class="keyword">h</span> ~</span><br><span class="line">du -<span class="keyword">d</span> 0</span><br><span class="line">du -<span class="keyword">d</span> 0 ~</span><br><span class="line">du -<span class="keyword">h</span> -<span class="keyword">d</span> 0 ~</span><br></pre></td></tr></table></figure></p>
+<h2 id="dd_命令">dd 命令</h2><blockquote>
+<p>dd命令用于转换和复制文件<br>dd命令的命令行格式为”选项=值”, 而不是更标准的”—选项 值”或”-选项=值”</p>
+</blockquote>
+<h3 id="初次使用dd命令">初次使用dd命令</h3><p>使用命令 <code>dd of=test bs=10 count=1</code> 然后输入一些字符串.可以得到一些提示.<br>但是很难明白什么意思,也不知道为什么会冒出一个 <code>command not found</code>,似乎是因为某些字符被shell认为是命令了,为什么呢?<br>于是仔细读了这段话.</p>
+<blockquote>
+<p>上述命令从标准输入设备读入用户输入（缺省值，所以可省略）然后输出到 test 文件，bs（block size）用于指定块大小（缺省单位为 Byte，也可为其指定如’K’，’M’，’G’等单位），count用于指定块数量。如上图所示，我指定只读取总共 10 个字节的数据，当我输入了“hello shiyanlou”之后加上空格回车总共 16 个字节（一个英文字符占一个字节）内容，显然超过了设定大小。使用和du和cat命令看到的写入完成文件实际内容确实只有 10 个字节（那个黑底百分号表示这里没有换行符）,而其他的多余输入将被截取并保留在标准输入。</p>
+</blockquote>
+<p>然后,明白了.bs可以设定blocks的大小.count设定blocks的数量.<br>dd命令只会接受这么多的信息.剩下的信息被dd命令传出来,传到shell,被shell当成命令.<br>于是出现了上面的那个情况,使用命令<code>cat test</code>可以看到,输出的是<code>hello shiy%</code>.说明 猜想是对的.</p>
+<h3 id="使用dd命令进行数据转换">使用dd命令进行数据转换</h3><p>看这条命令</p>
+<figure class="highlight nix"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dd <span class="variable">if=</span>/dev/stdin <span class="variable">of=</span>test <span class="variable">bs=</span><span class="number">10</span> <span class="variable">count=</span><span class="number">1</span> <span class="variable">conv=</span>ucase</span><br></pre></td></tr></table></figure>
+<p>输完这条命令之后在shell里面输入一串字母,dd命令会将字母转换成大写.然后写入test文件.</p>
+<h3 id="使用dd命令创建虚拟镜像文件">使用dd命令创建虚拟镜像文件</h3><p>终于到重头戏了.</p>
+<p>1.从/dev/zero设备创建一个容量为256M的空文件 使用一条命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#新建文件</span></span><br><span class="line">dd <span class="keyword">if</span>=/dev/zero of=virtual.img bs=<span class="number">1</span>M count=<span class="number">256</span></span><br><span class="line"><span class="comment">#查看文件信息</span></span><br><span class="line">du -h virtual.img</span><br><span class="line"><span class="comment">#好奇怪实验楼字符界面给出的结果是257M</span></span><br></pre></td></tr></table></figure>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435304970187.png" alt="使用dd命令"></p>
+<p>2.将创建好的文件格式化(写入文件系统),<br>使用mkfs命令格式化磁盘(这里将文件当做磁盘), 使用ext4文件系统格式</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkfs.ext4 virtual.img</span><br><span class="line"><span class="comment">#命令会提示 文件不是一个特殊的设备,,,询问是否继续..输入y继续</span></span><br></pre></td></tr></table></figure>
+<p>3.将文件当做磁盘挂载到某个文件夹..</p>
+<blockquote>
+<p>mount命令的使用<br>mount [-o [操作选项]] [-t 文件系统类型] [-w|—rw|—ro] [文件系统源] [挂载点]</p>
+</blockquote>
+<p>输入命令:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">mkdir virtual </span><br><span class="line">mount -o loop -t ext4 virtural.img /home/shiyanlou/virtual/</span><br><span class="line"><span class="comment">#提示mount命令需要root权限</span></span><br><span class="line">sudo mount -o loop -t ext4 virtural.img /home/shiyanlou/virtual/</span><br><span class="line"><span class="comment">#还是报错.说没有loop 设备.什么鬼? 难道是我自己的文件夹不行? 换成mnt试试</span></span><br><span class="line">sudo mount -o loop -t ext4 virtual.img /mnt</span><br><span class="line"><span class="comment">#一样的错误? 这是什么原因?</span></span><br></pre></td></tr></table></figure>
+<p>郁闷死我了,我找了好久的原因.最后发现.后面的文档里竟然有.好吧.以后要先看文档.再动手做.</p>
+<blockquote>
+<p>不过遗憾的是，由于我们环境的问题（环境中使用的 Linux 内核在编译时没有添加对 Loop device的支持），所以你将无法挂载成功：<br>同样因为环境原因中没有物理磁盘，也无法创建虚拟磁盘的原因我们就无法实验练习使用该命令了，下面我将以我的物理主机为例讲解如何为磁盘分区。</p>
+</blockquote>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435306220490.png" alt="实验楼环境挂在镜像文件失败"></p>
+<p>不过实验还是要继续的.于是 我离开实验楼的环境.拿出我的廉价vps.但是因为同样是虚拟环境.擦.竟然也无法成功.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435306255942.png" alt="vps上挂在镜像文件失败"></p>
+<p>我就不信了.打开我的虚拟机.用archlinux试试.竟然成功了.上图!!上图.!!</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435306711772.png" alt="虚拟机上挂在镜像文件成功"></p>
+<p>那么我们来操作操作? 哈哈（ ´∀｀） </p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435306986475.png" alt="在挂载了的virtual目录下操作"></p>
+<p>完全可以当成一个独立的磁盘来玩.原来还可以这样.好吧.这个先放一放.继续我的实验楼学习.</p>
+<h2 id="接下来学习fdisk命令">接下来学习fdisk命令</h2><p>其实这个命令我在很久以前折腾archlinux的时候就用过了.</p>
+<p>说实话..这个命令真是怎么好用怎么用,</p>
+<p>参数: -l 查看磁盘信息.</p>
+<p>好吧..实验楼的环境还是无法使用.那就拿虚拟机开刀咯.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435307347371.png" alt="虚拟机fdisk -l命令演示"></p>
+<p>然后是使用fdisk命令对virtaul.img文件进行问去操作.<br>使用命令:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fdisk virtual.img</span><br></pre></td></tr></table></figure>
+<p>这个命令在实验楼的环境下是可以进行的.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435307824883.png" alt="实验楼环境下的fdisk命令展示"></p>
+<p>然后就是根据命令进行文件的分区咯.这个根据帮助命令可以学会.分好区之后使用w命令 可以将修改写入磁盘.</p>
+<p>实验楼虚拟机有点卡.我还是用我的arch吧.</p>
+<p>建立一个主分区(primary), 我竟然忘记当初是怎么使用fdisk分区了.重新学了一次.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435308697622.png" alt="使用n命令建立一个主分区"></p>
+<p>建立扩展分区(extended).我把剩下的容量全部给了拓展分区.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435308812913.png" alt="建立扩展分区"></p>
+<p>在扩展分区里面建立逻辑分区.我建立了三个拓展分区 分别是一个27M,两个96M.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435309036662.png" alt="建立逻辑分区"></p>
+<p>然后使用p命令查看已经分好的分区.如果不满意可以继续修改.满意了.则使用w命令写入分区信息.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435309112155.png" alt="使用p查看分区信息并使用w写入分区信息"></p>
+<p>关于fdisk的命令就学习到这里了,让我再回到实验楼看一下文档.</p>
+<h2 id="学习losetup命令">学习losetup命令</h2><p>按照实验楼文档输入命令.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 关联回环设备</span></span><br><span class="line">losetup /dev/loop0 virtual.img</span><br><span class="line"><span class="comment"># 解除关联</span></span><br><span class="line">losetup <span class="operator">-d</span> /dev/loop0</span><br></pre></td></tr></table></figure>
+<p>实验楼里面的回环设备是没有的.因此需要到虚拟机上弄.但是.实验楼文档说.需要一个叫做kpartx的工具.但是我用arch的pacman并没有找到kpartx的包.怎么办呢?郁闷了.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435309602088.png" alt="archlinux没有kpartx"></p>
+<p>没办法,只好拿出我的CentOS虚拟机试试.先试了试losetup命令.发现有.哈哈.这就好办了.于是我先在CentOS里面安装一下git.然后从我的实验楼仓库里面把我在实验楼虚拟机里面搞好的virtual.img 文件clone到我的本地虚拟机.分区实在太蛋疼了.分了三次了今天.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435310926814.png" alt="先把文件clone到本地"></p>
+<p>哈哈,这样文件就到手了.继续开干.再次进入实验楼看文档.<br>先使用losetup命令和kpartx命令映射分区.并格式化每个分区.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435311474188.png" alt="使用losetup命令和kpartx命令映射分区"></p>
+<p>再挂载每个分区.用完了再卸载分区.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435311586005.png" alt="挂载和卸载分区"></p>
+<p>作业.</p>
+<p>安装并使用cowsay</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435309806434.png" alt="使用cowsay"></p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/warcraft-and-me/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          我和魔兽争霸
+        
+      </div>
+    </a>
+  
+  
+    <a href="/fucked-by-gfw/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">我的博客被GFW干掉了</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+  <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+</article>
+
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="learn-in-shiyanlou" data-title="在实验楼学习linux的一次实验报告" data-url="http://sparkrat.github.io/learn-in-shiyanlou/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"sparkrat"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2015 Lyeec
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: true
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63665478-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>

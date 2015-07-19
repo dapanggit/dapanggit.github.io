@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>使用ssh+rsa连接远程linux服务器 | 傻傻的程序猿</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="题记: 生命的乐趣在于折腾. !#但是#! 工欲善其事,必先利其器.
+这是一篇关于菜鸟上路开始折腾linux的学习记录.今天下午折腾了一个东西.终于折腾好了,有点小收获,于是写篇文章纪念一下.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用ssh+rsa连接远程linux服务器">
+<meta property="og:url" content="http://sparkrat.github.io/ssh-connect/index.html">
+<meta property="og:site_name" content="傻傻的程序猿">
+<meta property="og:description" content="题记: 生命的乐趣在于折腾. !#但是#! 工欲善其事,必先利其器.
+这是一篇关于菜鸟上路开始折腾linux的学习记录.今天下午折腾了一个东西.终于折腾好了,有点小收获,于是写篇文章纪念一下.">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/0063AxbLgw1etailmqfr9j30ax01h0sv.jpg">
+<meta property="og:image" content="http://ww2.sinaimg.cn/large/0063AxbLgw1etaiiv9xo9j30dz02cdgh.jpg">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/0063AxbLgw1etaij58b4mj30ip01n3z8.jpg">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/0063AxbLgw1etaijdq0vsj30h905nwgw.jpg">
+<meta property="og:image" content="http://ww2.sinaimg.cn/large/0063AxbLgw1etaijkrw8wj30lk01lgm9.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/0063AxbLgw1etaijre8iyj30dl01f74p.jpg">
+<meta property="og:image" content="http://ww2.sinaimg.cn/large/0063AxbLgw1etaijyc2lxj30d7033mxl.jpg">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/0063AxbLgw1etaik70tmnj309s017aa1.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/0063AxbLgw1etaikd3pxlj30dv0cldgh.jpg">
+<meta property="og:updated_time" content="2015-07-03T06:20:08.011Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="使用ssh+rsa连接远程linux服务器">
+<meta name="twitter:description" content="题记: 生命的乐趣在于折腾. !#但是#! 工欲善其事,必先利其器.
+这是一篇关于菜鸟上路开始折腾linux的学习记录.今天下午折腾了一个东西.终于折腾好了,有点小收获,于是写篇文章纪念一下.">
+  
+    <link rel="alternative" href="atom.xml" title="傻傻的程序猿" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Lyeec</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">一只傻傻的程序猿</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/memo">备忘录</a></li>
+				        
+							<li><a href="/about">关于</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+					        
+								<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+					        
+								<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/ACM/" style="font-size: 16.67px;">ACM</a> <a href="/tags/C/" style="font-size: 10px;">C++</a> <a href="/tags/C语言/" style="font-size: 16.67px;">C语言</a> <a href="/tags/GFW/" style="font-size: 11.67px;">GFW</a> <a href="/tags/blog/" style="font-size: 13.33px;">blog</a> <a href="/tags/codeforces/" style="font-size: 10px;">codeforces</a> <a href="/tags/contest/" style="font-size: 10px;">contest</a> <a href="/tags/crawler/" style="font-size: 10px;">crawler</a> <a href="/tags/cygwin/" style="font-size: 10px;">cygwin</a> <a href="/tags/editor/" style="font-size: 11.67px;">editor</a> <a href="/tags/file-system/" style="font-size: 10px;">file-system</a> <a href="/tags/git/" style="font-size: 11.67px;">git</a> <a href="/tags/github/" style="font-size: 11.67px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/html-js-css/" style="font-size: 15px;">html&js&css</a> <a href="/tags/jekyll/" style="font-size: 11.67px;">jekyll</a> <a href="/tags/learn/" style="font-size: 10px;">learn</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/msys/" style="font-size: 13.33px;">msys</a> <a href="/tags/program/" style="font-size: 16.67px;">program</a> <a href="/tags/python/" style="font-size: 11.67px;">python</a> <a href="/tags/ssh/" style="font-size: 10px;">ssh</a> <a href="/tags/theme/" style="font-size: 11.67px;">theme</a> <a href="/tags/vps/" style="font-size: 10px;">vps</a> <a href="/tags/windows/" style="font-size: 11.67px;">windows</a> <a href="/tags/分享/" style="font-size: 10px;">分享</a> <a href="/tags/前端/" style="font-size: 18.33px;">前端</a> <a href="/tags/图床/" style="font-size: 10px;">图床</a> <a href="/tags/数据结构/" style="font-size: 13.33px;">数据结构</a> <a href="/tags/旅行/" style="font-size: 10px;">旅行</a> <a href="/tags/游戏/" style="font-size: 10px;">游戏</a> <a href="/tags/科学上网/" style="font-size: 11.67px;">科学上网</a> <a href="/tags/算法/" style="font-size: 11.67px;">算法</a> <a href="/tags/读书观影/" style="font-size: 11.67px;">读书观影</a> <a href="/tags/软件/" style="font-size: 11.67px;">软件</a> <a href="/tags/随笔/" style="font-size: 20px;">随笔</a>
+					</div>
+				</section>
+				
+				
+				
+
+				
+			</div>
+		</div>
+	</header>				
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Lyeec</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Lyeec</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">一只傻傻的程序猿</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/memo">备忘录</a></li>
+		        
+					<li><a href="/about">关于</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+			        
+						<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+			        
+						<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-ssh-connect" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/ssh-connect/" class="article-date">
+  	<time datetime="2015-06-18T09:33:33.000Z" itemprop="datePublished">Jun 18</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      使用ssh+rsa连接远程linux服务器
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/msys/">msys</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ssh/">ssh</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vps/">vps</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong><em>题记: 生命的乐趣在于折腾. !#但是#! 工欲善其事,必先利其器.</em></strong></p>
+<p>这是一篇关于菜鸟上路开始折腾linux的学习记录.<br>今天下午折腾了一个东西.终于折腾好了,有点小收获,于是写篇文章纪念一下.</p>
+<a id="more"></a>
+<h2 id="此次折腾的起因">此次折腾的起因</h2><p>最近在慕课网学习linux.视频里面,老师用的是Xshell.于是我也装了个Xshell.结果就是各种坑爹啊.至于哪里坑呢, 不好描述的.但是我就是用不惯Xshell(安装版和便携版我都试过,都不好用,不建议使用).</p>
+<p>还有一个原因就是, 在自己电脑上装虚拟机用起来真心不舒服.不舒服啊不舒服.于是我开始在google上学习, 关于各种远程连接的知识我都搜了一下.然后我发现.</p>
+<p>我的电脑因为被我折腾的不错的原因, 使用windows下的伪bash竟然可以用ssh.啊哈哈哈.</p>
+<p>于是我开始了我的ssh连接远程服务器之路.</p>
+<h2 id="使用密码登陆远程服务器">使用密码登陆远程服务器</h2><p>因为我在windows下模拟的bash还是能满足一些基本的命令需求的.其中就有ssh,它是安装msys自带的.</p>
+<p>因为之前说过使用ssh协议连接远程仓库的事.</p>
+<p>ssh是什么东西呢? 看看<a href="http://www.wikiwand.com/zh/Secure_Shell" target="_blank" rel="external">wikiwand条目</a>吧.</p>
+<blockquote>
+<p><strong>乱入:</strong><br>\$_\$ <a href="http://www.wikiwand.com" target="_blank" rel="external">wikiwand</a> 是我最近发现的一个可以优化wikipedia页面的网站.一开始我找到的是chrome插件.它会自动把wikipedia的页面访问跳转懂啊wikiwand.还不错.<br><strong>乱入结束</strong></p>
+</blockquote>
+<p>然后我又搜索了一下ssh命令的具体<a href="http://man.linuxde.net/ssh" target="_blank" rel="external">使用方法</a>.</p>
+<blockquote>
+<p><strong>乱入</strong><br>哈哈又发现一个好网站<a href="http://man.linuxde.net/" target="_blank" rel="external">linux命令大全</a>,这世界上我们不知道的好东西太多了<br><strong>乱入结束</strong></p>
+</blockquote>
+<p><del>好吧 linuxde.net在我发现一天之后挂掉了.擦! 不过介绍scp命令的使用方法的网站还是有很多的.</del><br>现在已经恢复.</p>
+<p>一开始我曾经用过这个命令 <code>ssh 192.243.116.234</code> 其中<code>192.243.116.234</code> 是我的vps的ip地址(可以是任何一个可以连接到互联网的linux机器), 但是这样并没有什么卵用,因为ssh默认端口是22,但是我的vps打开的ssh端口是27472.</p>
+<p>于是我使用了命令<code>ssh -p 27472 192.243.116.234</code>来连接我的vps.但是还是不行.因为它默认使用的账户是我现在的bash用的账户.而我在windows下的伪bash使用的账户是administrator.就是windows的账户.但是我的vps上只有root账户. 例如:</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etailmqfr9j30ax01h0sv.jpg" alt="使用默认账户连接"></p>
+<p>只有在服务器上有一个与当前本地bash所使用的账户一模一样的账户,并且还知道服务器账户的密码的情况下,可以使用默认账户.</p>
+<p>然后我加上了连接时选择的账户,用了命令<code>ssh -p 27472 root@121.249.204.230</code>来连接.</p>
+<p><img src="http://ww2.sinaimg.cn/large/0063AxbLgw1etaiiv9xo9j30dz02cdgh.jpg" alt="连接vps的root用户"></p>
+<p>哈哈这样就连接上了.</p>
+<h2 id="可是这样问题就来了">可是这样问题就来了</h2><p>但是问题来了.这样子连接很蛋疼有木有? 为什么? 因为每次都要输密码!每次都要输密码!每次都要输密码.! 蛋疼的事情说三遍.</p>
+<p>于是我想到了上次使用rsa密钥来连接github远程仓库的方法,是不是知道在远程服务器上添加上rsa的公钥就可以了? </p>
+<p>于是我又来到了google,哈哈google真实是个好东西.</p>
+<p>然后找到了方法. 那就是 我只需要把我电脑上的id_rsa.pub公钥copy到服务器上,并把文件名改成authorized_keys放到你需要使用rsa密钥登陆的账户的家目录下的.ssh文件夹下面就可以.</p>
+<p>但是怎么把我电脑上的文件copy到远程服务器上呢? 我又在google搜索到了相应的命令,那就是!!<code>scp</code>命令.但是我不会用,于是我又来到了linux命令大全查了查scp命令的<a href="http://man.linuxde.net/scp" target="_blank" rel="external">详细文档</a>.</p>
+<p>然后在远程服务器上确认你需要使用rsa公钥登陆的账户下面是否有.ssh文件夹.如果没有,必须创建.不然scp命令是不会自动创建文件夹的.也就是说如果你使用csp命令把一个文件放入一个不存在的文件夹.scp命令会执行失败.例如:</p>
+<p><img src="http://ww3.sinaimg.cn/large/0063AxbLgw1etaij58b4mj30ip01n3z8.jpg" alt="使用scp命令将文件copy到不存在的文件夹里面"></p>
+<p>因此,需要先使用密码登录到远程服务器上在用户家目录下创建.ssh文件夹.然后再执行scp命令.例如:</p>
+<p><img src="http://ww3.sinaimg.cn/large/0063AxbLgw1etaijdq0vsj30h905nwgw.jpg" alt="在家目录下面创建.ssh文件夹"></p>
+<p>然后再执行scp命令就可以成功了.例如:</p>
+<p><img src="http://ww2.sinaimg.cn/large/0063AxbLgw1etaijkrw8wj30lk01lgm9.jpg" alt="成功上传rsa公钥文件"></p>
+<p>然后我们使用ssh命令登陆一下远程服务器试一试.例如:</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etaijre8iyj30dl01f74p.jpg" alt="成功使用rsa验证登陆服务器"></p>
+<p>其实这不是第一次使用该rsa密钥登陆服务器出现的情况,第一次登陆ssh返回的信息会多一些.例如会显示公钥的指纹什么的.但是一般没什么用.</p>
+<h2 id="但是问题又来了">但是问题又来了</h2><p>蛋疼的事情又来了….</p>
+<p>每次都要输入这么长的命令!!!<br>每次都要输入这么长的命令!!!<br>每次都要输入这么长的命令!!!</p>
+<p>蛋疼的事情说三遍….</p>
+<p>于是我不得不适用shell自带的别名alias功能了.还好我的伪bash有这个功能.不然就真的蛋疼了.</p>
+<p>于是我用了这样一个命令<code>alias my-vps=&quot;ssh -p 27472 root@192.243.116.234&quot;</code></p>
+<p>这样每次要连接我的vps的时候,直接在shell输入my-vps就可以了. 例如:</p>
+<p><img src="http://ww2.sinaimg.cn/large/0063AxbLgw1etaijyc2lxj30d7033mxl.jpg" alt="使用别名登陆远程服务器"></p>
+<p>哈哈,这样不就方便多了?</p>
+<h2 id="这一定是最后一个问题了">这一定是最后一个问题了</h2><p>但是!!还是有问题!!纳尼? 为什么我关掉了shell之后再打开使用my-vps就不可以了呢?例如:</p>
+<p><img src="http://ww3.sinaimg.cn/large/0063AxbLgw1etaik70tmnj309s017aa1.jpg" alt="关掉shell之后再打开别名失效"></p>
+<p>这是为什么? 虽然我知道这是为什么, 但是这里就不说了.</p>
+<p>解决办法呢? 把别名写入.bashrc啊!! 我简直太机智了!(好吧,其实会玩linux的人都知道).例如:</p>
+<p><img src="http://ww1.sinaimg.cn/large/0063AxbLgw1etaikd3pxlj30dv0cldgh.jpg" alt="把别名写入.bashrc文件"></p>
+<p>这样子下来,革命终于完成了!~0~</p>
+<p>以后终于有一个好的玩linux的方法了.啊哈哈哈!</p>
+<p>PS:现阶段,我的vps主要用于shadowsocks服务. vps是搬瓦工的4刀一年的廉价vps.</p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/use-weibo-picture/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          使用上了新浪微博图床
+        
+      </div>
+    </a>
+  
+  
+    <a href="/fuckgfw/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">我的科学上网历史</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+  <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+</article>
+
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="ssh-connect" data-title="使用ssh+rsa连接远程linux服务器" data-url="http://sparkrat.github.io/ssh-connect/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"sparkrat"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2015 Lyeec
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: true
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63665478-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>

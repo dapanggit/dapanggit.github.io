@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>一些数据结构的实现方法 | 傻傻的程序猿</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="这绝对是一篇很水很水的文章,用来巩固自己对C指针的学习而已.学了辣么久的C语言.写了辣么多的数据结构.你是否还在用数组模拟你的链表、二叉树、字典树&amp;amp;&amp;amp;平衡树?今天无聊的我就来秀(shui)一(yi)秀(shui)我从大神那里学到的高逼格的实现方法把(对C语言指针有一定要求).">
+<meta property="og:type" content="article">
+<meta property="og:title" content="一些数据结构的实现方法">
+<meta property="og:url" content="http://sparkrat.github.io/datastructor/index.html">
+<meta property="og:site_name" content="傻傻的程序猿">
+<meta property="og:description" content="这绝对是一篇很水很水的文章,用来巩固自己对C指针的学习而已.学了辣么久的C语言.写了辣么多的数据结构.你是否还在用数组模拟你的链表、二叉树、字典树&amp;amp;&amp;amp;平衡树?今天无聊的我就来秀(shui)一(yi)秀(shui)我从大神那里学到的高逼格的实现方法把(对C语言指针有一定要求).">
+<meta property="og:updated_time" content="2015-07-05T13:24:03.174Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="一些数据结构的实现方法">
+<meta name="twitter:description" content="这绝对是一篇很水很水的文章,用来巩固自己对C指针的学习而已.学了辣么久的C语言.写了辣么多的数据结构.你是否还在用数组模拟你的链表、二叉树、字典树&amp;amp;&amp;amp;平衡树?今天无聊的我就来秀(shui)一(yi)秀(shui)我从大神那里学到的高逼格的实现方法把(对C语言指针有一定要求).">
+  
+    <link rel="alternative" href="atom.xml" title="傻傻的程序猿" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Lyeec</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">一只傻傻的程序猿</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/memo">备忘录</a></li>
+				        
+							<li><a href="/about">关于</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+					        
+								<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+					        
+								<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/ACM/" style="font-size: 16.67px;">ACM</a> <a href="/tags/C/" style="font-size: 10px;">C++</a> <a href="/tags/C语言/" style="font-size: 16.67px;">C语言</a> <a href="/tags/GFW/" style="font-size: 11.67px;">GFW</a> <a href="/tags/blog/" style="font-size: 13.33px;">blog</a> <a href="/tags/codeforces/" style="font-size: 10px;">codeforces</a> <a href="/tags/contest/" style="font-size: 10px;">contest</a> <a href="/tags/crawler/" style="font-size: 10px;">crawler</a> <a href="/tags/cygwin/" style="font-size: 10px;">cygwin</a> <a href="/tags/editor/" style="font-size: 11.67px;">editor</a> <a href="/tags/file-system/" style="font-size: 10px;">file-system</a> <a href="/tags/git/" style="font-size: 11.67px;">git</a> <a href="/tags/github/" style="font-size: 11.67px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/html-js-css/" style="font-size: 15px;">html&js&css</a> <a href="/tags/jekyll/" style="font-size: 11.67px;">jekyll</a> <a href="/tags/learn/" style="font-size: 10px;">learn</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/msys/" style="font-size: 13.33px;">msys</a> <a href="/tags/program/" style="font-size: 16.67px;">program</a> <a href="/tags/python/" style="font-size: 11.67px;">python</a> <a href="/tags/ssh/" style="font-size: 10px;">ssh</a> <a href="/tags/theme/" style="font-size: 11.67px;">theme</a> <a href="/tags/vps/" style="font-size: 10px;">vps</a> <a href="/tags/windows/" style="font-size: 11.67px;">windows</a> <a href="/tags/分享/" style="font-size: 10px;">分享</a> <a href="/tags/前端/" style="font-size: 18.33px;">前端</a> <a href="/tags/图床/" style="font-size: 10px;">图床</a> <a href="/tags/数据结构/" style="font-size: 13.33px;">数据结构</a> <a href="/tags/旅行/" style="font-size: 10px;">旅行</a> <a href="/tags/游戏/" style="font-size: 10px;">游戏</a> <a href="/tags/科学上网/" style="font-size: 11.67px;">科学上网</a> <a href="/tags/算法/" style="font-size: 11.67px;">算法</a> <a href="/tags/读书观影/" style="font-size: 11.67px;">读书观影</a> <a href="/tags/软件/" style="font-size: 11.67px;">软件</a> <a href="/tags/随笔/" style="font-size: 20px;">随笔</a>
+					</div>
+				</section>
+				
+				
+				
+
+				
+			</div>
+		</div>
+	</header>				
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Lyeec</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Lyeec</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">一只傻傻的程序猿</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/memo">备忘录</a></li>
+		        
+					<li><a href="/about">关于</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+			        
+						<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+			        
+						<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-datastructor" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/datastructor/" class="article-date">
+  	<time datetime="2015-04-19T02:23:00.000Z" itemprop="datePublished">Apr 19</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      一些数据结构的实现方法
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C语言/">C语言</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/program/">program</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/数据结构/">数据结构</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h5 id="这绝对是一篇很水很水的文章,用来巩固自己对C指针的学习而已-">这绝对是一篇很水很水的文章,用来巩固自己对C指针的学习而已.</h5><p>学了辣么久的C语言.写了辣么多的数据结构.你是否还在用数组模拟你的链表、二叉树、字典树&amp;&amp;平衡树?<br>今天无聊的我就来秀(shui)一(yi)秀(shui)我从大神那里学到的高逼格的实现方法把(对C语言指针有一定要求).</p>
+<a id="more"></a>
+<h2 id="首先,定义数据结构的节点:">首先,定义数据结构的节点:</h2><p><strong>链表</strong>是这样的:</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> linkNode  &#123;</span><br><span class="line">    <span class="keyword">typename</span> data;</span><br><span class="line">    <span class="keyword">struct</span> linkNode *next;</span><br><span class="line">&#125;; <span class="comment">//别忘了这里需要分号哦,详见C语言的结构体定义.</span></span><br></pre></td></tr></table></figure>
+<p>喔这是最基本的实现.等下还可以有改进.</p>
+<p>然后是<strong>二叉树</strong>(平衡树适用)的:</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> treeNode &#123;</span><br><span class="line">    <span class="keyword">typename</span> data;</span><br><span class="line">    <span class="keyword">struct</span> treeNode *left, *right;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p><strong>字典树:</strong></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> tireNode &#123;</span><br><span class="line">    <span class="keyword">typename</span> data;</span><br><span class="line">    <span class="keyword">struct</span> tireNode *child[<span class="number">26</span>];</span><br><span class="line">    <span class="comment">//好吧,这里极端点就改成255吧,也用不了多少空间.</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>其实都是一样的规则,只是每个节点连出去的指针的数量在变化..好水！</p>
+<h2 id="然后,新建节点的规则:">然后,新建节点的规则:</h2><p>首先定义<strong><em>全局变量</em></strong>(主要是为了申请空间,这是静态申请空间的方法,当然也可以申请动态内存):</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> linkNode head[MAX_LEN], *pbuf = head;</span><br><span class="line"><span class="keyword">struct</span> treeNode root[MAX_LEN], *pbuf = root;</span><br><span class="line"><span class="keyword">struct</span> tireNode root[MAX_LEN], *pbuf = root;</span><br></pre></td></tr></table></figure>
+<p>这里我就不考虑变量冲突的问题了,一般很少两种数据结构一起用的.</p>
+<h2 id="再然后,对节点的各种操作:">再然后,对节点的各种操作:</h2><p>链表的插入节点操作:</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">linkIns</span><span class="params">(<span class="keyword">typename</span> x)</span></span>&#123;</span><br><span class="line">    ++pbuf-&gt;data = x;</span><br><span class="line">    Pbuf-&gt;next = head;</span><br><span class="line">    head-&gt;next = pbuf;</span><br><span class="line">&#125; <span class="comment">//这里直接把节点插入到了链表头（你也可以自己改成插入到链表尾部）</span></span><br></pre></td></tr></table></figure>
+<p>(我们默认定义链表头不存放数据,不然会有bug).</p>
+<p>下面是二叉树的操作:（二叉树的版本太多了,所以这里给出的最水最水的创建节点吧,至于节点放哪里自己看情况而定把）</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> treeNode* treeNodeNew(<span class="keyword">typename</span> x)</span><br><span class="line">&#123;</span><br><span class="line">    ++pbuf-&gt;data = x;</span><br><span class="line">    pbuf-&gt;left = pbuf-&gt;right = NULL;</span><br><span class="line">    <span class="keyword">return</span> pbuf;</span><br><span class="line">&#125; <span class="comment">//对你没看错就是这么简单.</span></span><br></pre></td></tr></table></figure>
+<p>下面是字典树的操作（字典树是以插入一个字符串为操作的）:</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">tireIns</span><span class="params">(<span class="keyword">char</span> *s)</span></span>&#123;</span><br><span class="line">    <span class="keyword">struct</span>  tireNode *p = root;</span><br><span class="line">    <span class="keyword">while</span>(*s!=<span class="string">'\0'</span>) &#123;</span><br><span class="line">        <span class="keyword">char</span> ch = *s++ - <span class="string">'a'</span>;</span><br><span class="line">    <span class="comment">//如果处理的字符串是大写的a换成A即可</span></span><br><span class="line">        <span class="comment">//如果大小写混合或者有特殊字符.可以用别的方法</span></span><br><span class="line">            <span class="comment">//例如把child开成256的数组</span></span><br><span class="line">        <span class="keyword">if</span>(p-&gt;child[ch] == NULL) </span><br><span class="line">            p-&gt;child[ch] = ++pbuf;</span><br><span class="line">        p = p-&gt;child[ch];</span><br><span class="line">    &#125;</span><br><span class="line">    p-&gt;data ++; </span><br><span class="line">    <span class="comment">//这里的操作自定义啦啦啦 ,这里举的栗子素统计字符串数量的啦啦啦</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>当然数据结构肯定不止这些操作惹~其他的自己发挥把..<br>毕竟每一次使用都会有不同的情况.</p>
+<h2 id="最后,查漏补缺">最后,查漏补缺</h2><p>然后来看看这种静态的写法有什么缺点..（缺点还是很明显的 +_+#）<br>那就素！！删除节点的时候不释放内存空间！（因为是静态申请的嘛！）<br>所以！！我就就需要在删除节点的时候（如果算法不需要删除就不需要这个啦）新建一个节点回收的指针数组！(！！注意是指针数组不是数组指针)<br>我称这个叫 垃圾回收机制！</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> linkNode *recycleBin[MAX_LEN], **rpbuf=recyckeBin; </span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">delete</span><span class="params">(<span class="keyword">struct</span> linkNode * p)</span> </span>&#123; ++rpbuf=p; &#125;</span><br></pre></td></tr></table></figure>
+<p>只需要在删除节点之前使用这个函数！就代表这个节点被删除了！<br>另外两种就不写惹~一样的道理嘛！链表的理解了别的也就差不多了不是, 换汤不换药！<br>当然,回收垃圾肯定是要有用的..不然回收它干嘛..所以我把link函数写成了这样:</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">linkIns</span><span class="params">(<span class="keyword">typename</span> x)</span></span>&#123;</span><br><span class="line">    <span class="keyword">struct</span> linkNode * pNew;</span><br><span class="line">    <span class="keyword">if</span>(rpbuf != recycleBin) pNew = rpbuf;  </span><br><span class="line">    <span class="comment">//判断垃圾箱是否为空,不空从垃圾箱拿节点</span></span><br><span class="line">    <span class="keyword">else</span> pNew = pbuf;                   </span><br><span class="line">    <span class="comment">//如果空就从pbuf开新节点</span></span><br><span class="line">    ++pNew-&gt;data = x;</span><br><span class="line">    pNew-&gt;next = head-&gt;next;</span><br><span class="line">    head-&gt;next = pNew;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>二叉字典树树的就不水了…基本一样..<br>最后附上一个水水的栈！！</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typename</span> stk[MAX_LEN],  *top = stk; </span><br><span class="line">    <span class="comment">//我在想用bottom素不素逼格更高一点@_@</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">push</span><span class="params">(<span class="keyword">typename</span> x)</span> </span>&#123; *++top = x; &#125; <span class="comment">//没错就素这么水！！</span></span><br><span class="line"><span class="keyword">typename</span> *pop() &#123; <span class="keyword">return</span> top == stk ?  NULL :  top--&#125; </span><br><span class="line">    <span class="comment">//没错一如既往的水！！</span></span><br></pre></td></tr></table></figure>
+<p>话说栈就没必要写垃圾回收机制惹不是嘛~╰(￣▽￣)╮<br>然后再来水一水 动态节点的写法…<br>主要用到一个函数malloc();函数原型详见C语言头文件 stdlib.h<br>嗯 使用这个函数之前请先<code>#include &lt;stdlib.h&gt;</code><br>然后..嗯 新建节点要申请内存..例如:</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> linkNode * linkNodeNew(<span class="keyword">typename</span> x)&#123;</span><br><span class="line">    <span class="keyword">struct</span> linkNode *plink = </span><br><span class="line">        (<span class="keyword">struct</span> linkNode *)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(<span class="keyword">struct</span> linkNode));</span><br><span class="line">    plink-&gt;data = x;</span><br><span class="line">    <span class="keyword">return</span> plink;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后连接函数这样写:</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">link</span><span class="params">(<span class="keyword">struct</span> linkNode *cur)</span></span>&#123;</span><br><span class="line">    cur-&gt;next = head-&gt;  next;</span><br><span class="line">    head-&gt;next = cur;</span><br><span class="line">&#125;  <span class="comment">//当然还可以把两个函数合起来...</span></span><br></pre></td></tr></table></figure>
+<p>其他的就不写了 换汤不换药的东西..<br>然后是删除节点..这个就不需要垃圾回收了<br>一个free函数直接还给操作系统..</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">delete</span><span class="params">(<span class="keyword">struct</span> linkNode * p)</span> </span>&#123; <span class="built_in">free</span>(p); &#125; </span><br><span class="line"><span class="comment">//真的好水...</span></span><br></pre></td></tr></table></figure>
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/something/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          最近的瞎捣鼓
+        
+      </div>
+    </a>
+  
+  
+    <a href="/c-snake/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">贪吃蛇游戏编程学习</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+  <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+</article>
+
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="datastructor" data-title="一些数据结构的实现方法" data-url="http://sparkrat.github.io/datastructor/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"sparkrat"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2015 Lyeec
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: true
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63665478-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>

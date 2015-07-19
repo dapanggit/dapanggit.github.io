@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>对计算机磁盘文件系统的学习 | 傻傻的程序猿</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="最近发现了一个学习的好地方——慕课网。好吧，我又安利了，虽然我知道这不好。但这真的是个不错的自学平台。
+然后我又学了一下linux相关的知识，虽然讲linux的那个视频里面有很多值(you)得(cuo)吐(wu)槽的地方，但是不得不说，这个视频让我对linux的理解又更深入了一层。
+然后在看这个视频之后，我最大的收获就是对文件系统终于有了自己科学的认识了。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="对计算机磁盘文件系统的学习">
+<meta property="og:url" content="http://sparkrat.github.io/fs-learn/index.html">
+<meta property="og:site_name" content="傻傻的程序猿">
+<meta property="og:description" content="最近发现了一个学习的好地方——慕课网。好吧，我又安利了，虽然我知道这不好。但这真的是个不错的自学平台。
+然后我又学了一下linux相关的知识，虽然讲linux的那个视频里面有很多值(you)得(cuo)吐(wu)槽的地方，但是不得不说，这个视频让我对linux的理解又更深入了一层。
+然后在看这个视频之后，我最大的收获就是对文件系统终于有了自己科学的认识了。">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/0063AxbLgw1etai0piwepj308v01wgll.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/0063AxbLgw1etai2c323rj30fx07bjup.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/0063AxbLgw1etai2uln37j30jf0dcaea.jpg">
+<meta property="og:updated_time" content="2015-07-03T06:21:29.772Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="对计算机磁盘文件系统的学习">
+<meta name="twitter:description" content="最近发现了一个学习的好地方——慕课网。好吧，我又安利了，虽然我知道这不好。但这真的是个不错的自学平台。
+然后我又学了一下linux相关的知识，虽然讲linux的那个视频里面有很多值(you)得(cuo)吐(wu)槽的地方，但是不得不说，这个视频让我对linux的理解又更深入了一层。
+然后在看这个视频之后，我最大的收获就是对文件系统终于有了自己科学的认识了。">
+  
+    <link rel="alternative" href="atom.xml" title="傻傻的程序猿" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Lyeec</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">一只傻傻的程序猿</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/memo">备忘录</a></li>
+				        
+							<li><a href="/about">关于</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+					        
+								<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+					        
+								<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/ACM/" style="font-size: 16.67px;">ACM</a> <a href="/tags/C/" style="font-size: 10px;">C++</a> <a href="/tags/C语言/" style="font-size: 16.67px;">C语言</a> <a href="/tags/GFW/" style="font-size: 11.67px;">GFW</a> <a href="/tags/blog/" style="font-size: 13.33px;">blog</a> <a href="/tags/codeforces/" style="font-size: 10px;">codeforces</a> <a href="/tags/contest/" style="font-size: 10px;">contest</a> <a href="/tags/crawler/" style="font-size: 10px;">crawler</a> <a href="/tags/cygwin/" style="font-size: 10px;">cygwin</a> <a href="/tags/editor/" style="font-size: 11.67px;">editor</a> <a href="/tags/file-system/" style="font-size: 10px;">file-system</a> <a href="/tags/git/" style="font-size: 11.67px;">git</a> <a href="/tags/github/" style="font-size: 11.67px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/html-js-css/" style="font-size: 15px;">html&js&css</a> <a href="/tags/jekyll/" style="font-size: 11.67px;">jekyll</a> <a href="/tags/learn/" style="font-size: 10px;">learn</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/msys/" style="font-size: 13.33px;">msys</a> <a href="/tags/program/" style="font-size: 16.67px;">program</a> <a href="/tags/python/" style="font-size: 11.67px;">python</a> <a href="/tags/ssh/" style="font-size: 10px;">ssh</a> <a href="/tags/theme/" style="font-size: 11.67px;">theme</a> <a href="/tags/vps/" style="font-size: 10px;">vps</a> <a href="/tags/windows/" style="font-size: 11.67px;">windows</a> <a href="/tags/分享/" style="font-size: 10px;">分享</a> <a href="/tags/前端/" style="font-size: 18.33px;">前端</a> <a href="/tags/图床/" style="font-size: 10px;">图床</a> <a href="/tags/数据结构/" style="font-size: 13.33px;">数据结构</a> <a href="/tags/旅行/" style="font-size: 10px;">旅行</a> <a href="/tags/游戏/" style="font-size: 10px;">游戏</a> <a href="/tags/科学上网/" style="font-size: 11.67px;">科学上网</a> <a href="/tags/算法/" style="font-size: 11.67px;">算法</a> <a href="/tags/读书观影/" style="font-size: 11.67px;">读书观影</a> <a href="/tags/软件/" style="font-size: 11.67px;">软件</a> <a href="/tags/随笔/" style="font-size: 20px;">随笔</a>
+					</div>
+				</section>
+				
+				
+				
+
+				
+			</div>
+		</div>
+	</header>				
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Lyeec</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Lyeec</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">一只傻傻的程序猿</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/memo">备忘录</a></li>
+		        
+					<li><a href="/about">关于</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+			        
+						<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+			        
+						<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-fs-learn" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/fs-learn/" class="article-date">
+  	<time datetime="2015-06-15T11:47:34.000Z" itemprop="datePublished">Jun 15</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      对计算机磁盘文件系统的学习
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/file-system/">file-system</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>最近发现了一个学习的好地方——<a href="http://www.imooc.com" target="_blank" rel="external">慕课网</a>。好吧，我又安利了，虽然我知道这不好。但这真的是个不错的自学平台。</p>
+<p>然后我又学了一下linux相关的知识，虽然讲linux的那个视频里面有很多值(you)得(cuo)吐(wu)槽的地方，但是不得不说，这个视频让我对linux的理解又更深入了一层。</p>
+<p>然后在看这个视频之后，我最大的收获就是对文件系统终于有了自己科学的认识了。</p>
+<a id="more"></a>
+<h2 id="关于文件系统">关于文件系统</h2><p>以前一直不知道文件系统保存和检索文件的原理。但是在昨天看了linux的慕课之后，发现对计算机的文件系统形成了自己的认识了。</p>
+<p>下面是我在维基百科上查到的关于文件系统的概述。</p>
+<blockquote>
+<p>计算机的文件系统是一种存储和组织计算机数据的方法，它使得对其访问和查找变得容易，文件系统使用文件和树形目录的抽象逻辑概念代替了硬盘和光盘等物理设备使用数据块的概念，用户使用文件系统来保存数据不必关心数据实际保存在硬盘（或者光盘）的地址为多少的数据块上，只需要记住这个文件的所属目录和文件名。在写入新数据之前，用户不必关心硬盘上的那个块地址没有被使用，硬盘上的存储空间管理（分配和释放）功能由文件系统自动完成，用户只需要记住数据被写入到了哪个文件中。</p>
+<p>文件系统是一种用于向用户提供底层数据访问的机制。它将设备中的空间划分为特定大小的块（扇区），一般每块512字节。数据存储在这些块中，大小被修正为占用整数个块。由文件系统软件来负责将这些块组织为文件和目录，并记录哪些块被分配给了哪个文件，以及哪些块没有被使用。</p>
+</blockquote>
+<p>简单来说，文件系统就是一种在计算机上存储和检索文件的一种规定（约定），使用这种规定，可以让计算机能够高效的检索到存储在存储设备上的文件。</p>
+<p>因为是一种规定，所以文件系统肯定不止一种，例如我们常见的文件系统有：</p>
+<ul>
+<li>FAT       又分为FAT16（太古老了） 和 FAT32（有时候还会使用）</li>
+<li>NTFS      现在的windows机器上最常用的文件系统格式</li>
+<li>exFAT     又名FAT64，是一种较适合于闪存的文件系统。</li>
+<li>EXT       有EXT2、EXT3、EXT4三种，linux现在使用这种文件系统格式</li>
+<li>HFS和HFS+ 苹果的Mac电脑（好想要啊！可惜没钱）用的文件系统格式</li>
+<li>········</li>
+</ul>
+<p>还有一些其他的乱七八糟的格式就不一一列举了。</p>
+<h2 id="关于格式化">关于格式化</h2><p>还是先在互联网上查一查，学一学，于是我又找到了维基百科。</p>
+<p>下面是维基百科对于格式化的解释：</p>
+<blockquote>
+<p>格式化是指对磁盘或磁盘中的分区（partition）进行初始化的一种操作，这种操作通常会导致现有的磁盘或分区中所有的文件被清除。<br>格式化通常分为低级格式化和高级格式化。如果没有特别指明，对硬盘的格式化通常是指高级格式化，而对软盘的格式化则通常同时包括这两者。</p>
+</blockquote>
+<p>然后是低级格式化，也就是人们常说的低格：</p>
+<blockquote>
+<p>低级格式化（Low-Level Formatting）又称低层格式化或物理格式化（Physical Format），对于部分硬盘制造厂商，它也被称为初始化（initialization）。最早，伴随着应用CHS编址方法、频率调制（FM）、改进频率调制（MFM）等编码方案的磁盘的出现，低级格式化被用于指代对磁盘进行划分柱面、磁道、扇区的操作。</p>
+</blockquote>
+<p>然后是高级格式化，也就是人们常说的格式化：</p>
+<blockquote>
+<p>高级格式化又称逻辑格式化，它是指根据用户选定的文件系统（如FAT12、FAT16、FAT32、NTFS、EXT2、EXT3等），在磁盘的特定区域写入特定数据，以达到初始化磁盘或磁盘分区、清除原磁盘或磁盘分区中所有文件的一个操作。高级格式化包括对主引导记录中分区表相应区域的重写、根据用户选定的文件系统，在分区中划出一片用于存放文件分配表、目录表等用于文件管理的磁盘空间，以便用户使用该分区管理文件。</p>
+</blockquote>
+<p>话说很多人对于格式化的理解还停留在“格式化会清除硬盘上的所有文件”的概念上。好吧，虽然我也用过格式化的功能来清除文件，但是我还是知道格式化的作用其实不是用来干这个的。</p>
+<p>格式化的真正作用，其实一直都是用来 <strong>写入文件系统用的</strong>。</p>
+<h2 id="磁盘文件的检索">磁盘文件的检索</h2><p>其实在昨天之前我一直不知道计算机是如何检索磁盘上的文件的，但是从昨天开始，我终于有了一点浅薄的认识了。</p>
+<p>首先，计算机在往磁盘上存储文件之前，必须要先进行磁盘格式化，因为计算机必须要识别文件系统。为什么呢？</p>
+<p>那是因为格式化会将分区的磁盘空间平均分成无数个小块（通常被称为block，其实它真正的称呼是簇(ㄒoㄒ)/~~），而所有的文件都是打散了存在这些小小的block里面的。至于block的大小嘛，不同的文件系统格式不同。例如NTFS的簇的大小就是4096字节。</p>
+<p>然后，引用维基百科的一段文字来帮助理解。</p>
+<blockquote>
+<p>每簇4,096字节的NTFS文件系统，每个文件5字节，共100,000个文件， 逻辑字节总共500,000字节，但由于一个文件需独占整数倍个簇（最后一簇无论是否沾满，仍会独占一整个簇），实际占用磁盘空间409,600,000字节（每个文件5字节独占一个簇）</p>
+</blockquote>
+<p>这段话是什么意思呢？就是说，NTFS文件系统对文件的存放的最小单位是4096字节。如果一个文件的大小小于4096字节，那么。。。这个文件还是会占用4096字节，也就是说：！！一个簇只能属于唯一一个文件，不能属于多个文件！！！</p>
+<p>看下面这张图片，这是我临时在我的电脑里面找到的一个纯文本文档。</p>
+<p><img src="http://ww1.sinaimg.cn/large/0063AxbLgw1etai0piwepj308v01wgll.jpg" alt="小于4096字节的文本文件占用磁盘4096字节"></p>
+<p>有没有发现。实际大小只有354字节的文件却占用我了4096字节的磁盘空间。</p>
+<p>所以“零碎的文件会加剧磁盘的空间开销”这句话我以前是知道的，但是这是我自己观察电脑文件发现的，却不知道为什么，现在知道了。</p>
+<p>因此“纯文本的压缩率极高”这句话我现在也理解了，因为纯文本的大小一般很小，所以纯文本数量一多，必然会浪费很多磁盘空间，但是经过压缩软件一压缩，全部成为连续的数据了，因此压缩率高。</p>
+<p>好吧，跑偏了，回到正题！！！</p>
+<p>然后，格式化会在分区里面生成一个表，在这个表里面，会存储下该磁盘所有文件的信息，例如文件名、文件的属性（时间戳等等）、文件的大小、文件具体占用了哪些簇（也就是文件的簇的位置）等等。</p>
+<p>这也是为什么计算机在格式化一个磁盘后。磁盘的可用空间总是会比磁盘的总空间要笑那么一点点的原因了。因为要单独分配一些磁盘空间来记录磁盘的文件信息。</p>
+<p>因此，我也就理解了为什么计算机文件在磁盘上的存储绝对不是连续的了，不然就不用开一个单独的表来记录文件的簇的位置了。</p>
+<p>于是，我也就理解了，为什么计算机删除文件的速度那么快了，因为其实在删除文件的时候根本没有删除真正的文件数据，而是删除的表中的信息。。这个当然很快咯。。</p>
+<p>所以，实际上计算机在磁盘上查找文件的顺序应该是这样的:</p>
+<ol>
+<li>先在分区的表里头根据文件名查找文件的属性以及簇的位置</li>
+<li>然后依次遍历文件所占用的簇</li>
+<li>要么读取数据，要么写入数据</li>
+</ol>
+<p>好吧，其实没这么简单。还有很多东西是我无法想象也考虑不到的。但是我现在的认识也就是这样子的了吧。</p>
+<h2 id="关于linux文件">关于linux文件</h2><p>为什么要把这个单独拿出来讲呢？ 因为我现在在学linux。</p>
+<p>关于linux下的文件操作，当然第一个命令必须是ls啦！</p>
+<p>好吧，这个命令我也去查了维基百科，但是似乎维基百科的这个条目已经2年多没更新了。最后更新时间竟然是2013年3月9日，无奈之。</p>
+<p>ls的几个个参数 -a -i -l -h -F -R 具体内容和用法可以谷歌。</p>
+<p>这里说说-i参数，-i参数的作用是显示每个文件报告第一列中的索引节点号，也就是上面说的那个簇的编号。</p>
+<p>看一张linux的<code>ls -lai</code>命令的经典图吧。</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etai2c323rj30fx07bjup.jpg" alt="ls命令示例"></p>
+<p>其中标注的第一列是inode节点号。第二列是权限。第三列是该文件的硬链接数目。后面的是一些别的属性，例如文件的所有者，文件所属的组，文件的大小，最后的修改日期，文件的名字等。</p>
+<p>然后是关于linux文件的两种链接——硬链接和软连接。</p>
+<p>好吧，维基百科竟然没有硬链接的条目。不过我还是搜到了硬链接的一些解释。</p>
+<p>这是我的一些看法，硬链接其实就是文件的索引，相当于一个实体文件有多个彼此平等的名字，这也是为什么我将上面那张图片里面第三列叫做硬链接的数量的原因。</p>
+<p>其实可以这样理解（不知道对不对）：每个文件都是它本身的硬链接，给一个文件创建一个硬链接就是给一个文件再添加一个索引。</p>
+<p>还有就是，硬链接不能跨分区。也就是说，不能在一个分区里面创建另一个分区的文件的硬链接。</p>
+<p>其实想想也对，硬链接本身就是一个索引，而上面提过，索引是存在每个分区的一个单独的表里面的。当然不能在一个分区表里面创建另一个分区文件的索引啦。</p>
+<p>关于软链接。</p>
+<blockquote>
+<p>符号链接（软链接）是一类特殊的文件， 其包含有一条以绝对路径或者相对路径的形式指向其它文件或者目录的引用。</p>
+</blockquote>
+<p>linux下使用命令<code>ln -s 目标 链接名称</code>来创建一个软连接。</p>
+<p>好吧，linux下的软连接其实相当于windows下的快捷方式。就是文件的block快里面的信息其实是文件的硬链接信息。根据软链接来检索文件其实是一个这样的过程，首先根据软连接来找到硬链接，然后再根据硬链接找到文件的真正信息。</p>
+<p>然后，软连接其实也是硬链接的一种是不是？软连接可不可以有多个硬链接？好吧，我其实是没有尝试过的。</p>
+<p>关于这两个链接，我还在维基百科上找到了很多冷门知识。有一条是这样的。</p>
+<blockquote>
+<p>创建一个目录时，实际做了3件事：在其“父目录文件”中增加一个条目；分配一个inode；再分配一个存储块，用来保存当前被创建目录包含的文件与子目录。被创建的“目录文件”中自动生成两个子目录的条目，名称分别是：“.”和“..”。前者与该目录具有相同的inode号码，因此是该目录的一个“硬链接”。后者的inode号码就是该目录的父目录的inode号码。所以，任何一个目录的”硬链接”总数，总是等于它的子目录总数（含隐藏目录）加2。即每个“子目录文件”中的“..”条目，加上它自身的“目录文件”中的“.”条目，再加上“父目录文件”中的对应该目录的条目。</p>
+</blockquote>
+<p>这个只是点够生僻的了吧。</p>
+<p>最后，画一个图片来形象的表示计算机磁盘的文件系统吧。</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etai2uln37j30jf0dcaea.jpg" alt="计算机磁盘文件系统示意图"></p>
+<p>左边表示磁盘被分成有限个等大小的block，右边表示文件索引表，这个表存储了这个磁盘里所有的硬链接信息。</p>
+<p>=_=# 好吧, 其实这张图并没有什么卵用。这也不是最后，后面还有最后。</p>
+<p>最后，向发明这些规则的前辈们致敬。唯有膜拜一词能表达我的感情。</p>
+<p>最后的最后，容许我再默背一遍，linux下一切皆文件↖(^ω^)↗。</p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/fuckgfw/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          我的科学上网历史
+        
+      </div>
+    </a>
+  
+  
+    <a href="/diary1/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">随笔-2015-06-09</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+  <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+</article>
+
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="fs-learn" data-title="对计算机磁盘文件系统的学习" data-url="http://sparkrat.github.io/fs-learn/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"sparkrat"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2015 Lyeec
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: true
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63665478-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>

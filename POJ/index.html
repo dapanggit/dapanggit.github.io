@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>POJ刷题 | 傻傻的程序猿</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="题记:刷题有快感不是吗?
+这篇文章会持续更新， 记录我所有AC的POJ题目。PS:我所有的POJ代码都存在我的github上。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="POJ刷题">
+<meta property="og:url" content="http://sparkrat.github.io/POJ/index.html">
+<meta property="og:site_name" content="傻傻的程序猿">
+<meta property="og:description" content="题记:刷题有快感不是吗?
+这篇文章会持续更新， 记录我所有AC的POJ题目。PS:我所有的POJ代码都存在我的github上。">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/0063AxbLgw1etahywlocsj30e40a0js7.jpg">
+<meta property="og:image" content="http://ww2.sinaimg.cn/large/0063AxbLgw1etahwx2vz8j30jt053tcf.jpg">
+<meta property="og:image" content="http://ww2.sinaimg.cn/large/0063AxbLgw1etahzs1gicj30jw04iad0.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/0063AxbLgw1etai0cz167j30ko08vmyi.jpg">
+<meta property="og:updated_time" content="2015-07-10T11:14:05.897Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="POJ刷题">
+<meta name="twitter:description" content="题记:刷题有快感不是吗?
+这篇文章会持续更新， 记录我所有AC的POJ题目。PS:我所有的POJ代码都存在我的github上。">
+  
+    <link rel="alternative" href="atom.xml" title="傻傻的程序猿" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Lyeec</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">一只傻傻的程序猿</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/memo">备忘录</a></li>
+				        
+							<li><a href="/about">关于</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+					        
+								<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+					        
+								<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/ACM/" style="font-size: 16.67px;">ACM</a> <a href="/tags/C/" style="font-size: 10px;">C++</a> <a href="/tags/C语言/" style="font-size: 16.67px;">C语言</a> <a href="/tags/GFW/" style="font-size: 11.67px;">GFW</a> <a href="/tags/blog/" style="font-size: 13.33px;">blog</a> <a href="/tags/codeforces/" style="font-size: 10px;">codeforces</a> <a href="/tags/contest/" style="font-size: 10px;">contest</a> <a href="/tags/crawler/" style="font-size: 10px;">crawler</a> <a href="/tags/cygwin/" style="font-size: 10px;">cygwin</a> <a href="/tags/editor/" style="font-size: 11.67px;">editor</a> <a href="/tags/file-system/" style="font-size: 10px;">file-system</a> <a href="/tags/git/" style="font-size: 11.67px;">git</a> <a href="/tags/github/" style="font-size: 11.67px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/html-js-css/" style="font-size: 15px;">html&js&css</a> <a href="/tags/jekyll/" style="font-size: 11.67px;">jekyll</a> <a href="/tags/learn/" style="font-size: 10px;">learn</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/msys/" style="font-size: 13.33px;">msys</a> <a href="/tags/program/" style="font-size: 16.67px;">program</a> <a href="/tags/python/" style="font-size: 11.67px;">python</a> <a href="/tags/ssh/" style="font-size: 10px;">ssh</a> <a href="/tags/theme/" style="font-size: 11.67px;">theme</a> <a href="/tags/vps/" style="font-size: 10px;">vps</a> <a href="/tags/windows/" style="font-size: 11.67px;">windows</a> <a href="/tags/分享/" style="font-size: 10px;">分享</a> <a href="/tags/前端/" style="font-size: 18.33px;">前端</a> <a href="/tags/图床/" style="font-size: 10px;">图床</a> <a href="/tags/数据结构/" style="font-size: 13.33px;">数据结构</a> <a href="/tags/旅行/" style="font-size: 10px;">旅行</a> <a href="/tags/游戏/" style="font-size: 10px;">游戏</a> <a href="/tags/科学上网/" style="font-size: 11.67px;">科学上网</a> <a href="/tags/算法/" style="font-size: 11.67px;">算法</a> <a href="/tags/读书观影/" style="font-size: 11.67px;">读书观影</a> <a href="/tags/软件/" style="font-size: 11.67px;">软件</a> <a href="/tags/随笔/" style="font-size: 20px;">随笔</a>
+					</div>
+				</section>
+				
+				
+				
+
+				
+			</div>
+		</div>
+	</header>				
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Lyeec</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Lyeec</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">一只傻傻的程序猿</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/memo">备忘录</a></li>
+		        
+					<li><a href="/about">关于</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+			        
+						<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+			        
+						<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-POJ" class="article article-type-post" itemscope itemprop="blogPost">
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      POJ刷题
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ACM/">ACM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/数据结构/">数据结构</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/算法/">算法</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong>题记:刷题有快感不是吗?</strong></p>
+<p>这篇文章会持续更新， 记录我所有AC的POJ题目。<br>PS:我所有的POJ代码都存在我的<a href="https://github.com/sparkrat/POJ" target="_blank" rel="external">github</a>上。</p>
+<a id="more"></a>
+<h2 id="1000_A+B_Problem"><a href="http://poj.org\problem?id=1000" target="_blank" rel="external">1000 A+B Problem</a></h2><p>水题不说了。</p>
+<h2 id="1001_Exponentiation"><a href="http://poj.org\problem?id=1001" target="_blank" rel="external">1001 Exponentiation</a></h2><p>求一个数的n次方，用高精度，注意细节。</p>
+<h2 id="1002_487-3279"><a href="http://poj.org\problem?id=1002" target="_blank" rel="external">1002 487-3279</a></h2><p><strong>题目描述：</strong></p>
+<p>设计程序，按照功能机上的9键键位把字母电话号码转化成数字电话号码，并将电话号码格式化（原本的电话号码格式里可能出现无数个短横线-（=_=#））<br>对于给定输入，输出有重复的电话号码，并给出重复的次数。</p>
+<p><strong>输入格式：</strong>  </p>
+<p>第一行一整数n，表示电话号码的数量，接下来n行字符串，每行表示一个电话号码。</p>
+<p><strong>输出格式：</strong></p>
+<p>若干行，每行一个字符串和一个数字，用空格隔开，字符串表示电话号码（格式化了的），数字表示该电话号码重复了的次数。</p>
+<p><strong>数据约定：</strong></p>
+<p>\( n \leq 100,000 \)</p>
+<p><strong>我的做法：</strong></p>
+<p>看了很多人的解题报告。。发现很多写法：</p>
+<ul>
+<li>快排</li>
+<li>堆排</li>
+<li>hash</li>
+<li>优先队列</li>
+</ul>
+<p>但是。。就是没有字典树的。。然后我就写个字典树把。。<br>因为我看到这道题的第一想法是字典树。<br>但是我WA了5次。。最后发现是个低级错误导致了我的WA、天坑！<br>因为很久没写代码了，手有点生。<br>写插入函数的时候。。一开始是写成了这样的。。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(; *pst++; ) &#123;</span><br><span class="line">    <span class="keyword">int</span> ch = *pst - <span class="string">'0'</span>;</span><br><span class="line">    <span class="keyword">if</span>( ptr-&gt;child[ch] == NULL )</span><br><span class="line">        ptr-&gt;child[ch] =  ++pbuf;</span><br><span class="line">    ptr = ptr-&gt;child[ch];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>不得不说这是天坑，调试了蛮久的。</p>
+<h2 id="1003_Hangover"><a href="http://poj.org\problem?id=1003" target="_blank" rel="external">1003 Hangover</a></h2><p><strong>题目描述：</strong></p>
+<p>原题目的意思太复杂了，不想写了，直接说核心思想：求满足\( \frac{1}{2} +  \frac{1}{3} + \cdots + \frac{1}{n} \geq S_{n} \)的最小的n。</p>
+<p><strong>输入格式：</strong></p>
+<p>多组数据，每组数据一行，每行一个实数，精确到小数点后两位，以0.00结束输入</p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出n card(s),0.00不输出</p>
+<p><strong>数据约定：</strong></p>
+<p>这种题目约不约定数据范围有用么？</p>
+<h2 id="1004_Financial_Management"><a href="http://poj.org\problem?id=1004" target="_blank" rel="external">1004 Financial Management</a></h2><p>我不会告诉你这道题目是要求12个实数的平均数的。</p>
+<h2 id="1005_I_Think_I_Need_a_Houseboat"><a href="http://poj.org\problem?id=1005" target="_blank" rel="external">1005 I Think I Need a Houseboat</a></h2><p><strong>题目描述：</strong></p>
+<p>有一个半圆从原点每年以一定的速度扩张（往y轴正方向扩张），然后定一些点，要求输出半圆扩张到这些点的时间（年）。。。</p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数n，表示表示点的个数，接下来n行，每行两个实数，x和y，表示这n个点的坐标</p>
+<p><strong>输出格式：</strong></p>
+<p>每个点输出一句话“Property N: This property will begin eroding in year Z.”<br>N表示点的编号（从1开始），Z表示所有的时间（年）。<br>输出文件最后输出一句话：END OF OUTPUT.</p>
+<p><strong>数据约定：</strong></p>
+<p>越不约定数据都没有意义吧？</p>
+<p><strong>具体做法：</strong></p>
+<p>计算最小的满足 \( ans * 100 \geq \pi (x^2+y^2)\)的ans。。。</p>
+<h2 id="1006_Biorhythms"><a href="http://poj.org\problem?id=1006" target="_blank" rel="external">1006 Biorhythms</a></h2><p><strong>题目描述：</strong></p>
+<p>已知三个周期tq=23、te=28，ti=33！然后，一个case给你四个数，前三个q、e、i，对应已知的三个周期，是周期开始的时间。<br>然后每个时间你需要输出从第四个数所代表的时间到三个时间经过若干个周期后相等的时间。<br>每个时间的周期数不要求相等，例如q经过了k1个周期，e经过了k2个周期，i经过了k3个周期使得</p>
+<p>\[ q+k_1*t_q==e+k_2*t_e==i+k_3*t_i\]</p>
+<p><strong>输入格式：</strong></p>
+<p>多组数据，每组数据四个整数，q,e,i,d，表示的意义在题目描述中说了。以四个-1结束输入。</p>
+<p><strong>输出格式：</strong></p>
+<p>Case M: the next triple peak occurs in N days.<br>M表示数据的组数，N表示满足每组数据的最小的天数。</p>
+<p><strong>数据约定：</strong></p>
+<p>\(q,e,i,d \leq 365\).</p>
+<p><strong>我的思路：</strong></p>
+<p>这是一道坑爹的数学题！以前根本没学过的中国剩余定理。因为我想了蛮久还没有头绪，自己本身解数学题的能力就不行，然后就进discuss看了看别人的想法，然后发现有人给出了他的算法：</p>
+<ul>
+<li>把三个时间看做三个跑步的人，他们的初始位置由输入给定</li>
+<li>他们的步距是已知的周期，然后第四个给定的时间是初始的目的地</li>
+<li>然后进入循环<ol>
+<li>让他们每个人按周期先跑到大于等于目的地的位置</li>
+<li>判断他们的位置是否相等，相等则输出answer，结束循环，否则转3</li>
+<li>取他们三个的位置的最远处为新的目的地，转1<br><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etahywlocsj30e40a0js7.jpg" alt="算法原理解释"></li>
+</ol>
+</li>
+</ul>
+<p>简直佩服想出这个算法的人。。简洁明了的AC了。<br>然后就是用了这个算法，讨论区里好多人说的什么注意边界条件，注意特殊情况的问题都不存在了。。简直好。真心Orz想出这个算法的人。<br>但是后来发现其实这个题目直接用定理一步到位。还是要好好学习一下<a href="http://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%89%A9%E4%BD%99%E5%AE%9A%E7%90%86" target="_blank" rel="external">中国剩余定理</a>的说。 </p>
+<h2 id="1007_DNA_Sorting"><a href="http://poj.org\problem?id=1007" target="_blank" rel="external">1007 DNA Sorting</a></h2><p><strong>题目描述：</strong></p>
+<p>定义一个串的混乱度为：每个字符右边的比该字符小的字符数量的总和。例如用P(i)表示第i个字符右边的比它小的字符的数量，那么一个串的混乱度就是∑P(i)。<br>现在要求设计程序，对输入的DNA串按照混乱度从小到大的顺序排序，然后输出。</p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数n，表示输入的DNA串的数量，接下来N行每行一个字符串，只由ATCG四个字母组成。</p>
+<p><strong>输出格式：</strong></p>
+<p>n行，每行一个串，按混乱度从小到大排序。</p>
+<p><strong>我的做法：</strong></p>
+<p>直接用三重循环（不会超时）实现读取加处理，然后选择排序，然后输出就过了。 简直炒鸡水0.0</p>
+<h2 id="1008_Maya_Calendar"><a href="http://poj.org\problem?id=1008" target="_blank" rel="external">1008 Maya Calendar</a></h2><p>这道题目POJ有中文翻译，就不叙述题目意思了。<br>其实也是炒鸡水题，注意细节，细节，细节，重要的事情说三次。</p>
+<h2 id="1009_Edge_Detection"><a href="http://poj.org\problem?id=1009" target="_blank" rel="external">1009 Edge Detection</a></h2><p><strong>题目描述：</strong></p>
+<p>IONU Satellite Imaging, Inc公司运用一种叫做run length encoding的技术记录和存储图片，每一个像素点用一个数字表示。现在要求设计程序，对于给定的图片，进行算法压缩，把每个像素点编码成另一种格式，每一个像素点的值分别与它周围的八个点的值相减，取最大的绝对值为这个点新的像素值。</p>
+<p><strong>输入格式：</strong></p>
+<p>输入有多组数据，每组数据第一行一个整数w，表示图片的宽度。<br>接下来若干行，每行两个整数，分别表示该像素的连续个数和该像素的值。<br>以 0 0结束一组数据的输入，以单行一个0结束输入。</p>
+<p><strong>输出格式：</strong></p>
+<p>每个数组输出若干行，跟输入相似的有，第一行一个整数w，表示宽度。<br>接下来若干行，每行两个整数，分别表示像素连续的个数和值。<br>同样以0 0表示一组数据输出的结束，以单行一个0结束输出。</p>
+<p><strong>我的思路：</strong></p>
+<p>好吧，我一看到这道题目是没有思路的，除了暴力。当然，暴力肯定会TLE的，故看了别人的想法。感谢这个博客给了我很大的启发。<br>根据题目给出的条件——pair最多只有1000对，然后仔细思考会发现，如果只对像素发生变化的地方进行计算——也就是题目里说的编码了。<br>这个的证明我找了好久没找到，一些博客里给出的证明链接已经失效了。<br>但是这样是可行的，我也不知道为什么可行，找不到证明。<br>不过即使是知道了算法，我还是在写代码的过程中出现了问题。<br>某个地方少写了一个等于号，然后WA了两次。<br>其实是这样的——我们需要对最后一个点进行编码。。<br>因为。。因为我也不知道为什么（不过这里似乎给粗了解释）。<br>然后我把某组数据用excel画粗来了。。嗯，excel对这道题目来说是一个很好的辅助工具。<br>看一组数据吧 </p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">30</span><br><span class="line">0 10 </span><br><span class="line">10 62 </span><br><span class="line">5 20 </span><br><span class="line">15 62 </span><br><span class="line">5 20 </span><br><span class="line">25 6 </span><br><span class="line">5 15 </span><br><span class="line">0 9 </span><br><span class="line">25 6 </span><br><span class="line">0 0</span><br></pre></td></tr></table></figure>
+<p>用excel画出来是这样的<br><img src="http://ww2.sinaimg.cn/large/0063AxbLgw1etahwx2vz8j30jt053tcf.jpg" alt="编码前需要编码的点"><br>其中需要编码的点我用金黄色的标记了粗来，确定编码位置的点橘黄色的标记了，编码完之后是这样的<br><img src="http://ww2.sinaimg.cn/large/0063AxbLgw1etahzs1gicj30jw04iad0.jpg" alt="编码后"><br>这里要尤其注意，最后的最后，一定要在最后进行一次编码，也就是其实已经超出长度的那个地方。。<br>但是就是一定要在那个excel表第8行和第15行的那里编码一次。。<br>不然就会有bug。 体现到代码里面就是:<br>进行跳跃的标记变量p要做到等于pairnum的地方。。<br>实际上有数字的地方只是0~pairnum-1。。<br><code>for(p = 0; p &lt;= pairnum; ++p)</code><br>我就是少写了那个等号。。然后WA两次。 </p>
+<h2 id="1010_STAMPS"><a href="http://poj.org\problem?id=1010" target="_blank" rel="external">1010 STAMPS</a></h2><p><strong>题目描述：</strong></p>
+<p>现有若干种邮票，每种邮票有一个面值（不同种邮票的面值可以相同）,要求设计程序，对于每一个用户要求的总面值给出相应的最优的邮票方案。<br>对最优的定义如下：</p>
+<ul>
+<li>首先，邮票的数量要尽量多。但是以为顾客只能给4张邮票。</li>
+<li>其次，如果存在两个以上的最优解的邮票种类是一样的，张数最少的更优</li>
+<li>再其次，张数也一样的话，这些最优解中最大面值较大的更优。</li>
+<li>最后，若邮票种类、张数、最大面值三者都分别相同，则认为这些最优解相同。</li>
+</ul>
+<p><strong>输入格式：</strong></p>
+<p>输入有多组数据，每组数据由两行组成。<br>第一行若干个数字，表示邮票的面值，每一个数字就是一个不同的种类，哪怕面值相同。以0结束。<br>第二行若干个数字，表示顾客所需要的邮票总面值。每个数字就是一个顾客的需求，以0结束。<br>以EOF结束输入。   </p>
+<p><strong>输出格式：</strong></p>
+<p>每个顾客的需求输出一行:<br>如果这个顾客的需求没有解，输出”n —— none”，其中n是顾客要求的面值。<br>否则输出可行解，”n (x): x1 x2 x3 x4”<br>其中n是顾客要求的面值，x是可行解的邮票的种类数，x1-x4表示每种邮票的面值，从小到大输出，没有的不输出。<br>例如只有两种则只输出”n (2):  x1 x2”。</p>
+<p><strong>数据约定：</strong> </p>
+<p>每个顾客最多拿四张邮票似乎就是约束条件。</p>
+<p><strong>我的思路：</strong>   </p>
+<p>这是一道该死的搜索题。<br>由于搜索方面的薄弱，so借鉴了<a href="http://blog.csdn.net/lyy289065406/article/details/6647948" target="_blank" rel="external">这个博客</a>的思考。<br>我采用的是dfs的搜索方法。从上面那个博客里学到的优化。还有使用std函数sort排序。哈哈哈好方便的说。<br>不知道为什么，我总是想不到搜索的剪枝，例如这道题里面的对邮票的面值进行排序。<br>超过5张面值一样的邮票，直接算5张，我觉得我真的很难想的到。。<br>直接看别人的剪枝方法，是因为我实在对自己的搜索没有信心。。。<br>搜索TLE太多次。。好伤！<br>还有就是：<strong><em>感觉搜索的优化就是一件拼智商的事。</em></strong></p>
+<h2 id="1011_Sticks"><a href="http://poj.org\problem?id=1011" target="_blank" rel="external">1011 Sticks</a></h2><p>题意就不说了，有中文。<br>思路是：<strong>搜索</strong>+<strong>高难度剪枝</strong>。<br>其实这道题在POJ上的数据太渣。水水的剪枝就可以过。<br>但是UVA的那道一样的题目不行。。推荐<a href="http://www.cnblogs.com/staginner/archive/2011/09/08/2171329.html" target="_blank" rel="external">一个好的题解</a>。<br>这道题目一开始我只想到3个剪枝方法。然后百度到了另外3个。<br>首先确定答案的范围，答案必然满足</p>
+<ul>
+<li>maxlen&lt;=answer&lt;=totlen/2 或者 answer==totlen </li>
+<li>totlen%answer==0 也即answer一定是totlen的约数</li>
+</ul>
+<p>其次给长度从大到小排序，这样可以避免无意义的搜索<br>同一长度的木棒具有同样的效果，即如果第一根该长度的木棒无法满足要求，则跳过所有该长度的木棒（因为结果都一样）<br>作为当前possibleanswer的开头第一个木棒必然是当前可用木棒集合中最长的，</p>
+<ul>
+<li>如果最长的都无法满足要求，则当前possibleanswer一定impossible。</li>
+<li>如果当前碎木棒正好使得正在拼的木棒满足当前的possibleanswer。</li>
+<li>但是在它之后的其他木棒无法完成该possibleanswer，那么正在拼的这根木棒一定无法满足该possibleanswer。</li>
+</ul>
+<h2 id="1012_Joseph"><a href="http://poj.org\problem?id=1012" target="_blank" rel="external">1012 Joseph</a></h2><p><strong>题目描述：</strong></p>
+<p>经典的约瑟夫环问题。有n个人围成一个环，给定一个m，从0开始报数，报到第m个数的人出局，然后从此人后一个人继续从0开始报数，直到全部人都出局。<br>现在问：对于给定的k，表示有2k个人，然后要求输出一个m使得第一次有前k个人里的人出局时，后k个人已经全部出局。  </p>
+<p><strong>输入格式：</strong></p>
+<p>若干行，每行表示一个输入——k，以0结束</p>
+<p><strong>输出格式：</strong></p>
+<p>每个k输出一行，表示满足条件的m</p>
+<p><strong>数据保证：</strong></p>
+<p>\(0 &lt; k &lt; 14 \)</p>
+<p><strong>解题思路：</strong></p>
+<p>一开始我是想直接打表的。毕竟k最大才13。。然后想了想还是写一个有点意义的程序吧。。<br>于是写了个程序模拟了一下报数。。然后就AC了。   </p>
+<h2 id="1013_Counterfeit_Dollar"><a href="http://poj.org\problem?id=1013" target="_blank" rel="external">1013 Counterfeit Dollar</a></h2><p><strong>题目描述：</strong></p>
+<p>12个金币中有一个是假币，假币的大小颜色都和真的一样，只有重量不一样，但是有可能比真的轻，也有可能重，现在要通过称重找出那个假的。   </p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数n，表示有n组数据<br>每组数组有3行输入，每行由被2个空格隔开的三个字符串组成，表示一次称重的结果。<br>前两个字符串由A-L的大写英文字母组成，分别表示天平左边和右边分别放的金币编号。<br>第三个字符串有三种情况”even”,”up”,”down”.分别表示平衡，左边轻，右边轻。 </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一行，表示哪个金币是假币，并输出是比真币重还是轻。<br>例如：K is the counterfeit coin and it is light.   </p>
+<p><strong>数据保证：</strong></p>
+<p>并没有任何保证，如果只有12个币不算的话</p>
+<p><strong>解题思路：</strong></p>
+<p>首先明确的是，如果是even，则此次称重的所有金币（左右两边的）都是真的。<br>其次，又在重的一边出现过又在轻的一边出现过的金币是真的。（即在两次称重中处于不同的状态的金币是真的）<br>最后，在重的一边或轻的一边次数最多的是假币（这个我也不知道为什么，我按照前面两点写出来的算法有错误，然后对着数据看了一下，假币up的次数多，所以。。。）<br>PS：最近两道题目的题意都是我自己看懂的。没看翻译，只是想好好练习我的英语，似乎效果还可以，要坚持下去！</p>
+<h2 id="1014_Dividing"><a href="http://poj.org\problem?id=1014" target="_blank" rel="external">1014 Dividing</a></h2><p><strong>题目描述：</strong></p>
+<p>有一堆石头，每块石头都有一个value，value只有六个数字0-6，现给出每个value的石头的个数，问，这堆是有能否分成value和相等的里两堆。</p>
+<p><strong>输入格式：</strong></p>
+<p>每行一组数据，每行六个整数n1，···，n6，分别表示value为i（i=1···6）的石头的个数。<br>以0 0 0 0 0 0结束输入（该组数据不输出结果） </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出两行<br>第一行”Collection #k:”，k是数据的编号<br>然后输出一行”Can be divided.”或者”Can’t be divided.”<br>然后每组数据都要输出一个空行！ </p>
+<p><strong>数据约定：</strong> </p>
+<p>每种value的石头的个数不超过20000.</p>
+<p>我的解题过程：</p>
+<p>这道题目我还是想了蛮久的，发现只有搜索可行。<br>然后，我可耻的TLE了，当然，我并没有submit。。<br>我用的discuss里面的童鞋提供的<a href="http://poj.org/showmessage?message_id=340417" target="_blank" rel="external">一组十分强大的数据</a>。。<br>然后我可耻的不知道怎么剪枝了，然后可耻的看了讨论，看了别人的<a href="http://poj.org/showmessage?message_id=173435" target="_blank" rel="external">剪枝</a>。。<br>此剪枝号称最强的剪枝，但是似乎并不是。。<br>因为用上面的数据测试之后还是可耻的TLE了。。<br>然后在这个讨论的子讨论里我发现了一个<a href="http://poj.org/showmessage?message_id=182859" target="_blank" rel="external">更神奇的剪枝</a>，然后我神奇的AC了。。。 </p>
+<p><strong>我的分析：</strong></p>
+<p>对于一种value的石头，如果它的数量达到了能够用一定数量的一种石头让价值和达到60，那么完全可以忽略这些个石头。</p>
+<p><strong>思考：</strong></p>
+<p>为什么是60这个数字？ 因为。。。1~6的最小公倍数是60.<br>此，如果value为1的石头，那么它的数量里超出60的部分就完全可以不用考虑。。<br>因此 <strong>num[value1] %= 60;</strong> 因此。。这个剪枝。。墙大了。<br>只要这样！！！ <strong>num[value(i)] ％＝(60/i);</strong><br>这样。。数量一下子就减小了。。搜索完全无压力。</p>
+<h2 id="1015_Jury_Compromise"><a href="http://poj.org\problem?id=1015" target="_blank" rel="external">1015 Jury Compromise</a></h2><p><strong>题目描述：</strong></p>
+<p>有n个人，需要从中选出m个人，每个人都有一个d和一个p值，要求选出来的m个人满足：</p>
+<ul>
+<li>在所有的方案中，所有人的p值之和减去所有人的d值之和的绝对值最小，</li>
+<li>如果最小的绝对值相等，则取p值之和加上d值之和最大的方案。 </li>
+</ul>
+<p><strong>输入格式：</strong> </p>
+<p>有多组数据，每组数据n+1行：<br>第一行两个整数n和m，接下来n行每行两个整数，表示每个人的d值和p值。<br>以0 0结束输入。 </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出三行：<br>第一行表示当前数据组数的字符串(“Jury #1”,”Jury #2”, etc.)<br>第二行输出表示该方案的所有人的d值之和与p值之和的字符串“Best jury has value P for prosecution and value D for defence:”<br>第三行输出该方案选出来的人的编号，每个人的编号之前都有一个空格。<br>每组数据输出完之后输出一行空格。</p>
+<p><strong>数据约定：</strong></p>
+<p>\(0 &lt; n \leq 200,0 &lt; m \leq 20,0 \leq p,q \leq 20。 \)</p>
+<p><strong>解题思路：</strong> </p>
+<p>DP！！！</p>
+<p>状态：\( f _ {i,j} \)表示已经选出来了i个人并且差值为j时的最大和值。<br>转移：\( f _ {i+1,j+p_{k} - d _ {k}} = max( f_{i,j} + p_{k}+d_{k}) , k \in \left( 1,2,\cdots, n \right) \)<br>第一重循环i从1开始枚举<br>第二重循环j从-400枚举到+400（具体实现需要把j整体移400，C数组下标从0开始的）</p>
+<ul>
+<li>第三重循环k从1枚举到n。。。 </li>
+</ul>
+<p>一开始我以为是搜索。。妈蛋的谁叫前面的两道题都是搜索。。<br>后来发现是DP，然后想了想状态和转移，发现还要记录路径，天坑。。。 然后我就可耻的看了别人的题解。发现其实dp的时候带上路径并没有想象中的那么难。。<br>但是不知道为什么讨论区好多人说标准的dp解法有错误。。不懂。。。。 </p>
+<h2 id="1016_Numbers_That_Count"><a href="http://poj.org\problem?id=1016" target="_blank" rel="external">1016 Numbers That Count</a></h2><p><strong>题目描述：</strong></p>
+<ul>
+<li><strong><em>定义一个整数的inventory为：从0到9排列的(数字的个数+数字)。</em></strong><ul>
+<li>例如”5553141”里面有2个1、1个3、1个4、3个5。所以”21131435”是”5553141”的inventory。 </li>
+</ul>
+</li>
+<li><strong><em>定义一个整数的第n(n&gt;1)个inventory为：它的第n-1个inventory的inventory。</em></strong></li>
+<li><strong><em>定义一个整数进入一个长度为n的inventory循环为：它的第n个inventory是它本身。</em></strong></li>
+<li><strong><em>如果一个数的inventory是它本身，则说它是self-inventory的。</em></strong></li>
+</ul>
+<p>如果一个数的第n个inventory是self-inventorying的，则说它在第n步之后是self-inventorying的。</p>
+<p>如果一个数进入了一个长度为k的inventory循环，则说它enters an inventory loop of length k。</p>
+<p>如果一个数的前15个inventory都不满足上述三个条件的话，则说它can not be classified after 15 iterations</p>
+<p><strong>输入格式：</strong></p>
+<p>有多组数据，每组数据输入一行，每行一个整数n，n为-1时结束输入 </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据都输出下面四句话中的一句：</p>
+<ul>
+<li>n is self-inventorying</li>
+<li>n is self-inventorying after j steps</li>
+<li>n enters an inventory loop of length k</li>
+<li>n can not be classified after 15 iterations</li>
+</ul>
+<p><strong>数据约定：</strong></p>
+<p>n最大不超过80位。 </p>
+<p><strong>解题思路：</strong></p>
+<p>我约定不会告诉你这是一道水题的。题解藏在数据规模里。</p>
+<h2 id="1017_Packets"><a href="http://poj.org\problem?id=1017" target="_blank" rel="external">1017 Packets</a></h2><p><strong>题目描述：</strong></p>
+<p>有六种\(size(1*1,2*2,3*3,4*4,5*5,6*6)\)的物品，只有一种\(size(6*6)\)的箱子。<br>现给出每种物品的数量，求最少要用多少个箱子才能装下所有的物品。 </p>
+<p><strong>输入格式：</strong></p>
+<p>有多组数据，每组数据一行，每行六个整数，分别表示从1<em>1到6</em>6size的物品的数量。<br>输入以6个零结束。 </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一行，每行一个整数，表示最少的箱子数量。最后六个零不输出。 </p>
+<p><strong>解题思路：</strong></p>
+<p>特么的就一道贪心水题。。结果我特么WA了四次。。不得不说是天坑。感觉自己好渣渣。在讨论区看到一个漂亮的算法。 </p>
+<ul>
+<li>首先：6*6、5*5、4*4的肯定每个物品要占用一个箱子。 </li>
+<li>其次：每四个3*3的物品要占用1个箱子。 </li>
+<li>然后：根据上面的数量算出此时要用的箱子数和这些箱子放下上面的四种物品之后还剩下的空间里能放下的2*2的物品数量，然后判断能放下的2*2物品的数量和需要放的2*2的数量的关系，如果放不下，增加箱子数量。 </li>
+<li>最后：由于此时所有箱子的所有空间一定可以放下2<em>2到6</em>6的所有物品，所以计算放完2*2到6*6的所有物品之后箱子还剩下的1*1空间数量，与1*1物品的数量比较，如果不能放得下，增加箱子的数量。</li>
+</ul>
+<h2 id="1018_Communication_System"><a href="http://poj.org\problem?id=1018" target="_blank" rel="external">1018 Communication System</a></h2><p><strong>题目描述：</strong></p>
+<p>有一批订单(order)，需要n种设备组成一个交流系统。每种设备有m个设备制造商，每个设备制造商的设备都有不同的带宽(bandwidth)和价格(price)。 </p>
+<p><strong><em>定义系统的带宽(B)为这个n个设备里面的最小带宽*</em></strong></p>
+<p><strong><em>定义系统的价格(P)为n个设备的总价格</em></strong></p>
+<p><strong><em>现在要求你设计程序计算从设备制造商提供的所有设备中选出n个（每种一个）使得系统的B/P最大</em></strong></p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数t，表示总共有t组数据。<br>以下每组数据第一行一个整数n，表示设备的种类。<br>以下n行每行开头一个整数m(i)表示第i种类的设备制造商的数量。<br>m(i)后面接着m(i)对整数，每对整数表示这m(i)个设备的带宽和价格。</p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一行一个小数，表示最大的B/P </p>
+<p><strong>数据约定：</strong></p>
+<p>\(1 \leq n,m \leq 100 \)</p>
+<p><strong>解题思路：</strong></p>
+<p><strong>贪心</strong>+<strong>枚举</strong>：</p>
+<p>将所有设备以价格为关键字从小到大排序。<br>然后依次枚举每个设备i，把当前设备i 的带宽当做系统的最小带宽，计算B/P，取所有B/P中的最大值。。这里可以加上一些优化。。<br>妈蛋的WA了7次。。因为快排写萎了。。。郁闷到死！！！<br>更详细的看代码注释。PS:第一次写代码注释。。。</p>
+<h2 id="1019_Number_Sequence"><a href="http://poj.org\problem?id=1019" target="_blank" rel="external">1019 Number Sequence</a></h2><p><strong>题目描述：</strong></p>
+<p>有一个数列S1S2·····Sk，Sk是由从1到k的数字组成的数列<br>例如这个数列的前80个数字是：11212312341234512345612345671234567812345678912345678910123456789101112345678910<br>现在给定一个数字i，要求给出该数列的第i个位置上的数字！！ </p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数t，表示有t组数据，接下来是t行，每行一个整数i，表示要求的位置i。 </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一行，每行一个数字！ </p>
+<p><strong>数据约定：</strong></p>
+<p>\( 1\leq t\leq 10,1\leq i\leq 2147483647 \)</p>
+<p><strong>解题思路：</strong></p>
+<p>预处理两个数组，a和b，a[i],b[i]分别表示Si的长度和S1S2·······Si的长度。也就是说b是a的前缀和。这样可以直接算出每个i落在哪一个Sk里面。然后到Sk里面去找第i个位置的数字。。<br>PS：这绝对不是一道水题！！！！！！我一开始以为是一道水题。。然后坑了3次。。因为他要求输出的是digit是数字！！不是整数，天坑！！ </p>
+<h2 id="1020_Anniversary_Cake"><a href="http://poj.org\problem?id=1020" target="_blank" rel="external">1020 Anniversary Cake</a></h2><p><strong>题目描述：</strong></p>
+<p>有一个边长为size的正方形蛋糕，现在问这块蛋糕是否恰好能被分成n块特定边长的正方形小蛋糕。 </p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数s，表示有s组数据。<br>每组数据一行，每行开头一个整数s，表示大蛋糕的边长。<br>然后是一个整数n，表示小蛋糕的数量。<br>接下来n个整数，代表这个n块小蛋糕的边长。 </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一行，”KHOOOOB!”或者”HUTUTU!”，分别代表恰好可以分和不能分。 </p>
+<p><strong>数据约定：</strong></p>
+<p>\(1 \leq n \leq 16\), 小蛋糕的边长不大于10 </p>
+<p><strong>解题思路：</strong></p>
+<p>搜索！！反过来想，把分割大正方形看成往大正方形里放小正方形。 </p>
+<p>抓住<strong>核心思想</strong>:只要任何一个小正方形无法被放进去，则该组数据一定无解！所以，可以贪心！</p>
+<h2 id="1021_2D-Nim"><a href="http://poj.org\problem?id=1021" target="_blank" rel="external">1021 2D-Nim</a></h2><p><strong>题目描述：</strong> </p>
+<p>判断两个图是否等价。<br>对等价的定义是：两个图有相同个数的连通块，第一个图里面的每个连通块总能在第二个图里面找到一个连通块（未与别的块匹配）与之匹配。<br>对连通块匹配的定义是：两个连通块如果能经过若干次平移、对称、旋转等操作之后重合，则说它们是匹配的。<br>现在要求设计程序，输入两个图，输出它们是否等价。 </p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数t，表示有t组数据。<br>接下来t组数据，每组数据由3行构成。<br>第一行三个整数w，h，n，分别表示图的宽度，高度，和点的数量。<br>接下来两行，表示两个图的点，每行n对整数，分别表示n个点的x和y。</p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一个YES或者NO。 </p>
+<p><strong>解题思路：</strong></p>
+<p>找出两个图的所有连通块，对每个连通块进行hash，hash值是连通块里面所有点两两之间距离的平方和。然后将连通块按hash值排序。判断是否有不匹配的连通块。<br>更具体的在代码里面。</p>
+<h2 id="1022_Packing_Unit_4D_Cubes"><a href="http://poj.org\problem?id=1022" target="_blank" rel="external">1022 Packing Unit 4D Cubes</a></h2><p><strong>题目描述：</strong></p>
+<p>有一个由n个四维的小立方体(四维的还能叫立方体？<em> ｖ </em>)组成的产品（名字叫做EE3），小立方体之间互相用胶水粘在一起.<br>现在需要一个程序判断EE3是否合格，如果合格计算EE3的体积(四维情况下还能叫体积么？@O_O@!!)。<br>EE3合格的条件：</p>
+<ul>
+<li>所有的小立方体都连通，并且任意两个相邻的小立方体只公用一个维度，且在该维度上互相在对方的相反方向上。 </li>
+</ul>
+<p>提醒：每一个小立方体都有8个面（因为四根坐标轴0.0）。 </p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数t，表示输入有t组数据。<br>接下来t组数据，每组数据第一行一个整数n，表示该组数据有n个小立方体。<br>接下来是n行，每行9个数字，第一个数字是第n个小立方体的identifier，后面八个数字是与该小立方体相连的小立方体的identifier（！！！注意是identifier）。每两个数字是一条坐标轴的两个方向。 </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一行，一个整数或者”Inconsistent”<br>如果输入的n个小立方体无法组成一个合格的EE3就输出”Inconsistent”<br>否则输出一个整数，表示该EE3的体积。 </p>
+<p><strong>解题思路：</strong></p>
+<p>从第一个输入的小立方体开始，bfs每一个与它连通的小立方体，如果有的小立方体没有被遍历到，说明Inconsistent，如果某两个小立方体不符合在他们共同的维度上方向相反的条件。</p>
+<h2 id="1023_The_Fun_Number_System"><a href="http://poj.org\problem?id=1023" target="_blank" rel="external">1023 The Fun Number System</a></h2><p><strong>题目描述：</strong></p>
+<p>给一个长度为k的二进制符号序列，每一位都有两种状态，正的(用p表示)和负的(用n表示)。<br>给一个n，现在要求有没有满足条件的二进制数在按照给定的序列转化成10进制后等于n的。<br>例如：</p>
+<ul>
+<li>给定序列长度为4，二进制符号序列是ppnn，给定n为10，则二进制数为1110，因为 \( 1*2^3+1*2^2-1*2^1-0*2^0==10\)。</li>
+</ul>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数t，表示有t组数据。<br>每组数据三行。<br>第一行是一个整数k，表示二进制符号序列的长度。<br>第二行是一个长度为k的字符串，由p或者n组成。<br>第三行是一个整数n。 </p>
+<p><strong>输出格式：</strong></p>
+<p>Impossible或者一个二进制数。<br>如果符合条件的k位二进制数没有，则输出Impossible。<br>否则输出满足条件的二进制数。 </p>
+<p><strong>解题思路：</strong></p>
+<p>这道题我一开始看了之后完全没有头绪。。。。<br>然后我随便试了试自己的一个想法，也不知道对不对。<br>我的想法：</p>
+<ul>
+<li>首先可以肯定的是，如果n是偶数，那么它的最低位一定是0，不管它的最低位是n还是p；如果n是奇数，那么最低位是1，那么，问题来了，问题是什么呢？等下看第三条。</li>
+<li>现在可以肯定的是如果n是偶数，那么它的最低位一定是0，那么我们就可以考虑n/2的情况了，是不是把n右移一位。试想，如果，每次把n右移一位，是不是都可以确定二进制数的一个binary位。</li>
+<li>那么现在来考虑如果n是奇数的情况。好吧，我也不知道为什么，我就是鬼使神差的这样处理了：如果n是奇数那么我就把n右移一位然后加一。</li>
+<li>当时并没有想这是为什么，然后答案竟然对了。。然后是处理一些小细节，例如n是9223372036854775807的时候，必须先把n右移再加一。。还有就是n的范围需要是long long。。。</li>
+<li>然后现在想想，发现好像就是，如果n是奇数时k-1位是正的，那么没问题，这个位一定是1，也不需要改n，如果这个位是负的，那么跟正的相比，差了两个当前k-1位大小的值(2^k)，然后我们把n除以二再加一就相当于把这个值修正了。</li>
+</ul>
+<p>具体的看代码（这次代码写的好丑T^T）：<br>PS：由于看ICPC的WorldFinal去了，没有第一时间写题解@O_O@!!!<br>继续看live去惹@O_O@~~~</p>
+<h2 id="1024_Tester_Program"><a href="http://poj.org\problem?id=1024" target="_blank" rel="external">1024 Tester Program</a></h2><p><strong>题目描述：</strong></p>
+<p>给定走出一个迷宫的最短路径，再给出一个由这个最短路径算出来的解（一个墙的集合），现在要有设计程序判断该解是否正确。<br>正确的标准：最短路径为给出的最短路径且唯一，如果给出的解（墙的集合）组成的迷宫的最短路径比给定的最短路径长或短都不行，一定要一样长且只有给定的那一条路是最短路。 </p>
+<p><strong>输入格式：</strong></p>
+<p>多组数据，第一行为一个整数t，表示数据的组数<br>每组数据包括一个原始问题输入和一个原始问题输出。<br>原始问题输入就是给定的最短路径，格式如下：  </p>
+<p>第一行是两个整数w和h，表示迷宫的宽度和高度，<br>第二行是一行由四个字母(‘U’,’D’,’R’,’L’)组成的字符串。<br>U表示向上走，D表示向下走，R表示向右走，L表示向左走。  </p>
+<p>原始问题输出就是一个墙的集合，格式如下：</p>
+<p>第一行一个整数n，表示有n个墙<br>接下来是n行，每行四个整数，两个点的坐标，表示这两个点之间有一堵墙。</p>
+<p><strong>输出格式：</strong></p>
+<p>输出CORRECT或者INCORRECT，表示原始问题输出正确或者不正确。</p>
+<p><strong>解题思路：</strong></p>
+<p>一开始只想到了怎么判断最短路径是否唯一，但是不知道怎么判断墙是否多余，然后在discuss里面看到一个绝妙的算法,具体的想法如下：</p>
+<ul>
+<li>分别从起点到到终点和从终点到起点进行bfs，通过bfs分别算出从起点到每个点的最短距离dis1和从终点到每个点的最短距离dis2。</li>
+<li>把给定的最短路径所经过的点打上标记，再把所有墙两边的点打上标记</li>
+<li>然后对所有没有标记的点进行判断，如果存在一个点满足dis1+dis2==pathlen（给定的最短路径的长度），那么则最短路径不唯一</li>
+<li>然后判断是否有墙多余，枚举每个墙两边的点（分别记为a和b），如果从起点到a的距离加上从终点到b的距离和从终点到a的距离加上从起点到b的距离都大于pathlen，那么当前的墙是多余的。</li>
+</ul>
+<p>注意一个特殊情况！！！！如果出现一个被墙围起来的封闭区域，那么一定会有一个墙多余。但是bfs算不出来，需要进行特判。</p>
+<ul>
+<li>下图是特殊情况<br><img src="http://ww1.sinaimg.cn/large/0063AxbLgw1etai0cz167j30ko08vmyi.jpg" alt="特例"><br>更具体见代码！ PS:传参数什么的好麻烦，看来下次要写结构体，然后把数据全部封装起来了，那样直接传结构体的地址就好了。</li>
+</ul>
+<h1 id="1067_取石子游戏"><a href="http://poj.org\problem?id=1067" target="_blank" rel="external">1067 取石子游戏</a></h1><p>题目描述是中文的。</p>
+<p><strong>解题思路：</strong></p>
+<p>威佐夫博弈的三条性质：戳<a href="http://baike.baidu.com/link?url=J8dSMGiPa7InCvkmgk8FdeZfh_7JEK0qFOUiO3_Gk5O0Zuem2lKCOKR9Srhz9K4ScwatCaPcS2ba_LK-FvKhFa" target="_blank" rel="external">威佐夫博弈-百度百科</a><br>威佐夫博弈的公式：\(a _ {k} = [ \frac {\sqrt {5}+1} {2} * k ] \)<br>通过这个公式(我还没看证明的), 我们可以利用奇异奇异局势的性质b[k]=a[k]+k;来判断题目给出的(a,b)是否是奇异局势。<br>令\({k}=|a-b| , a_ {k} = [ \frac {\sqrt{5}+1} {2} * k ] \); 判断我们算出的ak是否与题目给出的a相等即可。</p>
+<h2 id="1068_Parencodings"><a href="http://poj.org\problem?id=1068" target="_blank" rel="external">1068 Parencodings</a></h2><p><strong>题目描述：</strong></p>
+<p>一个括号序列S可以用两种方式编码：P序列和W序列。<br>两种编码方式得到的序列定义如下：</p>
+<ul>
+<li>P=P1P2······Pn， Pi表示从左至右每一个右括号左边有多少个左括号。</li>
+<li>W=W1W2······Wn，Wi表示从左至右每一个右括号匹配的左括号是从它开始往左数的第几个左括号。</li>
+</ul>
+<p>例如：</p>
+<ul>
+<li>S= (((()()())))</li>
+<li>P= 4 5 6 6 6 6</li>
+<li>W= 1 1 1 4 5 6</li>
+</ul>
+<p>现在要求设计程序，输入括号序列的Ｐ序列，输出其对应的Ｗ序列。</p>
+<p><strong>输入格式： </strong></p>
+<p>第一行一个整数t，表示输入有t组数据。<br>每组数据两行。<br>第一行一个整数n，表示P序列的长度。<br>第二行n个整数，表示P序列。 </p>
+<p><strong>输出格式：</strong></p>
+<p>一行n个整数，表示对应的W序列。 </p>
+<p><strong>数据约定：</strong></p>
+<p>\( 1\leq t \leq 10,1 \leq n \leq 20  \)</p>
+<p><strong>解题思路：</strong></p>
+<p>赤果果的暴力有木有，代码能力强点的一次性都能过。 </p>
+<h2 id="1088_滑雪"><a href="http://poj.org\problem?id=1088" target="_blank" rel="external">1088 滑雪</a></h2><p>题目是中文的。</p>
+<p><strong>解题思路：</strong></p>
+<p>记忆化搜索<br>用逆向思维，从低的点取值取到高的点。这样就不会漏掉状态了。<br>用f[i][j]表示点(i,j)出发到<strong><em>可以到达的最高的点</em></strong>的距离。<br>所以搜索点(i,j)的时候，先搜索它周围的四个点，用它周围的四个点的f值更新(i,j)的f值。<br>也就是说如果\(h(i,j) &lt; h(i \pm 1,j \pm 1)\)<br>那么\(f(i,j)=max \left( f(i,j), f(i \pm 1,j \pm 1)+1 \right)\)</p>
+<h2 id="1611_The_Suspects"><a href="http://poj.org\problem?id=1611" target="_blank" rel="external">1611 The Suspects</a></h2><p><strong>题目描述：</strong></p>
+<p>有n个人，m个小组，每个小组里的人会互相传染。<br>要求设计程序统计有多少人是被感染了的。<br>编号为0个人是一定被感染的。</p>
+<p><strong>输入格式：</strong></p>
+<p>多组数据。<br>每组数据第一行是两个整数n和m，表示总共有n个人，m个小组。<br>接下来是m行，每行多干个整数，第一个整数k表示这个小组里面有k个人。<br>接下来k个整数表示这个小组里的人的编号。<br>输入以0 0 结束。</p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一个数字x，表示有x个人是被感染了的。</p>
+<p><strong>解题思路：</strong></p>
+<p>简单并查集，不用再水。</p>
+<h2 id="1936_All_in_All"><a href="http://poj.org\problem?id=1936" target="_blank" rel="external">1936 All in All</a></h2><p><strong>题目描述：</strong></p>
+<p>设计程序，输入两个串，判断是否能在删除第二个串里面的一些字母后使得它与第一个串相等。</p>
+<p><strong>输入格式：</strong></p>
+<p>多组数据，每组数据一行，每行两个串，用空格隔开，只由大小写英文字母组成（区分大小写）。</p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一个单词 “Yes” or “No”。</p>
+<p><strong>解题思路：</strong></p>
+<p>没有思路，这就是一道水题。</p>
+<h2 id="2001_Shortest_Prefixes"><a href="http://poj.org/problem?id=2001" target="_blank" rel="external">2001 Shortest Prefixes</a></h2><p><strong>题目描述：</strong></p>
+<p>顾名思义，找最短的前缀：给定若干个由小写字母组成的串，找出他们的最短的唯一前缀。</p>
+<p><strong>输入格式：</strong></p>
+<p>输入由若干个只由小写字母组成字符串组成。每行一个字符串。</p>
+<p><strong>输出格式：</strong></p>
+<p>对于每个串，输出它本身，再输出它和另外任意一个串的最短前缀。</p>
+<p><strong>解题思路：</strong></p>
+<p>直接上字典树。<br>每次读入一个字符串，插入到字典树里面，每个节点记录被访问的次数。<br>插入完毕之后，根据每一个字符串遍历字典树，碰到访问次数为一的节点返回。<br>输出的前缀即为从串的开头到返回的位置的内容。</p>
+<p><strong>数据约定：</strong></p>
+<p>输入的串的数量最少两个，最多1000个， 每个串最长20.</p>
+<h2 id="2299_Ultra-QuickSort"><a href="http://poj.org/problem?id=2299" target="_blank" rel="external">2299 Ultra-QuickSort</a></h2><p><strong>题目描述：</strong></p>
+<p>给一个长度为n的数字序列。求该序列的逆序对数量。</p>
+<p>关于逆序对的定义，戳<a href="http://zh.wikipedia.org/wiki/%E9%80%86%E5%BA%8F%E5%AF%B9" target="_blank" rel="external">维基百科</a>。</p>
+<p><strong>输入格式：</strong></p>
+<p>输入有多组数据。<br>每组数据以一个整数n开始，接下来是n行每行一个整数。<br>第i个整数表示该序列的第i个值\(a_ {i} \)。<br>输入以n=0结束。</p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一个值，为逆序对的数量。</p>
+<p><strong>数据约定：</strong></p>
+<p>\( n\leq 500000, 0 \leq a _ {i} \leq 999999999 \)</p>
+<p><strong>解题思路：</strong></p>
+<p>离散化+树状数组。————PS：其实还有别的办法的。</p>
+<p><strong><em>为什么要离散化？</em></strong><br>因为要以 \( a _ {i} \) 为下标构建树状数组，而 \( a _ {i} \) 的最大值太大。</p>
+<p><strong>离散化的方法：</strong><br>给每个数字按输入顺序打上id，则id的范围为n的范围，然后将序列按值排序，再使用id代替原本的输入顺序构建树状数组。</p>
+<p><strong><em>使用树状数组：</em></strong><br>输入一个数 \( a _ {i} \)则用树状数组统计一下 \( 1,a _ {i}) \)区间里面的数字的个数，然后再把 \( a _ {i}) \) 添加进树状数组。<br>PS：这里是最原始的思想，因为 \( a _ {i} \) 太大，所以需要离散化。然后用id代替 \( a _ {i} \)</p>
+<h2 id="2481_Cows"><a href="http://poj.org/problem?id=2481" target="_blank" rel="external">2481 Cows</a></h2><p><strong>题目描述：</strong></p>
+<p>有n头牛，每头牛有两个参数——S和E，现在规定：一头牛(i)比另一头牛(j)的强壮的需要满足：</p>
+<ol>
+<li>\(S_{i}\leq S_{j}\)</li>
+<li>\(E_{i}\geq E_{j}\)</li>
+<li>\(E_{i}-S_{i}&gt;E_{j}-S_{j}\)</li>
+</ol>
+<p>现在问，对于每一头牛，有多少头牛比这头牛强壮。。</p>
+<p><strong>输入格式：</strong></p>
+<p>输入有多组数据。<br>每组数据以一个n开头，表示有n头牛。<br>接下来n行，每行两个数，表示一头牛的S和E。<br>所有输入以0结束。</p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一行。<br>每行按照输入的顺序输出每头牛的比他强壮的牛的数量，用空格隔开。</p>
+<p><strong>解题思路：</strong></p>
+<p>树状数组！！！<br>话说这道题目让我想起了平衡树试题里面的star那道题目。好像star也可以用树状数组做诶。。<br>看来线段树，树状数组，平衡树在某些地方是有重合的地方的。</p>
+<p>先把所有的牛按照E降序排序。然后统计它的S值之前有多少头牛。然后把它的S加入树状数组。</p>
+<p><strong>算法Bug：</strong></p>
+<p>两头牛的S和E都相等的情况下。。很坑爹啊。</p>
+<p>不过最后我还是在discuss找到了解决办法。</p>
+<p>最后还是WA了两次。</p>
+<p>PS：还有这是我第一次在算法题里面用自己写的C++对象。</p>
+<h2 id="3630_Phone_List"><a href="http://poj.org/problem?id=3630" target="_blank" rel="external">3630 Phone List</a></h2><p><strong>题目描述：</strong></p>
+<p>给若干个数字串，判断是否有一个串是另一个串的前缀。</p>
+<p><strong>输入格式：</strong></p>
+<p>第一行是一个整数t，表示有t组数据。<br>每组数据第一行一个整数n，表示有n个串。<br>接下来n行，每行一个只由数字组成的串。</p>
+<p><strong>输出格式：</strong></p>
+<p>判断是否存在一个串是另一个串的前缀。<br>如果存在，输出”NO”，否则输出”YES”.(不包括引号).</p>
+<p><strong>解题思路：</strong></p>
+<p>把所有串插入字典树，然后对于每一个串，在它的字典树路径上，找有没有别的串的标记。如果在任意一个串的路径上出现别的串的标记，则输出’NO’,否则输出’YES’。</p>
+<p>竟然WA了两次，真的是血崩！！</p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/waterfall-picture/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          瀑布流布局照片墙
+        
+      </div>
+    </a>
+  
+  
+    <a href="/scroll2Top/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">制作了一个回到顶部按钮</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+  <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+</article>
+
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="POJ" data-title="POJ刷题" data-url="http://sparkrat.github.io/POJ/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"sparkrat"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2015 Lyeec
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: true
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63665478-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>

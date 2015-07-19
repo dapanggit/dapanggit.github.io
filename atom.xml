@@ -1,0 +1,1909 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+  <title><![CDATA[傻傻的程序猿]]></title>
+  <subtitle><![CDATA[一只傻傻的程序猿]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://sparkrat.github.io//"/>
+  <updated>2015-07-15T15:59:46.270Z</updated>
+  <id>http://sparkrat.github.io//</id>
+  
+  <author>
+    <name><![CDATA[Lyeec]]></name>
+    <email><![CDATA[hucxarch@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[书单]]></title>
+    <link href="http://sparkrat.github.io/book-shelf/"/>
+    <id>http://sparkrat.github.io/book-shelf/</id>
+    <published>2015-07-15T15:59:46.270Z</published>
+    <updated>2015-07-15T15:59:46.270Z</updated>
+    <content type="html"><![CDATA[<p><strong>题记:书籍是人类进步的阶梯</strong></p>
+<p>一份很久之前的书单了,一直没时间看,今天做一点补充,然后又挂了出来,告诉自己以后一定要看.</p>
+<p>书单会持续更新,不过频率会很低就是了.</p>
+<a id="more"></a>
+<h2 id="王付欣老师荐读：">王付欣老师荐读：</h2><table>
+<thead>
+<tr>
+<th>作者</th>
+<th>书名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>蒋勋</td>
+<td><a href="http://book.douban.com/subject/4124727/" target="_blank" rel="external">《孤独六讲》</a><a href="http://book.douban.com/subject/4773224/" target="_blank" rel="external">《生活十讲》</a></td>
+</tr>
+<tr>
+<td>尼采</td>
+<td><a href="http://book.douban.com/subject/1021702/" target="_blank" rel="external">《偶像的黄昏》</a></td>
+</tr>
+<tr>
+<td>殷海光</td>
+<td><a href="http://book.douban.com/subject/1013371/" target="_blank" rel="external">《中国文化的展望》</a></td>
+</tr>
+<tr>
+<td>梁文道</td>
+<td><a href="http://book.douban.com/subject/3344676/" target="_blank" rel="external">《常识》</a></td>
+</tr>
+<tr>
+<td>弗兰西斯•福山</td>
+<td><a href="http://book.douban.com/subject/1432078/" target="_blank" rel="external">《历史的终结及最后之人》</a></td>
+</tr>
+<tr>
+<td>萨缪尔•亨廷顿</td>
+<td><a href="http://book.douban.com/subject/1053623/" target="_blank" rel="external">《文明的冲突及世界秩序的重建》</a></td>
+</tr>
+<tr>
+<td>雅克•德里达</td>
+<td><a href="http://book.douban.com/subject/3071865/" target="_blank" rel="external">《马克思的幽灵》</a></td>
+</tr>
+<tr>
+<td>索尔仁尼琴</td>
+<td><a href="http://book.douban.com/subject/6858576/" target="_blank" rel="external">《古拉格群岛》</a></td>
+</tr>
+<tr>
+<td>王蒙</td>
+<td><a href="http://book.douban.com/subject/1779257/" target="_blank" rel="external">《苏联祭》</a></td>
+</tr>
+<tr>
+<td>张维为</td>
+<td><a href="http://book.douban.com/subject/5419802/" target="_blank" rel="external">《中国震撼》</a><a href="http://book.douban.com/subject/10749326/" target="_blank" rel="external">《中国触动》</a><a href="http://book.douban.com/subject/25955518/" target="_blank" rel="external">《中国超越》</a></td>
+</tr>
+<tr>
+<td>特里•伊格尔顿</td>
+<td><a href="http://book.douban.com/subject/6529665/" target="_blank" rel="external">《马克思为什么是对的》</a></td>
+</tr>
+<tr>
+<td>周海成</td>
+<td><a href="http://book.douban.com/subject/2125040/" target="_blank" rel="external">《大趋势》</a></td>
+</tr>
+<tr>
+<td>许倬云</td>
+<td><a href="http://book.douban.com/subject/24530428/" target="_blank" rel="external">《许倬云说历史：台湾四百年》</a><a href="http://book.douban.com/subject/4842450/" target="_blank" rel="external">《我者与他者》</a></td>
+</tr>
+<tr>
+<td>廖信忠</td>
+<td><a href="http://book.douban.com/subject/4113090/" target="_blank" rel="external">《我们台湾这些年》</a></td>
+</tr>
+<tr>
+<td>本尼迪克特•安德森</td>
+<td><a href="http://book.douban.com/subject/1315190/" target="_blank" rel="external">《想象的共同体》</a></td>
+</tr>
+<tr>
+<td>葛兆光</td>
+<td><a href="http://book.douban.com/subject/5988185/" target="_blank" rel="external">《宅兹中国》</a></td>
+</tr>
+<tr>
+<td>阿玛蒂•亚森</td>
+<td><a href="http://book.douban.com/subject/4126261/" target="_blank" rel="external">《身份与暴力》</a></td>
+</tr>
+<tr>
+<td>费孝通</td>
+<td><a href="http://book.douban.com/subject/1795079/" target="_blank" rel="external">《乡土中国》</a></td>
+</tr>
+<tr>
+<td>乔治•奥威尔</td>
+<td><a href="http://book.douban.com/subject/4820710/" target="_blank" rel="external">《1984》</a><a href="http://book.douban.com/subject/2035179/" target="_blank" rel="external">《动物农场》</a></td>
+</tr>
+<tr>
+<td>阿道司•赫胥黎</td>
+<td><a href="http://book.douban.com/subject/1321789/" target="_blank" rel="external">《美丽新世界》</a></td>
+</tr>
+<tr>
+<td>兹比格纽•布热津斯基</td>
+<td><a href="http://book.douban.com/subject/2026281/" target="_blank" rel="external">《大棋局》</a></td>
+</tr>
+<tr>
+<td>戴旭</td>
+<td><a href="http://book.douban.com/subject/4197857/" target="_blank" rel="external">《C形包围》</a><a href="http://book.douban.com/subject/3642061/" target="_blank" rel="external">《盛世狼烟》</a><a href="http://book.douban.com/subject/4165529/" target="_blank" rel="external">《海图腾》</a></td>
+</tr>
+<tr>
+<td>阿尔弗雷德•塞耶•马汉</td>
+<td><a href="http://book.douban.com/subject/6840149/" target="_blank" rel="external">《大国海权》</a></td>
+</tr>
+<tr>
+<td>汤祯兆</td>
+<td><a href="http://book.douban.com/subject/2380826/" target="_blank" rel="external">《整形日本》</a></td>
+</tr>
+<tr>
+<td>肯尼斯•韩歇尔</td>
+<td><a href="http://book.douban.com/subject/2144637/" target="_blank" rel="external">《日本小史》</a></td>
+</tr>
+<tr>
+<td>李兆忠</td>
+<td><a href="http://book.douban.com/subject/5341107/" target="_blank" rel="external">《暧昧的日本人》</a></td>
+</tr>
+<tr>
+<td>土居健郎</td>
+<td><a href="http://book.douban.com/subject/1915390/" target="_blank" rel="external">《日本人的心里结构》</a></td>
+</tr>
+<tr>
+<td>鲁斯•本尼迪克特</td>
+<td><a href="http://book.douban.com/subject/1022238/" target="_blank" rel="external">《菊与刀》</a></td>
+</tr>
+<tr>
+<td>中国社会科学研究会</td>
+<td><a href="http://book.douban.com/subject/1085339/" target="_blank" rel="external">《中国与日本的他者认识》</a></td>
+</tr>
+<tr>
+<td>本书编写组</td>
+<td><a href="http://book.douban.com/subject/24325706/" target="_blank" rel="external">《资本主义怎么了》</a></td>
+</tr>
+<tr>
+<td>刘慈欣</td>
+<td><a href="http://book.douban.com/subject/2567698/" target="_blank" rel="external">《三体Ｉ》</a><a href="http://book.douban.com/subject/3066477/" target="_blank" rel="external">《三体 II 》</a><a href="http://book.douban.com/subject/5363767/" target="_blank" rel="external">《三体 III 》</a></td>
+</tr>
+<tr>
+<td>迈克尔•桑德尔</td>
+<td><a href="http://book.douban.com/subject/20366367/" target="_blank" rel="external">《金钱不能买什么》</a></td>
+</tr>
+<tr>
+<td>廖文豪</td>
+<td><a href="http://book.douban.com/subject/25774247/" target="_blank" rel="external">《汉字树1》</a><a href="http://book.douban.com/subject/25880584/" target="_blank" rel="external">《汉字树2》</a><a href="http://book.douban.com/subject/26287045/" target="_blank" rel="external">《汉字树3》</a><a href="http://book.douban.com/subject/26311756/" target="_blank" rel="external">《汉字树4》</a><a href="http://book.douban.com/subject/26377854/" target="_blank" rel="external">《汉字树5》</a><a href="http://book.douban.com/subject/26377853/" target="_blank" rel="external">《汉字树6》</a></td>
+</tr>
+<tr>
+<td>梁鸿</td>
+<td><a href="http://book.douban.com/subject/5350804/" target="_blank" rel="external">《中国在梁庄》</a><a href="http://book.douban.com/subject/21458706/" target="_blank" rel="external">《出梁庄记》</a></td>
+</tr>
+<tr>
+<td>库尔班江</td>
+<td><a href="http://book.douban.com/subject/26052898/" target="_blank" rel="external">《我从新疆来》</a></td>
+</tr>
+</tbody>
+</table>
+<p>放一张王老师上课时PPT里面放过的一张图片勉励自己.</p>
+<p><img src="http://ww2.sinaimg.cn/large/0063AxbLgw1etwsmcd3zej309u0lljut.jpg" alt="读书的意义"></p>
+<h2 id="未读：">未读：</h2><table>
+<thead>
+<tr>
+<th>作者</th>
+<th>书名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>罗素</td>
+<td><a href="http://book.douban.com/subject/2283920/" target="_blank" rel="external">《西方哲学史》</a></td>
+</tr>
+<tr>
+<td>沃尔特•艾萨克森</td>
+<td><a href="http://book.douban.com/subject/10531723/" target="_blank" rel="external">《爱因斯坦传》</a></td>
+</tr>
+<tr>
+<td>芭芭拉•沃尔夫</td>
+<td><a href="http://book.douban.com/subject/4893146/" target="_blank" rel="external">《阿尔伯特• 爱因斯坦》</a></td>
+</tr>
+<tr>
+<td>乔斯坦•贾德</td>
+<td><a href="http://book.douban.com/subject/1045818/" target="_blank" rel="external">《苏菲的世界》</a></td>
+</tr>
+<tr>
+<td>托马斯•潘恩</td>
+<td><a href="http://book.douban.com/subject/1027030/" target="_blank" rel="external">《常识》</a></td>
+</tr>
+<tr>
+<td>丹尼尔•哈列维</td>
+<td><a href="http://book.douban.com/subject/1048524/" target="_blank" rel="external">《尼采传》</a></td>
+</tr>
+<tr>
+<td>柏拉图</td>
+<td><a href="http://book.douban.com/subject/1004821/" target="_blank" rel="external">《理想国》</a></td>
+</tr>
+<tr>
+<td>理查德·怀斯曼</td>
+<td><a href="http://book.douban.com/subject/11509401/" target="_blank" rel="external">《正能量》</a></td>
+</tr>
+<tr>
+<td>维克多•雨果</td>
+<td><a href="http://book.douban.com/subject/1136881/" target="_blank" rel="external">《悲惨世界》</a><a href="http://book.douban.com/subject/1024197/" target="_blank" rel="external">《巴黎圣母院》</a></td>
+</tr>
+<tr>
+<td>斯宾塞•约翰逊</td>
+<td><a href="http://book.douban.com/subject/1021056/" target="_blank" rel="external">《谁动了我的奶酪?》</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="未读完：">未读完：</h2><table>
+<thead>
+<tr>
+<th>作者</th>
+<th>书名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>沃尔特•艾萨克森</td>
+<td><a href="http://book.douban.com/subject/6798611/" target="_blank" rel="external">《史蒂夫•乔布斯传》</a></td>
+</tr>
+<tr>
+<td>米兰•昆德拉</td>
+<td><a href="http://book.douban.com/subject/1017143/" target="_blank" rel="external">《不能承受的生命之轻》</a></td>
+</tr>
+<tr>
+<td>罗曼•罗兰</td>
+<td><a href="http://book.douban.com/subject/1097835/" target="_blank" rel="external">《名人传》</a></td>
+</tr>
+<tr>
+<td>钱钟书</td>
+<td><a href="http://book.douban.com/subject/1061242/" target="_blank" rel="external">《写在人生边上》</a><a href="http://book.douban.com/subject/1072899/" target="_blank" rel="external">《石语》</a></td>
+</tr>
+<tr>
+<td>柏杨</td>
+<td><a href="http://book.douban.com/subject/3697838/" target="_blank" rel="external">《丑陋的中国人》</a></td>
+</tr>
+<tr>
+<td>李宗吾</td>
+<td><a href="http://book.douban.com/subject/4123047/" target="_blank" rel="external">《厚黑学》</a></td>
+</tr>
+<tr>
+<td>戴尔•卡耐基</td>
+<td><a href="http://book.douban.com/subject/21372042/" target="_blank" rel="external">《人性的弱点》</a></td>
+</tr>
+<tr>
+<td>蒋勋</td>
+<td><a href="http://book.douban.com/subject/4124727/" target="_blank" rel="external">《孤独六讲》</a></td>
+</tr>
+<tr>
+<td>梁文道</td>
+<td><a href="http://book.douban.com/subject/3344676/" target="_blank" rel="external">《常识》</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="已读：">已读：</h2><table>
+<thead>
+<tr>
+<th>作者</th>
+<th>书名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>保罗•科埃略</td>
+<td><a href="http://book.douban.com/subject/1054181/" target="_blank" rel="external">《牧羊少年的奇幻之旅》</a>(又译为”炼金术士”)</td>
+</tr>
+<tr>
+<td>卡勒德•胡赛尼</td>
+<td><a href="http://book.douban.com/subject/2143732/" target="_blank" rel="external">《灿烂千阳》</a><a href="http://book.douban.com/subject/1770782/" target="_blank" rel="external">《追风筝的人》</a></td>
+</tr>
+<tr>
+<td>朱光潜</td>
+<td><a href="http://book.douban.com/subject/1040466/" target="_blank" rel="external">《谈美》</a><a href="http://book.douban.com/subject/1057269/" target="_blank" rel="external">《谈文学》</a></td>
+</tr>
+<tr>
+<td>冯友兰</td>
+<td><a href="http://book.douban.com/subject/24153675/" target="_blank" rel="external">《中国哲学简史》</a></td>
+</tr>
+<tr>
+<td>钱穆</td>
+<td><a href="http://book.douban.com/subject/10434849/" target="_blank" rel="external">《中国历代政治得失》</a></td>
+</tr>
+<tr>
+<td>刘慈欣</td>
+<td><a href="http://book.douban.com/subject/2567698/" target="_blank" rel="external">《三体I》</a><a href="http://book.douban.com/subject/3066477/" target="_blank" rel="external">《三体Ⅱ》</a><a href="http://book.douban.com/subject/5363767/" target="_blank" rel="external">《三体Ⅲ》</a></td>
+</tr>
+<tr>
+<td>江南</td>
+<td><a href="http://book.douban.com/subject/4737329/" target="_blank" rel="external">《龙族I》</a><a href="http://book.douban.com/subject/6434543/" target="_blank" rel="external">《龙族Ⅱ》</a> 《龙族Ⅲ(<a href="http://book.douban.com/subject/20472730/" target="_blank" rel="external">上</a>、<a href="http://book.douban.com/subject/24877320/" target="_blank" rel="external">中</a>、<a href="http://book.douban.com/subject/25825717/" target="_blank" rel="external">下</a>)》</td>
+</tr>
+<tr>
+<td>罗贯中</td>
+<td>《三国演义》(忘记我看的是哪一本了囧)</td>
+</tr>
+<tr>
+<td>丹尼尔•笛福</td>
+<td>《鲁滨逊漂流记》(忘记我看的是哪一本了囧)</td>
+</tr>
+<tr>
+<td>尼古拉•奥斯特洛夫斯基</td>
+<td>《钢铁是怎样炼成的》(忘记我看的是哪一本了囧)</td>
+</tr>
+<tr>
+<td>让•亨利•卡西米尔•法布尔</td>
+<td>《昆虫记》(忘记我看的是哪一本了囧)</td>
+</tr>
+<tr>
+<td>老舍</td>
+<td>《骆驼祥子》(忘记我看的是哪一本了囧)</td>
+</tr>
+<tr>
+<td>亚米契斯</td>
+<td>《爱的教育》(忘记我看的是哪一本了囧)</td>
+</tr>
+<tr>
+<td>林清玄</td>
+<td><a href="http://book.douban.com/subject/2174795/" target="_blank" rel="external">《林泉》</a><a href="http://book.douban.com/subject/2174792/" target="_blank" rel="external">《清欢》</a><a href="http://book.douban.com/subject/2174873/" target="_blank" rel="external">《玄想》</a><a href="http://book.douban.com/subject/4932937/" target="_blank" rel="external">《林清玄散文自选集》</a></td>
+</tr>
+<tr>
+<td>海明威</td>
+<td>《老人与海》(忘记是哪本书了囧)</td>
+</tr>
+<tr>
+<td>龙应台</td>
+<td><a href="http://book.douban.com/subject/3995526/" target="_blank" rel="external">《目送》</a></td>
+</tr>
+<tr>
+<td>韩寒</td>
+<td><a href="http://book.douban.com/subject/20425053/" target="_blank" rel="external">《我所理解的生活》</a></td>
+</tr>
+<tr>
+<td>沈从文</td>
+<td><a href="http://book.douban.com/subject/6429316/" target="_blank" rel="external">《边城》</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="更新记录">更新记录</h2><p>2015年7月15号:添加一些看过的书籍</p>
+<p>2015年7月8号:删除页面日期信息,准备长期更新,添加一些书籍,更改页面样式,使用表格,并加上豆瓣读书的链接.</p>
+<p>2015年7月5号:从网易博客迁移到新博客.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>题记:书籍是人类进步的阶梯</strong></p>
+<p>一份很久之前的书单了,一直没时间看,今天做一点补充,然后又挂了出来,告诉自己以后一定要看.</p>
+<p>书单会持续更新,不过频率会很低就是了.</p>]]>
+    
+    </summary>
+    
+      <category term="读书观影" scheme="http://sparkrat.github.io/tags/%E8%AF%BB%E4%B9%A6%E8%A7%82%E5%BD%B1/"/>
+    
+      <category term="随笔" scheme="http://sparkrat.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[忏悔录]]></title>
+    <link href="http://sparkrat.github.io/regret-page/"/>
+    <id>http://sparkrat.github.io/regret-page/</id>
+    <published>2015-07-15T15:37:15.000Z</published>
+    <updated>2015-07-15T15:54:40.469Z</updated>
+    <content type="html"><![CDATA[<p>对这个学期的学习生活情况的忏悔录.</p>
+<a id="more"></a>
+<h2 id="挂科&amp;&amp;耻辱">挂科&amp;&amp;耻辱</h2><p>期末考试考完了,所以我挂了两科——大学物理和近现代史纲要.</p>
+<p>其中大物还有补考的机会,然而近纲……所谓的男神王洪兵给了我这一辈子从来没有拿到过的最低分——28分.</p>
+<p>简直耻辱,我不知道是不是分数登记错了,还是我的真实分数就这么一点.</p>
+<p>然而,即使是登记问题,我也并不想去改了,下下个学期再重修吧.</p>
+<p>这是个耻辱,耻辱中的战斗机.</p>
+<p>再说大物的问题,其实我在大物上花费的心思真心比电路还要多,但是最后的结果却是:电路过了,而大物挂了.</p>
+<p>这件事让我明白,这个世界上的有些东西不是看你的努力,而是看你的运气和一些别的因素.</p>
+<p>再说会近纲的问题,一开始我也认为这绝对是因为登记问题,也想过要找近纲老师询问具体情况,但是后来我想了想,还是算了.</p>
+<p>就权当是一种教训吧,让我明白,让我铭记这次耻辱.</p>
+<h2 id="赶路&amp;&amp;假期">赶路&amp;&amp;假期</h2><p>这几天一直在赶路,从青岛到长沙,再从长沙到衡阳,我真不知道我是为了什么.也许是头脑发热吧.</p>
+<p>在长沙是在炼锋的姑姑家里住了两个晚上,第一天下午和炼锋以及他的亲戚去看了一部电影&lt;大圣归来&gt;然后去了一次KTV.</p>
+<p>在长沙玩了两天,跟吴老师见了一面,然后今天下午辗转回到了衡阳.然后17号晚上又要赶火车回青岛,我还真是忙啊.</p>
+<p>真是忙呢……</p>
+<p>百度前端学院的任务发布下来了,要开始学习了.</p>
+<p>马上就要暑假集训了,心里想想就觉得激动呢.</p>
+<h2 id="立FLAG">立FLAG</h2><p>最后,给自己立一个flag吧.</p>
+<p>我要在以后的大学三年里面,好好学习,不再挂科,不允许无故翘课.</p>
+<p>我要让这个期末的挂科是我第一次挂科,也是我最后一次挂科.</p>
+<p>此flag写入备忘录页面,让自己时刻铭记.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>对这个学期的学习生活情况的忏悔录.</p>]]>
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://sparkrat.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[瀑布流布局照片墙]]></title>
+    <link href="http://sparkrat.github.io/waterfall-picture/"/>
+    <id>http://sparkrat.github.io/waterfall-picture/</id>
+    <published>2015-07-11T06:11:55.000Z</published>
+    <updated>2015-07-11T06:32:59.156Z</updated>
+    <content type="html"><![CDATA[<p><strong>题记:前端猿正在学习进化过程中….</strong></p>
+<p>玩了两天的javscript.</p>
+<a id="more"></a>
+<h2 id="先上展示">先上展示</h2><p><img src="http://ww2.sinaimg.cn/large/0063AxbLjw1etythvyeduj30wf0is47g.jpg" alt="瀑布流布局照片墙作品汇总"></p>
+<div style="text-align:center;"><a href="http://sparkrat.github.io/html-work/waterfall/"><p class="strong">这里是网页demo的地址</p></a></div>
+
+<h2 id="学习过程">学习过程</h2><p>其实很早之前我就在慕课网学习js原生制作瀑布流的教程了,但是那时候jQuery和css的都没做过.</p>
+<p>这两天利用空余时间玩了玩jQuery和css的实现,css3实在方便.</p>
+<p>然后我碰到了教程最后面的编程作业, 要求之所一个分散效果的瀑布流.让图片从它一开始的位置移动到瀑布流布局的位置,让图片一张接一张.</p>
+<p>然后我花了点时间搜索知识,一开始我想自己写移动效果的函数的,但是失败了.然后我发现了jQuery的div有一个自带的方法animate可以直接做出动画效果.</p>
+<p>于是我又花时间去学animate方法的使用(其实没用多久),然后写到自己的代码里面,然后…调试的时间是最久的,但是结果还是有的.</p>
+<h2 id="我自己的折腾">我自己的折腾</h2><p>在做完了慕课网教程最后的作业之后,我自己又折腾了许久的animate函数.</p>
+<p>例如,让图片同时散开,作出一个爆炸的效果. 例如让图片从屏幕上方出现,并作出下落的动画,将其移动到指定的位置.这里的下落效果又分为两种,一种是多张一起下落,一种是一张一张下落.</p>
+<p>在这个过程中,我又进一步了解了js的东西,也学到了许多jQuery的东西,真是收获多多.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>题记:前端猿正在学习进化过程中….</strong></p>
+<p>玩了两天的javscript.</p>]]>
+    
+    </summary>
+    
+      <category term="html&amp;js&amp;css" scheme="http://sparkrat.github.io/tags/html-js-css/"/>
+    
+      <category term="前端" scheme="http://sparkrat.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[POJ刷题]]></title>
+    <link href="http://sparkrat.github.io/POJ/"/>
+    <id>http://sparkrat.github.io/POJ/</id>
+    <published>2015-07-10T11:14:05.897Z</published>
+    <updated>2015-07-10T11:14:05.897Z</updated>
+    <content type="html"><![CDATA[<p><strong>题记:刷题有快感不是吗?</strong></p>
+<p>这篇文章会持续更新， 记录我所有AC的POJ题目。<br>PS:我所有的POJ代码都存在我的<a href="https://github.com/sparkrat/POJ" target="_blank" rel="external">github</a>上。</p>
+<a id="more"></a>
+<h2 id="1000_A+B_Problem"><a href="http://poj.org\problem?id=1000" target="_blank" rel="external">1000 A+B Problem</a></h2><p>水题不说了。</p>
+<h2 id="1001_Exponentiation"><a href="http://poj.org\problem?id=1001" target="_blank" rel="external">1001 Exponentiation</a></h2><p>求一个数的n次方，用高精度，注意细节。</p>
+<h2 id="1002_487-3279"><a href="http://poj.org\problem?id=1002" target="_blank" rel="external">1002 487-3279</a></h2><p><strong>题目描述：</strong></p>
+<p>设计程序，按照功能机上的9键键位把字母电话号码转化成数字电话号码，并将电话号码格式化（原本的电话号码格式里可能出现无数个短横线-（=_=#））<br>对于给定输入，输出有重复的电话号码，并给出重复的次数。</p>
+<p><strong>输入格式：</strong>  </p>
+<p>第一行一整数n，表示电话号码的数量，接下来n行字符串，每行表示一个电话号码。</p>
+<p><strong>输出格式：</strong></p>
+<p>若干行，每行一个字符串和一个数字，用空格隔开，字符串表示电话号码（格式化了的），数字表示该电话号码重复了的次数。</p>
+<p><strong>数据约定：</strong></p>
+<p>\( n \leq 100,000 \)</p>
+<p><strong>我的做法：</strong></p>
+<p>看了很多人的解题报告。。发现很多写法：</p>
+<ul>
+<li>快排</li>
+<li>堆排</li>
+<li>hash</li>
+<li>优先队列</li>
+</ul>
+<p>但是。。就是没有字典树的。。然后我就写个字典树把。。<br>因为我看到这道题的第一想法是字典树。<br>但是我WA了5次。。最后发现是个低级错误导致了我的WA、天坑！<br>因为很久没写代码了，手有点生。<br>写插入函数的时候。。一开始是写成了这样的。。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(; *pst++; ) &#123;</span><br><span class="line">    <span class="keyword">int</span> ch = *pst - <span class="string">'0'</span>;</span><br><span class="line">    <span class="keyword">if</span>( ptr-&gt;child[ch] == NULL )</span><br><span class="line">        ptr-&gt;child[ch] =  ++pbuf;</span><br><span class="line">    ptr = ptr-&gt;child[ch];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>不得不说这是天坑，调试了蛮久的。</p>
+<h2 id="1003_Hangover"><a href="http://poj.org\problem?id=1003" target="_blank" rel="external">1003 Hangover</a></h2><p><strong>题目描述：</strong></p>
+<p>原题目的意思太复杂了，不想写了，直接说核心思想：求满足\( \frac{1}{2} +  \frac{1}{3} + \cdots + \frac{1}{n} \geq S_{n} \)的最小的n。</p>
+<p><strong>输入格式：</strong></p>
+<p>多组数据，每组数据一行，每行一个实数，精确到小数点后两位，以0.00结束输入</p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出n card(s),0.00不输出</p>
+<p><strong>数据约定：</strong></p>
+<p>这种题目约不约定数据范围有用么？</p>
+<h2 id="1004_Financial_Management"><a href="http://poj.org\problem?id=1004" target="_blank" rel="external">1004 Financial Management</a></h2><p>我不会告诉你这道题目是要求12个实数的平均数的。</p>
+<h2 id="1005_I_Think_I_Need_a_Houseboat"><a href="http://poj.org\problem?id=1005" target="_blank" rel="external">1005 I Think I Need a Houseboat</a></h2><p><strong>题目描述：</strong></p>
+<p>有一个半圆从原点每年以一定的速度扩张（往y轴正方向扩张），然后定一些点，要求输出半圆扩张到这些点的时间（年）。。。</p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数n，表示表示点的个数，接下来n行，每行两个实数，x和y，表示这n个点的坐标</p>
+<p><strong>输出格式：</strong></p>
+<p>每个点输出一句话“Property N: This property will begin eroding in year Z.”<br>N表示点的编号（从1开始），Z表示所有的时间（年）。<br>输出文件最后输出一句话：END OF OUTPUT.</p>
+<p><strong>数据约定：</strong></p>
+<p>越不约定数据都没有意义吧？</p>
+<p><strong>具体做法：</strong></p>
+<p>计算最小的满足 \( ans * 100 \geq \pi (x^2+y^2)\)的ans。。。</p>
+<h2 id="1006_Biorhythms"><a href="http://poj.org\problem?id=1006" target="_blank" rel="external">1006 Biorhythms</a></h2><p><strong>题目描述：</strong></p>
+<p>已知三个周期tq=23、te=28，ti=33！然后，一个case给你四个数，前三个q、e、i，对应已知的三个周期，是周期开始的时间。<br>然后每个时间你需要输出从第四个数所代表的时间到三个时间经过若干个周期后相等的时间。<br>每个时间的周期数不要求相等，例如q经过了k1个周期，e经过了k2个周期，i经过了k3个周期使得</p>
+<p>\[ q+k_1*t_q==e+k_2*t_e==i+k_3*t_i\]</p>
+<p><strong>输入格式：</strong></p>
+<p>多组数据，每组数据四个整数，q,e,i,d，表示的意义在题目描述中说了。以四个-1结束输入。</p>
+<p><strong>输出格式：</strong></p>
+<p>Case M: the next triple peak occurs in N days.<br>M表示数据的组数，N表示满足每组数据的最小的天数。</p>
+<p><strong>数据约定：</strong></p>
+<p>\(q,e,i,d \leq 365\).</p>
+<p><strong>我的思路：</strong></p>
+<p>这是一道坑爹的数学题！以前根本没学过的中国剩余定理。因为我想了蛮久还没有头绪，自己本身解数学题的能力就不行，然后就进discuss看了看别人的想法，然后发现有人给出了他的算法：</p>
+<ul>
+<li>把三个时间看做三个跑步的人，他们的初始位置由输入给定</li>
+<li>他们的步距是已知的周期，然后第四个给定的时间是初始的目的地</li>
+<li>然后进入循环<ol>
+<li>让他们每个人按周期先跑到大于等于目的地的位置</li>
+<li>判断他们的位置是否相等，相等则输出answer，结束循环，否则转3</li>
+<li>取他们三个的位置的最远处为新的目的地，转1<br><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etahywlocsj30e40a0js7.jpg" alt="算法原理解释"></li>
+</ol>
+</li>
+</ul>
+<p>简直佩服想出这个算法的人。。简洁明了的AC了。<br>然后就是用了这个算法，讨论区里好多人说的什么注意边界条件，注意特殊情况的问题都不存在了。。简直好。真心Orz想出这个算法的人。<br>但是后来发现其实这个题目直接用定理一步到位。还是要好好学习一下<a href="http://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%89%A9%E4%BD%99%E5%AE%9A%E7%90%86" target="_blank" rel="external">中国剩余定理</a>的说。 </p>
+<h2 id="1007_DNA_Sorting"><a href="http://poj.org\problem?id=1007" target="_blank" rel="external">1007 DNA Sorting</a></h2><p><strong>题目描述：</strong></p>
+<p>定义一个串的混乱度为：每个字符右边的比该字符小的字符数量的总和。例如用P(i)表示第i个字符右边的比它小的字符的数量，那么一个串的混乱度就是∑P(i)。<br>现在要求设计程序，对输入的DNA串按照混乱度从小到大的顺序排序，然后输出。</p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数n，表示输入的DNA串的数量，接下来N行每行一个字符串，只由ATCG四个字母组成。</p>
+<p><strong>输出格式：</strong></p>
+<p>n行，每行一个串，按混乱度从小到大排序。</p>
+<p><strong>我的做法：</strong></p>
+<p>直接用三重循环（不会超时）实现读取加处理，然后选择排序，然后输出就过了。 简直炒鸡水0.0</p>
+<h2 id="1008_Maya_Calendar"><a href="http://poj.org\problem?id=1008" target="_blank" rel="external">1008 Maya Calendar</a></h2><p>这道题目POJ有中文翻译，就不叙述题目意思了。<br>其实也是炒鸡水题，注意细节，细节，细节，重要的事情说三次。</p>
+<h2 id="1009_Edge_Detection"><a href="http://poj.org\problem?id=1009" target="_blank" rel="external">1009 Edge Detection</a></h2><p><strong>题目描述：</strong></p>
+<p>IONU Satellite Imaging, Inc公司运用一种叫做run length encoding的技术记录和存储图片，每一个像素点用一个数字表示。现在要求设计程序，对于给定的图片，进行算法压缩，把每个像素点编码成另一种格式，每一个像素点的值分别与它周围的八个点的值相减，取最大的绝对值为这个点新的像素值。</p>
+<p><strong>输入格式：</strong></p>
+<p>输入有多组数据，每组数据第一行一个整数w，表示图片的宽度。<br>接下来若干行，每行两个整数，分别表示该像素的连续个数和该像素的值。<br>以 0 0结束一组数据的输入，以单行一个0结束输入。</p>
+<p><strong>输出格式：</strong></p>
+<p>每个数组输出若干行，跟输入相似的有，第一行一个整数w，表示宽度。<br>接下来若干行，每行两个整数，分别表示像素连续的个数和值。<br>同样以0 0表示一组数据输出的结束，以单行一个0结束输出。</p>
+<p><strong>我的思路：</strong></p>
+<p>好吧，我一看到这道题目是没有思路的，除了暴力。当然，暴力肯定会TLE的，故看了别人的想法。感谢这个博客给了我很大的启发。<br>根据题目给出的条件——pair最多只有1000对，然后仔细思考会发现，如果只对像素发生变化的地方进行计算——也就是题目里说的编码了。<br>这个的证明我找了好久没找到，一些博客里给出的证明链接已经失效了。<br>但是这样是可行的，我也不知道为什么可行，找不到证明。<br>不过即使是知道了算法，我还是在写代码的过程中出现了问题。<br>某个地方少写了一个等于号，然后WA了两次。<br>其实是这样的——我们需要对最后一个点进行编码。。<br>因为。。因为我也不知道为什么（不过这里似乎给粗了解释）。<br>然后我把某组数据用excel画粗来了。。嗯，excel对这道题目来说是一个很好的辅助工具。<br>看一组数据吧 </p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">30</span><br><span class="line">0 10 </span><br><span class="line">10 62 </span><br><span class="line">5 20 </span><br><span class="line">15 62 </span><br><span class="line">5 20 </span><br><span class="line">25 6 </span><br><span class="line">5 15 </span><br><span class="line">0 9 </span><br><span class="line">25 6 </span><br><span class="line">0 0</span><br></pre></td></tr></table></figure>
+<p>用excel画出来是这样的<br><img src="http://ww2.sinaimg.cn/large/0063AxbLgw1etahwx2vz8j30jt053tcf.jpg" alt="编码前需要编码的点"><br>其中需要编码的点我用金黄色的标记了粗来，确定编码位置的点橘黄色的标记了，编码完之后是这样的<br><img src="http://ww2.sinaimg.cn/large/0063AxbLgw1etahzs1gicj30jw04iad0.jpg" alt="编码后"><br>这里要尤其注意，最后的最后，一定要在最后进行一次编码，也就是其实已经超出长度的那个地方。。<br>但是就是一定要在那个excel表第8行和第15行的那里编码一次。。<br>不然就会有bug。 体现到代码里面就是:<br>进行跳跃的标记变量p要做到等于pairnum的地方。。<br>实际上有数字的地方只是0~pairnum-1。。<br><code>for(p = 0; p &lt;= pairnum; ++p)</code><br>我就是少写了那个等号。。然后WA两次。 </p>
+<h2 id="1010_STAMPS"><a href="http://poj.org\problem?id=1010" target="_blank" rel="external">1010 STAMPS</a></h2><p><strong>题目描述：</strong></p>
+<p>现有若干种邮票，每种邮票有一个面值（不同种邮票的面值可以相同）,要求设计程序，对于每一个用户要求的总面值给出相应的最优的邮票方案。<br>对最优的定义如下：</p>
+<ul>
+<li>首先，邮票的数量要尽量多。但是以为顾客只能给4张邮票。</li>
+<li>其次，如果存在两个以上的最优解的邮票种类是一样的，张数最少的更优</li>
+<li>再其次，张数也一样的话，这些最优解中最大面值较大的更优。</li>
+<li>最后，若邮票种类、张数、最大面值三者都分别相同，则认为这些最优解相同。</li>
+</ul>
+<p><strong>输入格式：</strong></p>
+<p>输入有多组数据，每组数据由两行组成。<br>第一行若干个数字，表示邮票的面值，每一个数字就是一个不同的种类，哪怕面值相同。以0结束。<br>第二行若干个数字，表示顾客所需要的邮票总面值。每个数字就是一个顾客的需求，以0结束。<br>以EOF结束输入。   </p>
+<p><strong>输出格式：</strong></p>
+<p>每个顾客的需求输出一行:<br>如果这个顾客的需求没有解，输出”n —— none”，其中n是顾客要求的面值。<br>否则输出可行解，”n (x): x1 x2 x3 x4”<br>其中n是顾客要求的面值，x是可行解的邮票的种类数，x1-x4表示每种邮票的面值，从小到大输出，没有的不输出。<br>例如只有两种则只输出”n (2):  x1 x2”。</p>
+<p><strong>数据约定：</strong> </p>
+<p>每个顾客最多拿四张邮票似乎就是约束条件。</p>
+<p><strong>我的思路：</strong>   </p>
+<p>这是一道该死的搜索题。<br>由于搜索方面的薄弱，so借鉴了<a href="http://blog.csdn.net/lyy289065406/article/details/6647948" target="_blank" rel="external">这个博客</a>的思考。<br>我采用的是dfs的搜索方法。从上面那个博客里学到的优化。还有使用std函数sort排序。哈哈哈好方便的说。<br>不知道为什么，我总是想不到搜索的剪枝，例如这道题里面的对邮票的面值进行排序。<br>超过5张面值一样的邮票，直接算5张，我觉得我真的很难想的到。。<br>直接看别人的剪枝方法，是因为我实在对自己的搜索没有信心。。。<br>搜索TLE太多次。。好伤！<br>还有就是：<strong><em>感觉搜索的优化就是一件拼智商的事。</em></strong></p>
+<h2 id="1011_Sticks"><a href="http://poj.org\problem?id=1011" target="_blank" rel="external">1011 Sticks</a></h2><p>题意就不说了，有中文。<br>思路是：<strong>搜索</strong>+<strong>高难度剪枝</strong>。<br>其实这道题在POJ上的数据太渣。水水的剪枝就可以过。<br>但是UVA的那道一样的题目不行。。推荐<a href="http://www.cnblogs.com/staginner/archive/2011/09/08/2171329.html" target="_blank" rel="external">一个好的题解</a>。<br>这道题目一开始我只想到3个剪枝方法。然后百度到了另外3个。<br>首先确定答案的范围，答案必然满足</p>
+<ul>
+<li>maxlen&lt;=answer&lt;=totlen/2 或者 answer==totlen </li>
+<li>totlen%answer==0 也即answer一定是totlen的约数</li>
+</ul>
+<p>其次给长度从大到小排序，这样可以避免无意义的搜索<br>同一长度的木棒具有同样的效果，即如果第一根该长度的木棒无法满足要求，则跳过所有该长度的木棒（因为结果都一样）<br>作为当前possibleanswer的开头第一个木棒必然是当前可用木棒集合中最长的，</p>
+<ul>
+<li>如果最长的都无法满足要求，则当前possibleanswer一定impossible。</li>
+<li>如果当前碎木棒正好使得正在拼的木棒满足当前的possibleanswer。</li>
+<li>但是在它之后的其他木棒无法完成该possibleanswer，那么正在拼的这根木棒一定无法满足该possibleanswer。</li>
+</ul>
+<h2 id="1012_Joseph"><a href="http://poj.org\problem?id=1012" target="_blank" rel="external">1012 Joseph</a></h2><p><strong>题目描述：</strong></p>
+<p>经典的约瑟夫环问题。有n个人围成一个环，给定一个m，从0开始报数，报到第m个数的人出局，然后从此人后一个人继续从0开始报数，直到全部人都出局。<br>现在问：对于给定的k，表示有2k个人，然后要求输出一个m使得第一次有前k个人里的人出局时，后k个人已经全部出局。  </p>
+<p><strong>输入格式：</strong></p>
+<p>若干行，每行表示一个输入——k，以0结束</p>
+<p><strong>输出格式：</strong></p>
+<p>每个k输出一行，表示满足条件的m</p>
+<p><strong>数据保证：</strong></p>
+<p>\(0 &lt; k &lt; 14 \)</p>
+<p><strong>解题思路：</strong></p>
+<p>一开始我是想直接打表的。毕竟k最大才13。。然后想了想还是写一个有点意义的程序吧。。<br>于是写了个程序模拟了一下报数。。然后就AC了。   </p>
+<h2 id="1013_Counterfeit_Dollar"><a href="http://poj.org\problem?id=1013" target="_blank" rel="external">1013 Counterfeit Dollar</a></h2><p><strong>题目描述：</strong></p>
+<p>12个金币中有一个是假币，假币的大小颜色都和真的一样，只有重量不一样，但是有可能比真的轻，也有可能重，现在要通过称重找出那个假的。   </p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数n，表示有n组数据<br>每组数组有3行输入，每行由被2个空格隔开的三个字符串组成，表示一次称重的结果。<br>前两个字符串由A-L的大写英文字母组成，分别表示天平左边和右边分别放的金币编号。<br>第三个字符串有三种情况”even”,”up”,”down”.分别表示平衡，左边轻，右边轻。 </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一行，表示哪个金币是假币，并输出是比真币重还是轻。<br>例如：K is the counterfeit coin and it is light.   </p>
+<p><strong>数据保证：</strong></p>
+<p>并没有任何保证，如果只有12个币不算的话</p>
+<p><strong>解题思路：</strong></p>
+<p>首先明确的是，如果是even，则此次称重的所有金币（左右两边的）都是真的。<br>其次，又在重的一边出现过又在轻的一边出现过的金币是真的。（即在两次称重中处于不同的状态的金币是真的）<br>最后，在重的一边或轻的一边次数最多的是假币（这个我也不知道为什么，我按照前面两点写出来的算法有错误，然后对着数据看了一下，假币up的次数多，所以。。。）<br>PS：最近两道题目的题意都是我自己看懂的。没看翻译，只是想好好练习我的英语，似乎效果还可以，要坚持下去！</p>
+<h2 id="1014_Dividing"><a href="http://poj.org\problem?id=1014" target="_blank" rel="external">1014 Dividing</a></h2><p><strong>题目描述：</strong></p>
+<p>有一堆石头，每块石头都有一个value，value只有六个数字0-6，现给出每个value的石头的个数，问，这堆是有能否分成value和相等的里两堆。</p>
+<p><strong>输入格式：</strong></p>
+<p>每行一组数据，每行六个整数n1，···，n6，分别表示value为i（i=1···6）的石头的个数。<br>以0 0 0 0 0 0结束输入（该组数据不输出结果） </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出两行<br>第一行”Collection #k:”，k是数据的编号<br>然后输出一行”Can be divided.”或者”Can’t be divided.”<br>然后每组数据都要输出一个空行！ </p>
+<p><strong>数据约定：</strong> </p>
+<p>每种value的石头的个数不超过20000.</p>
+<p>我的解题过程：</p>
+<p>这道题目我还是想了蛮久的，发现只有搜索可行。<br>然后，我可耻的TLE了，当然，我并没有submit。。<br>我用的discuss里面的童鞋提供的<a href="http://poj.org/showmessage?message_id=340417" target="_blank" rel="external">一组十分强大的数据</a>。。<br>然后我可耻的不知道怎么剪枝了，然后可耻的看了讨论，看了别人的<a href="http://poj.org/showmessage?message_id=173435" target="_blank" rel="external">剪枝</a>。。<br>此剪枝号称最强的剪枝，但是似乎并不是。。<br>因为用上面的数据测试之后还是可耻的TLE了。。<br>然后在这个讨论的子讨论里我发现了一个<a href="http://poj.org/showmessage?message_id=182859" target="_blank" rel="external">更神奇的剪枝</a>，然后我神奇的AC了。。。 </p>
+<p><strong>我的分析：</strong></p>
+<p>对于一种value的石头，如果它的数量达到了能够用一定数量的一种石头让价值和达到60，那么完全可以忽略这些个石头。</p>
+<p><strong>思考：</strong></p>
+<p>为什么是60这个数字？ 因为。。。1~6的最小公倍数是60.<br>此，如果value为1的石头，那么它的数量里超出60的部分就完全可以不用考虑。。<br>因此 <strong>num[value1] %= 60;</strong> 因此。。这个剪枝。。墙大了。<br>只要这样！！！ <strong>num[value(i)] ％＝(60/i);</strong><br>这样。。数量一下子就减小了。。搜索完全无压力。</p>
+<h2 id="1015_Jury_Compromise"><a href="http://poj.org\problem?id=1015" target="_blank" rel="external">1015 Jury Compromise</a></h2><p><strong>题目描述：</strong></p>
+<p>有n个人，需要从中选出m个人，每个人都有一个d和一个p值，要求选出来的m个人满足：</p>
+<ul>
+<li>在所有的方案中，所有人的p值之和减去所有人的d值之和的绝对值最小，</li>
+<li>如果最小的绝对值相等，则取p值之和加上d值之和最大的方案。 </li>
+</ul>
+<p><strong>输入格式：</strong> </p>
+<p>有多组数据，每组数据n+1行：<br>第一行两个整数n和m，接下来n行每行两个整数，表示每个人的d值和p值。<br>以0 0结束输入。 </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出三行：<br>第一行表示当前数据组数的字符串(“Jury #1”,”Jury #2”, etc.)<br>第二行输出表示该方案的所有人的d值之和与p值之和的字符串“Best jury has value P for prosecution and value D for defence:”<br>第三行输出该方案选出来的人的编号，每个人的编号之前都有一个空格。<br>每组数据输出完之后输出一行空格。</p>
+<p><strong>数据约定：</strong></p>
+<p>\(0 &lt; n \leq 200,0 &lt; m \leq 20,0 \leq p,q \leq 20。 \)</p>
+<p><strong>解题思路：</strong> </p>
+<p>DP！！！</p>
+<p>状态：\( f _ {i,j} \)表示已经选出来了i个人并且差值为j时的最大和值。<br>转移：\( f _ {i+1,j+p_{k} - d _ {k}} = max( f_{i,j} + p_{k}+d_{k}) , k \in \left( 1,2,\cdots, n \right) \)<br>第一重循环i从1开始枚举<br>第二重循环j从-400枚举到+400（具体实现需要把j整体移400，C数组下标从0开始的）</p>
+<ul>
+<li>第三重循环k从1枚举到n。。。 </li>
+</ul>
+<p>一开始我以为是搜索。。妈蛋的谁叫前面的两道题都是搜索。。<br>后来发现是DP，然后想了想状态和转移，发现还要记录路径，天坑。。。 然后我就可耻的看了别人的题解。发现其实dp的时候带上路径并没有想象中的那么难。。<br>但是不知道为什么讨论区好多人说标准的dp解法有错误。。不懂。。。。 </p>
+<h2 id="1016_Numbers_That_Count"><a href="http://poj.org\problem?id=1016" target="_blank" rel="external">1016 Numbers That Count</a></h2><p><strong>题目描述：</strong></p>
+<ul>
+<li><strong><em>定义一个整数的inventory为：从0到9排列的(数字的个数+数字)。</em></strong><ul>
+<li>例如”5553141”里面有2个1、1个3、1个4、3个5。所以”21131435”是”5553141”的inventory。 </li>
+</ul>
+</li>
+<li><strong><em>定义一个整数的第n(n&gt;1)个inventory为：它的第n-1个inventory的inventory。</em></strong></li>
+<li><strong><em>定义一个整数进入一个长度为n的inventory循环为：它的第n个inventory是它本身。</em></strong></li>
+<li><strong><em>如果一个数的inventory是它本身，则说它是self-inventory的。</em></strong></li>
+</ul>
+<p>如果一个数的第n个inventory是self-inventorying的，则说它在第n步之后是self-inventorying的。</p>
+<p>如果一个数进入了一个长度为k的inventory循环，则说它enters an inventory loop of length k。</p>
+<p>如果一个数的前15个inventory都不满足上述三个条件的话，则说它can not be classified after 15 iterations</p>
+<p><strong>输入格式：</strong></p>
+<p>有多组数据，每组数据输入一行，每行一个整数n，n为-1时结束输入 </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据都输出下面四句话中的一句：</p>
+<ul>
+<li>n is self-inventorying</li>
+<li>n is self-inventorying after j steps</li>
+<li>n enters an inventory loop of length k</li>
+<li>n can not be classified after 15 iterations</li>
+</ul>
+<p><strong>数据约定：</strong></p>
+<p>n最大不超过80位。 </p>
+<p><strong>解题思路：</strong></p>
+<p>我约定不会告诉你这是一道水题的。题解藏在数据规模里。</p>
+<h2 id="1017_Packets"><a href="http://poj.org\problem?id=1017" target="_blank" rel="external">1017 Packets</a></h2><p><strong>题目描述：</strong></p>
+<p>有六种\(size(1*1,2*2,3*3,4*4,5*5,6*6)\)的物品，只有一种\(size(6*6)\)的箱子。<br>现给出每种物品的数量，求最少要用多少个箱子才能装下所有的物品。 </p>
+<p><strong>输入格式：</strong></p>
+<p>有多组数据，每组数据一行，每行六个整数，分别表示从1<em>1到6</em>6size的物品的数量。<br>输入以6个零结束。 </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一行，每行一个整数，表示最少的箱子数量。最后六个零不输出。 </p>
+<p><strong>解题思路：</strong></p>
+<p>特么的就一道贪心水题。。结果我特么WA了四次。。不得不说是天坑。感觉自己好渣渣。在讨论区看到一个漂亮的算法。 </p>
+<ul>
+<li>首先：6*6、5*5、4*4的肯定每个物品要占用一个箱子。 </li>
+<li>其次：每四个3*3的物品要占用1个箱子。 </li>
+<li>然后：根据上面的数量算出此时要用的箱子数和这些箱子放下上面的四种物品之后还剩下的空间里能放下的2*2的物品数量，然后判断能放下的2*2物品的数量和需要放的2*2的数量的关系，如果放不下，增加箱子数量。 </li>
+<li>最后：由于此时所有箱子的所有空间一定可以放下2<em>2到6</em>6的所有物品，所以计算放完2*2到6*6的所有物品之后箱子还剩下的1*1空间数量，与1*1物品的数量比较，如果不能放得下，增加箱子的数量。</li>
+</ul>
+<h2 id="1018_Communication_System"><a href="http://poj.org\problem?id=1018" target="_blank" rel="external">1018 Communication System</a></h2><p><strong>题目描述：</strong></p>
+<p>有一批订单(order)，需要n种设备组成一个交流系统。每种设备有m个设备制造商，每个设备制造商的设备都有不同的带宽(bandwidth)和价格(price)。 </p>
+<p><strong><em>定义系统的带宽(B)为这个n个设备里面的最小带宽*</em></strong></p>
+<p><strong><em>定义系统的价格(P)为n个设备的总价格</em></strong></p>
+<p><strong><em>现在要求你设计程序计算从设备制造商提供的所有设备中选出n个（每种一个）使得系统的B/P最大</em></strong></p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数t，表示总共有t组数据。<br>以下每组数据第一行一个整数n，表示设备的种类。<br>以下n行每行开头一个整数m(i)表示第i种类的设备制造商的数量。<br>m(i)后面接着m(i)对整数，每对整数表示这m(i)个设备的带宽和价格。</p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一行一个小数，表示最大的B/P </p>
+<p><strong>数据约定：</strong></p>
+<p>\(1 \leq n,m \leq 100 \)</p>
+<p><strong>解题思路：</strong></p>
+<p><strong>贪心</strong>+<strong>枚举</strong>：</p>
+<p>将所有设备以价格为关键字从小到大排序。<br>然后依次枚举每个设备i，把当前设备i 的带宽当做系统的最小带宽，计算B/P，取所有B/P中的最大值。。这里可以加上一些优化。。<br>妈蛋的WA了7次。。因为快排写萎了。。。郁闷到死！！！<br>更详细的看代码注释。PS:第一次写代码注释。。。</p>
+<h2 id="1019_Number_Sequence"><a href="http://poj.org\problem?id=1019" target="_blank" rel="external">1019 Number Sequence</a></h2><p><strong>题目描述：</strong></p>
+<p>有一个数列S1S2·····Sk，Sk是由从1到k的数字组成的数列<br>例如这个数列的前80个数字是：11212312341234512345612345671234567812345678912345678910123456789101112345678910<br>现在给定一个数字i，要求给出该数列的第i个位置上的数字！！ </p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数t，表示有t组数据，接下来是t行，每行一个整数i，表示要求的位置i。 </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一行，每行一个数字！ </p>
+<p><strong>数据约定：</strong></p>
+<p>\( 1\leq t\leq 10,1\leq i\leq 2147483647 \)</p>
+<p><strong>解题思路：</strong></p>
+<p>预处理两个数组，a和b，a[i],b[i]分别表示Si的长度和S1S2·······Si的长度。也就是说b是a的前缀和。这样可以直接算出每个i落在哪一个Sk里面。然后到Sk里面去找第i个位置的数字。。<br>PS：这绝对不是一道水题！！！！！！我一开始以为是一道水题。。然后坑了3次。。因为他要求输出的是digit是数字！！不是整数，天坑！！ </p>
+<h2 id="1020_Anniversary_Cake"><a href="http://poj.org\problem?id=1020" target="_blank" rel="external">1020 Anniversary Cake</a></h2><p><strong>题目描述：</strong></p>
+<p>有一个边长为size的正方形蛋糕，现在问这块蛋糕是否恰好能被分成n块特定边长的正方形小蛋糕。 </p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数s，表示有s组数据。<br>每组数据一行，每行开头一个整数s，表示大蛋糕的边长。<br>然后是一个整数n，表示小蛋糕的数量。<br>接下来n个整数，代表这个n块小蛋糕的边长。 </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一行，”KHOOOOB!”或者”HUTUTU!”，分别代表恰好可以分和不能分。 </p>
+<p><strong>数据约定：</strong></p>
+<p>\(1 \leq n \leq 16\), 小蛋糕的边长不大于10 </p>
+<p><strong>解题思路：</strong></p>
+<p>搜索！！反过来想，把分割大正方形看成往大正方形里放小正方形。 </p>
+<p>抓住<strong>核心思想</strong>:只要任何一个小正方形无法被放进去，则该组数据一定无解！所以，可以贪心！</p>
+<h2 id="1021_2D-Nim"><a href="http://poj.org\problem?id=1021" target="_blank" rel="external">1021 2D-Nim</a></h2><p><strong>题目描述：</strong> </p>
+<p>判断两个图是否等价。<br>对等价的定义是：两个图有相同个数的连通块，第一个图里面的每个连通块总能在第二个图里面找到一个连通块（未与别的块匹配）与之匹配。<br>对连通块匹配的定义是：两个连通块如果能经过若干次平移、对称、旋转等操作之后重合，则说它们是匹配的。<br>现在要求设计程序，输入两个图，输出它们是否等价。 </p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数t，表示有t组数据。<br>接下来t组数据，每组数据由3行构成。<br>第一行三个整数w，h，n，分别表示图的宽度，高度，和点的数量。<br>接下来两行，表示两个图的点，每行n对整数，分别表示n个点的x和y。</p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一个YES或者NO。 </p>
+<p><strong>解题思路：</strong></p>
+<p>找出两个图的所有连通块，对每个连通块进行hash，hash值是连通块里面所有点两两之间距离的平方和。然后将连通块按hash值排序。判断是否有不匹配的连通块。<br>更具体的在代码里面。</p>
+<h2 id="1022_Packing_Unit_4D_Cubes"><a href="http://poj.org\problem?id=1022" target="_blank" rel="external">1022 Packing Unit 4D Cubes</a></h2><p><strong>题目描述：</strong></p>
+<p>有一个由n个四维的小立方体(四维的还能叫立方体？<em> ｖ </em>)组成的产品（名字叫做EE3），小立方体之间互相用胶水粘在一起.<br>现在需要一个程序判断EE3是否合格，如果合格计算EE3的体积(四维情况下还能叫体积么？@O_O@!!)。<br>EE3合格的条件：</p>
+<ul>
+<li>所有的小立方体都连通，并且任意两个相邻的小立方体只公用一个维度，且在该维度上互相在对方的相反方向上。 </li>
+</ul>
+<p>提醒：每一个小立方体都有8个面（因为四根坐标轴0.0）。 </p>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数t，表示输入有t组数据。<br>接下来t组数据，每组数据第一行一个整数n，表示该组数据有n个小立方体。<br>接下来是n行，每行9个数字，第一个数字是第n个小立方体的identifier，后面八个数字是与该小立方体相连的小立方体的identifier（！！！注意是identifier）。每两个数字是一条坐标轴的两个方向。 </p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一行，一个整数或者”Inconsistent”<br>如果输入的n个小立方体无法组成一个合格的EE3就输出”Inconsistent”<br>否则输出一个整数，表示该EE3的体积。 </p>
+<p><strong>解题思路：</strong></p>
+<p>从第一个输入的小立方体开始，bfs每一个与它连通的小立方体，如果有的小立方体没有被遍历到，说明Inconsistent，如果某两个小立方体不符合在他们共同的维度上方向相反的条件。</p>
+<h2 id="1023_The_Fun_Number_System"><a href="http://poj.org\problem?id=1023" target="_blank" rel="external">1023 The Fun Number System</a></h2><p><strong>题目描述：</strong></p>
+<p>给一个长度为k的二进制符号序列，每一位都有两种状态，正的(用p表示)和负的(用n表示)。<br>给一个n，现在要求有没有满足条件的二进制数在按照给定的序列转化成10进制后等于n的。<br>例如：</p>
+<ul>
+<li>给定序列长度为4，二进制符号序列是ppnn，给定n为10，则二进制数为1110，因为 \( 1*2^3+1*2^2-1*2^1-0*2^0==10\)。</li>
+</ul>
+<p><strong>输入格式：</strong></p>
+<p>第一行一个整数t，表示有t组数据。<br>每组数据三行。<br>第一行是一个整数k，表示二进制符号序列的长度。<br>第二行是一个长度为k的字符串，由p或者n组成。<br>第三行是一个整数n。 </p>
+<p><strong>输出格式：</strong></p>
+<p>Impossible或者一个二进制数。<br>如果符合条件的k位二进制数没有，则输出Impossible。<br>否则输出满足条件的二进制数。 </p>
+<p><strong>解题思路：</strong></p>
+<p>这道题我一开始看了之后完全没有头绪。。。。<br>然后我随便试了试自己的一个想法，也不知道对不对。<br>我的想法：</p>
+<ul>
+<li>首先可以肯定的是，如果n是偶数，那么它的最低位一定是0，不管它的最低位是n还是p；如果n是奇数，那么最低位是1，那么，问题来了，问题是什么呢？等下看第三条。</li>
+<li>现在可以肯定的是如果n是偶数，那么它的最低位一定是0，那么我们就可以考虑n/2的情况了，是不是把n右移一位。试想，如果，每次把n右移一位，是不是都可以确定二进制数的一个binary位。</li>
+<li>那么现在来考虑如果n是奇数的情况。好吧，我也不知道为什么，我就是鬼使神差的这样处理了：如果n是奇数那么我就把n右移一位然后加一。</li>
+<li>当时并没有想这是为什么，然后答案竟然对了。。然后是处理一些小细节，例如n是9223372036854775807的时候，必须先把n右移再加一。。还有就是n的范围需要是long long。。。</li>
+<li>然后现在想想，发现好像就是，如果n是奇数时k-1位是正的，那么没问题，这个位一定是1，也不需要改n，如果这个位是负的，那么跟正的相比，差了两个当前k-1位大小的值(2^k)，然后我们把n除以二再加一就相当于把这个值修正了。</li>
+</ul>
+<p>具体的看代码（这次代码写的好丑T^T）：<br>PS：由于看ICPC的WorldFinal去了，没有第一时间写题解@O_O@!!!<br>继续看live去惹@O_O@~~~</p>
+<h2 id="1024_Tester_Program"><a href="http://poj.org\problem?id=1024" target="_blank" rel="external">1024 Tester Program</a></h2><p><strong>题目描述：</strong></p>
+<p>给定走出一个迷宫的最短路径，再给出一个由这个最短路径算出来的解（一个墙的集合），现在要有设计程序判断该解是否正确。<br>正确的标准：最短路径为给出的最短路径且唯一，如果给出的解（墙的集合）组成的迷宫的最短路径比给定的最短路径长或短都不行，一定要一样长且只有给定的那一条路是最短路。 </p>
+<p><strong>输入格式：</strong></p>
+<p>多组数据，第一行为一个整数t，表示数据的组数<br>每组数据包括一个原始问题输入和一个原始问题输出。<br>原始问题输入就是给定的最短路径，格式如下：  </p>
+<p>第一行是两个整数w和h，表示迷宫的宽度和高度，<br>第二行是一行由四个字母(‘U’,’D’,’R’,’L’)组成的字符串。<br>U表示向上走，D表示向下走，R表示向右走，L表示向左走。  </p>
+<p>原始问题输出就是一个墙的集合，格式如下：</p>
+<p>第一行一个整数n，表示有n个墙<br>接下来是n行，每行四个整数，两个点的坐标，表示这两个点之间有一堵墙。</p>
+<p><strong>输出格式：</strong></p>
+<p>输出CORRECT或者INCORRECT，表示原始问题输出正确或者不正确。</p>
+<p><strong>解题思路：</strong></p>
+<p>一开始只想到了怎么判断最短路径是否唯一，但是不知道怎么判断墙是否多余，然后在discuss里面看到一个绝妙的算法,具体的想法如下：</p>
+<ul>
+<li>分别从起点到到终点和从终点到起点进行bfs，通过bfs分别算出从起点到每个点的最短距离dis1和从终点到每个点的最短距离dis2。</li>
+<li>把给定的最短路径所经过的点打上标记，再把所有墙两边的点打上标记</li>
+<li>然后对所有没有标记的点进行判断，如果存在一个点满足dis1+dis2==pathlen（给定的最短路径的长度），那么则最短路径不唯一</li>
+<li>然后判断是否有墙多余，枚举每个墙两边的点（分别记为a和b），如果从起点到a的距离加上从终点到b的距离和从终点到a的距离加上从起点到b的距离都大于pathlen，那么当前的墙是多余的。</li>
+</ul>
+<p>注意一个特殊情况！！！！如果出现一个被墙围起来的封闭区域，那么一定会有一个墙多余。但是bfs算不出来，需要进行特判。</p>
+<ul>
+<li>下图是特殊情况<br><img src="http://ww1.sinaimg.cn/large/0063AxbLgw1etai0cz167j30ko08vmyi.jpg" alt="特例"><br>更具体见代码！ PS:传参数什么的好麻烦，看来下次要写结构体，然后把数据全部封装起来了，那样直接传结构体的地址就好了。</li>
+</ul>
+<h1 id="1067_取石子游戏"><a href="http://poj.org\problem?id=1067" target="_blank" rel="external">1067 取石子游戏</a></h1><p>题目描述是中文的。</p>
+<p><strong>解题思路：</strong></p>
+<p>威佐夫博弈的三条性质：戳<a href="http://baike.baidu.com/link?url=J8dSMGiPa7InCvkmgk8FdeZfh_7JEK0qFOUiO3_Gk5O0Zuem2lKCOKR9Srhz9K4ScwatCaPcS2ba_LK-FvKhFa" target="_blank" rel="external">威佐夫博弈-百度百科</a><br>威佐夫博弈的公式：\(a _ {k} = [ \frac {\sqrt {5}+1} {2} * k ] \)<br>通过这个公式(我还没看证明的), 我们可以利用奇异奇异局势的性质b[k]=a[k]+k;来判断题目给出的(a,b)是否是奇异局势。<br>令\({k}=|a-b| , a_ {k} = [ \frac {\sqrt{5}+1} {2} * k ] \); 判断我们算出的ak是否与题目给出的a相等即可。</p>
+<h2 id="1068_Parencodings"><a href="http://poj.org\problem?id=1068" target="_blank" rel="external">1068 Parencodings</a></h2><p><strong>题目描述：</strong></p>
+<p>一个括号序列S可以用两种方式编码：P序列和W序列。<br>两种编码方式得到的序列定义如下：</p>
+<ul>
+<li>P=P1P2······Pn， Pi表示从左至右每一个右括号左边有多少个左括号。</li>
+<li>W=W1W2······Wn，Wi表示从左至右每一个右括号匹配的左括号是从它开始往左数的第几个左括号。</li>
+</ul>
+<p>例如：</p>
+<ul>
+<li>S= (((()()())))</li>
+<li>P= 4 5 6 6 6 6</li>
+<li>W= 1 1 1 4 5 6</li>
+</ul>
+<p>现在要求设计程序，输入括号序列的Ｐ序列，输出其对应的Ｗ序列。</p>
+<p><strong>输入格式： </strong></p>
+<p>第一行一个整数t，表示输入有t组数据。<br>每组数据两行。<br>第一行一个整数n，表示P序列的长度。<br>第二行n个整数，表示P序列。 </p>
+<p><strong>输出格式：</strong></p>
+<p>一行n个整数，表示对应的W序列。 </p>
+<p><strong>数据约定：</strong></p>
+<p>\( 1\leq t \leq 10,1 \leq n \leq 20  \)</p>
+<p><strong>解题思路：</strong></p>
+<p>赤果果的暴力有木有，代码能力强点的一次性都能过。 </p>
+<h2 id="1088_滑雪"><a href="http://poj.org\problem?id=1088" target="_blank" rel="external">1088 滑雪</a></h2><p>题目是中文的。</p>
+<p><strong>解题思路：</strong></p>
+<p>记忆化搜索<br>用逆向思维，从低的点取值取到高的点。这样就不会漏掉状态了。<br>用f[i][j]表示点(i,j)出发到<strong><em>可以到达的最高的点</em></strong>的距离。<br>所以搜索点(i,j)的时候，先搜索它周围的四个点，用它周围的四个点的f值更新(i,j)的f值。<br>也就是说如果\(h(i,j) &lt; h(i \pm 1,j \pm 1)\)<br>那么\(f(i,j)=max \left( f(i,j), f(i \pm 1,j \pm 1)+1 \right)\)</p>
+<h2 id="1611_The_Suspects"><a href="http://poj.org\problem?id=1611" target="_blank" rel="external">1611 The Suspects</a></h2><p><strong>题目描述：</strong></p>
+<p>有n个人，m个小组，每个小组里的人会互相传染。<br>要求设计程序统计有多少人是被感染了的。<br>编号为0个人是一定被感染的。</p>
+<p><strong>输入格式：</strong></p>
+<p>多组数据。<br>每组数据第一行是两个整数n和m，表示总共有n个人，m个小组。<br>接下来是m行，每行多干个整数，第一个整数k表示这个小组里面有k个人。<br>接下来k个整数表示这个小组里的人的编号。<br>输入以0 0 结束。</p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一个数字x，表示有x个人是被感染了的。</p>
+<p><strong>解题思路：</strong></p>
+<p>简单并查集，不用再水。</p>
+<h2 id="1936_All_in_All"><a href="http://poj.org\problem?id=1936" target="_blank" rel="external">1936 All in All</a></h2><p><strong>题目描述：</strong></p>
+<p>设计程序，输入两个串，判断是否能在删除第二个串里面的一些字母后使得它与第一个串相等。</p>
+<p><strong>输入格式：</strong></p>
+<p>多组数据，每组数据一行，每行两个串，用空格隔开，只由大小写英文字母组成（区分大小写）。</p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一个单词 “Yes” or “No”。</p>
+<p><strong>解题思路：</strong></p>
+<p>没有思路，这就是一道水题。</p>
+<h2 id="2001_Shortest_Prefixes"><a href="http://poj.org/problem?id=2001" target="_blank" rel="external">2001 Shortest Prefixes</a></h2><p><strong>题目描述：</strong></p>
+<p>顾名思义，找最短的前缀：给定若干个由小写字母组成的串，找出他们的最短的唯一前缀。</p>
+<p><strong>输入格式：</strong></p>
+<p>输入由若干个只由小写字母组成字符串组成。每行一个字符串。</p>
+<p><strong>输出格式：</strong></p>
+<p>对于每个串，输出它本身，再输出它和另外任意一个串的最短前缀。</p>
+<p><strong>解题思路：</strong></p>
+<p>直接上字典树。<br>每次读入一个字符串，插入到字典树里面，每个节点记录被访问的次数。<br>插入完毕之后，根据每一个字符串遍历字典树，碰到访问次数为一的节点返回。<br>输出的前缀即为从串的开头到返回的位置的内容。</p>
+<p><strong>数据约定：</strong></p>
+<p>输入的串的数量最少两个，最多1000个， 每个串最长20.</p>
+<h2 id="2299_Ultra-QuickSort"><a href="http://poj.org/problem?id=2299" target="_blank" rel="external">2299 Ultra-QuickSort</a></h2><p><strong>题目描述：</strong></p>
+<p>给一个长度为n的数字序列。求该序列的逆序对数量。</p>
+<p>关于逆序对的定义，戳<a href="http://zh.wikipedia.org/wiki/%E9%80%86%E5%BA%8F%E5%AF%B9" target="_blank" rel="external">维基百科</a>。</p>
+<p><strong>输入格式：</strong></p>
+<p>输入有多组数据。<br>每组数据以一个整数n开始，接下来是n行每行一个整数。<br>第i个整数表示该序列的第i个值\(a_ {i} \)。<br>输入以n=0结束。</p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一个值，为逆序对的数量。</p>
+<p><strong>数据约定：</strong></p>
+<p>\( n\leq 500000, 0 \leq a _ {i} \leq 999999999 \)</p>
+<p><strong>解题思路：</strong></p>
+<p>离散化+树状数组。————PS：其实还有别的办法的。</p>
+<p><strong><em>为什么要离散化？</em></strong><br>因为要以 \( a _ {i} \) 为下标构建树状数组，而 \( a _ {i} \) 的最大值太大。</p>
+<p><strong>离散化的方法：</strong><br>给每个数字按输入顺序打上id，则id的范围为n的范围，然后将序列按值排序，再使用id代替原本的输入顺序构建树状数组。</p>
+<p><strong><em>使用树状数组：</em></strong><br>输入一个数 \( a _ {i} \)则用树状数组统计一下 \( 1,a _ {i}) \)区间里面的数字的个数，然后再把 \( a _ {i}) \) 添加进树状数组。<br>PS：这里是最原始的思想，因为 \( a _ {i} \) 太大，所以需要离散化。然后用id代替 \( a _ {i} \)</p>
+<h2 id="2481_Cows"><a href="http://poj.org/problem?id=2481" target="_blank" rel="external">2481 Cows</a></h2><p><strong>题目描述：</strong></p>
+<p>有n头牛，每头牛有两个参数——S和E，现在规定：一头牛(i)比另一头牛(j)的强壮的需要满足：</p>
+<ol>
+<li>\(S_{i}\leq S_{j}\)</li>
+<li>\(E_{i}\geq E_{j}\)</li>
+<li>\(E_{i}-S_{i}&gt;E_{j}-S_{j}\)</li>
+</ol>
+<p>现在问，对于每一头牛，有多少头牛比这头牛强壮。。</p>
+<p><strong>输入格式：</strong></p>
+<p>输入有多组数据。<br>每组数据以一个n开头，表示有n头牛。<br>接下来n行，每行两个数，表示一头牛的S和E。<br>所有输入以0结束。</p>
+<p><strong>输出格式：</strong></p>
+<p>每组数据输出一行。<br>每行按照输入的顺序输出每头牛的比他强壮的牛的数量，用空格隔开。</p>
+<p><strong>解题思路：</strong></p>
+<p>树状数组！！！<br>话说这道题目让我想起了平衡树试题里面的star那道题目。好像star也可以用树状数组做诶。。<br>看来线段树，树状数组，平衡树在某些地方是有重合的地方的。</p>
+<p>先把所有的牛按照E降序排序。然后统计它的S值之前有多少头牛。然后把它的S加入树状数组。</p>
+<p><strong>算法Bug：</strong></p>
+<p>两头牛的S和E都相等的情况下。。很坑爹啊。</p>
+<p>不过最后我还是在discuss找到了解决办法。</p>
+<p>最后还是WA了两次。</p>
+<p>PS：还有这是我第一次在算法题里面用自己写的C++对象。</p>
+<h2 id="3630_Phone_List"><a href="http://poj.org/problem?id=3630" target="_blank" rel="external">3630 Phone List</a></h2><p><strong>题目描述：</strong></p>
+<p>给若干个数字串，判断是否有一个串是另一个串的前缀。</p>
+<p><strong>输入格式：</strong></p>
+<p>第一行是一个整数t，表示有t组数据。<br>每组数据第一行一个整数n，表示有n个串。<br>接下来n行，每行一个只由数字组成的串。</p>
+<p><strong>输出格式：</strong></p>
+<p>判断是否存在一个串是另一个串的前缀。<br>如果存在，输出”NO”，否则输出”YES”.(不包括引号).</p>
+<p><strong>解题思路：</strong></p>
+<p>把所有串插入字典树，然后对于每一个串，在它的字典树路径上，找有没有别的串的标记。如果在任意一个串的路径上出现别的串的标记，则输出’NO’,否则输出’YES’。</p>
+<p>竟然WA了两次，真的是血崩！！</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>题记:刷题有快感不是吗?</strong></p>
+<p>这篇文章会持续更新， 记录我所有AC的POJ题目。<br>PS:我所有的POJ代码都存在我的<a href="https://github.com/sparkrat/POJ">github</a>上。</p>]]>
+    
+    </summary>
+    
+      <category term="ACM" scheme="http://sparkrat.github.io/tags/ACM/"/>
+    
+      <category term="数据结构" scheme="http://sparkrat.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="算法" scheme="http://sparkrat.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[制作了一个回到顶部按钮]]></title>
+    <link href="http://sparkrat.github.io/scroll2Top/"/>
+    <id>http://sparkrat.github.io/scroll2Top/</id>
+    <published>2015-07-10T10:55:28.000Z</published>
+    <updated>2015-07-10T15:57:31.611Z</updated>
+    <content type="html"><![CDATA[<p><strong>题记:前端猿正在学习进化过程中….</strong></p>
+<p>又一篇js学习总结.</p>
+<p>期末考试还有一门科目了,还是大学计算机基础,所以不怎么担心了,又把时间放到了学习前端上面.</p>
+<a id="more"></a>
+<h2 id="其实我是看了教程的">其实我是看了教程的</h2><p>于是我又去了慕课网看了教程,<a href="http://www.imooc.com/learn/65" target="_blank" rel="external">这里</a>是教程地址.</p>
+<p>录教程的老师是广东人,一口严重的广东口音,奇葩的是他的英语说的特别标准,令人很奇怪,不过课还是讲的很好的.</p>
+<h2 id="我的收获">我的收获</h2><p>收获还是很大的,知识性的收获是我对js又训练了一次,熟悉了一些事件,例如scroll事件,onclick事件等.</p>
+<p>还有就是实质性的收获咯,我的博客现在多了这个小功能,现在这个东西在我的博客的每个页面的右下角应该都有一个回到顶部的按钮,真棒.</p>
+<p>看完视频后我自己在本地实现了一遍,然后添加到我的博客里面了(不过当前页面因为太短,没有触发效果,按钮没有显示,真是讽刺),即学即用,真棒.</p>
+<h2 id="我的作品">我的作品</h2><p>演示地址在<a href="http://sparkrat.github.io/html-work/scroll2Top/">这里</a>.<br>代码托管在我的github<a href="https://github.com/Sparkrat/html-work/sroll2Top" target="_blank" rel="external">仓库</a>里面.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>题记:前端猿正在学习进化过程中….</strong></p>
+<p>又一篇js学习总结.</p>
+<p>期末考试还有一门科目了,还是大学计算机基础,所以不怎么担心了,又把时间放到了学习前端上面.</p>]]>
+    
+    </summary>
+    
+      <category term="html&amp;js&amp;css" scheme="http://sparkrat.github.io/tags/html-js-css/"/>
+    
+      <category term="前端" scheme="http://sparkrat.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[随笔-2015-07-07]]></title>
+    <link href="http://sparkrat.github.io/diary2/"/>
+    <id>http://sparkrat.github.io/diary2/</id>
+    <published>2015-07-07T01:35:36.000Z</published>
+    <updated>2015-07-07T02:10:02.008Z</updated>
+    <content type="html"><![CDATA[<p><strong>题记:其实我的梦想,很远,也很近.</strong></p>
+<p>又一篇个人随笔.</p>
+<a id="more"></a>
+<h2 id="期末考试周">期末考试周</h2><p>从考试周开始到现在已经三四天了,我也荒废了三四天了.</p>
+<p>大学的第一年也快要过完了,也是时候整理整理自己的心情了(不是现在).</p>
+<h2 id="关于学科考试">关于学科考试</h2><p>今天早上8点考完C++考试,我们工院的C++并不是信息学院的,而是我们自己老师开设的专业课.</p>
+<p>考试很简单,但是有些东西我还是不喜,例如手写代码这种事情(听说程序猿面试的时候HR会要求手写代码).</p>
+<p>这个学期的这个C++课我是一节课也没有听,因为没必要,他花2个小时讲的内容我花十分钟可以完全学到.</p>
+<p>我觉得对于一门编程语言的学习不应该只是看书,考试.而是应该要有实践.很欣赏刚刚看到的一句话:<strong>learn by doing</strong>.</p>
+<p>看到这句话的时候,我反思了一下自己,我的学习是<strong>learn by doing</strong>吗? 我想我是这样的,为什么呢?</p>
+<p>我的<strong>大学物理</strong>和<strong>电路原理</strong>这两门课程基本没学到任何东西,虽然我上课也经常去,但是因为作业很少做(基本都是抄),所以很多很多东西都不会,感觉要挂科.</p>
+<p>而在计算机这方面的学习,就更不用说了,我一直是用这句话来指导自己的学习的.</p>
+<p>从考试开始到现在,我已经考完了3门科目了,它们分别是军概,英语,C++. 感觉都没有什么问题.应该是不会挂科的.</p>
+<h2 id="考试周的生活">考试周的生活</h2><p>总感觉期末考试周特别荒废,真的不知道是为什么,上个学期的期末也是这样.</p>
+<p>我一个学期没有碰游戏了,反而期末又打起魔兽来了. </p>
+<p>我个人猜测大概是因为这些原因(不知道准不准):</p>
+<ul>
+<li>因为平时很少认真学习,总感觉会有一些科目会挂科,例如大物例如电路,所以想搞一下学习,免得挂科了,于是没有把时间继续放在学习技术上面.</li>
+<li>因为平时没有学,所以期末这一周的时间学肯定是不够的,于是想学习其实又没有花多少时间来学习,所以时间都被用来玩乐了.</li>
+<li>考试的知识容量并不是很大,所以背一背就可以过的,其实这并不花费多少时间,会剩余大把大把的时间,所以背完之后的时间就自然而然的拿来玩了.</li>
+<li>侥幸心理在作怪,忍一忍吧,”过了这一周,暑假有的是时间来学技术”.我也相信,我暑假会把时间都用在学习技术上,而不是打游戏,我有信心做到这一点,因为我已经在做了一学期了.</li>
+</ul>
+<p>也许真的只有这一周,其实这样想想也不错,荒废的也就这一周,神经已经绷紧了一个学期了,放松一周也不是不好.</p>
+<h2 id="未来的展望">未来的展望</h2><p>暑假我要参加学校的ACM集训,时间很紧张.同时我也报名参加了百度的前端技术学院的暑假班,我想我的这个暑假应该会很充实,我很期待.</p>
+<p>更远的未来我希望我能自己动手做一个项目或者参与到一个项目中去,以提升自己的实际编码能力.</p>
+<p>在这个同时,我的基础的也不能落下,因为高中参加过OI集训,所以我在算法和数据结构方面相比于一些人还是有优势的,所以这个优势应该保持下来.</p>
+<p>根据我的高中老师的建议,我应该会在大三的上学期或者下学期退出ACM训练.</p>
+<p>我本科毕业后希望直接找工作(这谁知道呢?),不知道会不会有变故.</p>
+<p>然后我就是安心的当一个程序猿咯,除了职业,其他的东西应该会和大部分人一样.</p>
+<p>更更遥远的未来,我希望能够肉身翻墙,仅此而已,无关别的,只是一个弱渣程序猿的弱渣梦想.</p>
+<p>最后,所有的希望汇成一句话:<strong>我的梦想,很远,也很近.</strong></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>题记:其实我的梦想,很远,也很近.</strong></p>
+<p>又一篇个人随笔.</p>]]>
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://sparkrat.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[用mathjax做了一个公式显示工具]]></title>
+    <link href="http://sparkrat.github.io/html-mathjax/"/>
+    <id>http://sparkrat.github.io/html-mathjax/</id>
+    <published>2015-07-04T09:01:16.000Z</published>
+    <updated>2015-07-10T11:15:24.126Z</updated>
+    <content type="html"><![CDATA[<p><strong>题记:前端猿正在学习进化过程中….</strong></p>
+<p>今天下午练习了一下javascript, 做了一个页面,写篇文章纪念一下.</p>
+<a id="more"></a>
+<h2 id="不许无聊">不许无聊</h2><p>今天下午不知道怎么的(还不是因为无聊?)就萌生出了用javascript写一个基于mathjax的公式显示工具的想法.</p>
+<h2 id="作品的目标">作品的目标</h2><p>让用户输入公式代码,然后通过mathjax脚本将代码渲染显示出来.</p>
+<h2 id="使用mathjax">使用mathjax</h2><p>调用mathjax脚本很简单,谷歌一下到处都是,不过我还是贴一下html的引用代码.</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"</span> <span class="attribute">id</span>=<span class="value">"MathJax"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>这个东西是我在折腾jekyll搭建博客的时候学会的,当时使用的jekyll主题作者没有将mathjax添加到主题里面,于是我自己把mathjax折腾进去了.然后就学会了这个方法.</p>
+<p>将这句脚本引用到html文档中,如果html页面里面出现了mathjax认可的公式代码,那么这个脚本就会自动把公式渲染.</p>
+<h2 id="我的处理">我的处理</h2><p>上面的方法是同步加载mathjax脚本,就是在页面加载的时候就加载mathjax,这显然不符合我的要求,我需要在用户输入代码之后再进行公示的渲染.</p>
+<p>所以我就想到了我上次折腾博客的时候学到的异步加载脚本的方法,于是我想先让用户输入代码,然后把代码添加到html文档中,然后通过按钮来加载mathjax脚本进行公式渲染.</p>
+<p>大致思路是这样的:</p>
+<ol>
+<li>现在页面里面放一个文本框,让用户输入公式代码,</li>
+<li>然后把代码写入html文档的特定区域,</li>
+<li>最后用mathjax的脚本将公式代码渲染成公式,</li>
+</ol>
+<p>其实思路就是这么简单.然后…我就开始做了..然而我还是花了将近一个多小时.真菜,这点东西就花了一个小时.</p>
+<h2 id="关于异步加载">关于异步加载</h2><p>异步加载js的方法有很多,这里我选取了<a href="http://coolshell.cn" target="_blank" rel="external">酷壳</a>的<a href="http://coolshell.cn/articles/9749.html" target="_blank" rel="external">这篇文章</a>里面的一段代码(一个函数).(汗,其实这个函数我自己是写的出来的, 感觉我好懒)</p>
+<p>还是贴一下js代码吧.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">loadjs</span>(<span class="params">script_filename</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> script = <span class="built_in">document</span>.createElement(<span class="string">'script'</span>);</span><br><span class="line">    script.setAttribute(<span class="string">'type'</span>, <span class="string">'text/javascript'</span>);</span><br><span class="line">    script.setAttribute(<span class="string">'src'</span>, script_filename);</span><br><span class="line">    script.setAttribute(<span class="string">'id'</span>, <span class="string">'coolshell_script_id'</span>);</span><br><span class="line">    script_id = <span class="built_in">document</span>.getElementById(<span class="string">'coolshell_script_id'</span>);</span><br><span class="line">    <span class="keyword">if</span>(script_id)&#123;</span><br><span class="line">        <span class="built_in">document</span>.getElementsByTagName(<span class="string">'head'</span>)[<span class="number">0</span>].removeChild(script_id);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">document</span>.getElementsByTagName(<span class="string">'head'</span>)[<span class="number">0</span>].appendChild(script);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="缺点">缺点</h2><p>这个页面还是有缺点的,就是无法实时显示代码,暂时还没有想到好的办法(好吧,我太菜了),所以只能在每次渲染完了之后刷新页面之后才能再次使用.</p>
+<p>于是我就设置成了三个按钮, 一个按钮添加代码, 一个按钮显示公式, 一个按钮刷新页面.</p>
+<p>然后把按钮设置成:</p>
+<ul>
+<li>按下了显示公式按钮之后显示刷新按钮(其实是用js代码在html文档里面write了一个按钮).</li>
+<li>刷新按钮出现之后把添加按钮和渲染按钮隐藏掉(其实是删除掉了).</li>
+</ul>
+<h2 id="后续想法">后续想法</h2><p>这个页面还是太简单了,如果以后有时间再慢慢添加元素.</p>
+<p>例如可以加上对公式进行管理的功能:</p>
+<ul>
+<li>编辑指定的公式</li>
+<li>删除指定的公式</li>
+</ul>
+<p>还可以做一下界面,这个想法也不错.</p>
+<p>最重要的是,我想做到实时显示代码,不过似乎现在的水平还不够.</p>
+<h2 id="效果展示">效果展示</h2><p>好吧,这是我作品的最后效果.(吐槽:测试的代码忘记删除了,不过这样也好)</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etqurmskppj30eh0873yx.jpg" alt="效果展示"></p>
+<p>这只是一次练习,所以就懒得做页面的样式了,<a href="http://sparkrat.github.io/html-work/mathjax.html">这里是demo</a>.</p>
+<p>我把这个html代码托管在github上面,<a href="https://github.com/SparkRat/html-work" target="_blank" rel="external">这里是代码仓库</a>.</p>
+<h2 id="题外话">题外话</h2><p>这个代码仓库应该是我以后所有的html作品的家了, 现在里面有另外一个作品.</p>
+<p>那是我在很早之前在慕课网学照片的瀑布流布局的时候随堂写的一个页面,用的也是js.</p>
+<p><a href="http://sparkrat.github.io/html-work/waterfall/">这里是demo地址</a>,这个东西如果有后端支持还是蛮漂亮的, 没有后端的话, 我不知道怎么动态的添加不同的图片.</p>
+<p>我突然有一个炒鸡不错的想法,可以把我前面写的那个python爬虫用上:</p>
+<ul>
+<li>使用爬虫抓取图片地址,</li>
+<li>然后用nodejs或者python做一个后端,</li>
+<li>把爬虫爬到的照片通过瀑布流展示出来,</li>
+<li>最后再把后台放到我的vps上面去,一切是如此的美好.</li>
+</ul>
+<p>嗯,期末考试完了之后有时间就去折腾.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>题记:前端猿正在学习进化过程中….</strong></p>
+<p>今天下午练习了一下javascript, 做了一个页面,写篇文章纪念一下.</p>]]>
+    
+    </summary>
+    
+      <category term="html&amp;js&amp;css" scheme="http://sparkrat.github.io/tags/html-js-css/"/>
+    
+      <category term="前端" scheme="http://sparkrat.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[在windwos上折腾python]]></title>
+    <link href="http://sparkrat.github.io/python-in-windows/"/>
+    <id>http://sparkrat.github.io/python-in-windows/</id>
+    <published>2015-07-03T04:08:47.000Z</published>
+    <updated>2015-07-03T06:18:12.272Z</updated>
+    <content type="html"><![CDATA[<p><strong>题记:生命的乐趣在于折腾!</strong></p>
+<p>今天在<a href="http://www.liaoxuefeng.com/" target="_blank" rel="external">廖雪峰的官方网站</a>学习python,<a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="external">教程传送门</a>.</p>
+<p>因为我在windows上使用msys模拟了linux命令行x.于是我想令python在msys里面正常使用.于是我开始了我的折腾之路.</p>
+<a id="more"></a>
+<h2 id="让msys找到python的方法">让msys找到python的方法</h2><p>一开始我的电脑里面只有py2, 所以我直接把py2的目录放到了PATH变量里面.</p>
+<p><img src="http://ww3.sinaimg.cn/large/0063AxbLgw1etphnxyvfij30ay046q3q.jpg" alt="通过环境变量PATH来访问python"></p>
+<p>这样msys就可以找到了,但是这样是有问题的.问题是什么呢?</p>
+<h2 id="两个版本冲突">两个版本冲突</h2><p>我一开始是安装的py2, 但是廖雪峰教程里面用的是py3,于是我不得不安装两个版本的python..于是问题来了.</p>
+<p>两个版本的python的可执行文件都是python.exe…我擦..怎么搞?<br>使用<code>#!/usr/bin/env python</code>指定解释器到底会用哪个版本的python? 还是随机选择? 不要这么坑好不好?</p>
+<p>于是我把环境变量PATH里面的路径去掉了…于是msys找不到python了..</p>
+<p>于是我机智的用了两条命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ln <span class="operator">-s</span> /d/python27/python.exe /usr/bin/python</span><br><span class="line">ln <span class="operator">-s</span> /d/python34/python.exe /usr/bin/python</span><br></pre></td></tr></table></figure>
+<p>哈哈,这样不就区分开来了嘛!下面是我的操作过程.</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etpgvm2ck4j30bm08q40t.jpg" alt="让msys区分两个版本的py"></p>
+<p>这样两个版本的python就完美的被区分开来了.</p>
+<p>而且,而且,这样子,还可以直接在msys的bash里面通过文件名执行py代码哦,只要把脚本解释语句写好了!</p>
+<p>例如这样!</p>
+<p><img src="http://ww3.sinaimg.cn/large/0063AxbLgw1etph337fhcj30bk09j76g.jpg" alt="使用不用版本的py解释py脚本"></p>
+<p>验证解释的正确性,写了另外两个脚本..</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etpj0cdt8vj30b709ktaq.jpg" alt="验证脚本解释语句的正确性"></p>
+<h2 id="使用pip">使用pip</h2><p>众所周知python的pip是一个很好的包管理工具啊, 使用python必不可少啊.</p>
+<p>但是我的msys并不知道pip是什么鬼啊…因为安装的时候python的安装包不知道我用的msys啊, 不会往msys的环境变量里面添加pip命令啊.没办法,我只好手动折腾咯.</p>
+<p>看了看python的官方文档, 调用python的模块的命令格式是这样的</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#py2</span></span><br><span class="line">python -m <span class="string">'模块名'</span></span><br><span class="line"><span class="comment">#py3</span></span><br><span class="line">python3 -m <span class="string">'模块名'</span></span><br></pre></td></tr></table></figure>
+<p>因为windows的python安装包自动给安装了pip模块,所以是可以直接使用的.</p>
+<p>好吧,直接给pip设置别名就可以了</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">alias</span> pip=<span class="string">'python -m pip'</span></span><br><span class="line"><span class="built_in">alias</span> pip3=<span class="string">'python3 -m pip'</span></span><br></pre></td></tr></table></figure>
+<p>没错就是这么简单,把这两行添加到家目录下面的.bashrc文件里面作为永久别名就可以了.</p>
+<h2 id="然而还有是有问题">然而还有是有问题</h2><p>例如这个</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etpjcgdn36j30n90l0du7.jpg" alt="pip安装模块的时缺少编译器py2"></p>
+<p><img src="http://ww1.sinaimg.cn/large/0063AxbLgw1etpj9qt7njj30n90gq49s.jpg" alt="pip安装模块的时缺少编译器py3"></p>
+<p>使用pip安装一些模块竟然还要使用巨硬的编译器vc…没办法,只能到巨硬官网去下载一个补丁咯,附上<a href="http://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi" target="_blank" rel="external">传送门</a>,点击即可下载. 这个是py2的解决方案. </p>
+<p>py3用的是VC2010的编译器,因此还是到官网去下载一个VC2010的免费编译器咯,<a href="http://download.microsoft.com/download/3/2/2/3224B87F-CFA0-4E70-BDA3-3DE650EFEBA5/vcredist_x64.exe" target="_blank" rel="external">64位传送门</a>, <a href="http://download.microsoft.com/download/5/B/C/5BC5DBB3-652D-4DCE-B14A-475AB85EEF6E/vcredist_x86.exe" target="_blank" rel="external">32位传送门</a>点击即可下载哦.</p>
+<p>当然,如果懒得安装巨硬的编译器,那就去<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/" target="_blank" rel="external">这里</a>下载对应的模块文件,然后直接安装就可以了.</p>
+<p>到此,基本上linux可以用的python功能在msys都能用了,虽然pip还有很多问题根本无法解决,碰到不能解决的问题,那就只好用python自带的IDE去折腾咯,或者直接上linux.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>题记:生命的乐趣在于折腾!</strong></p>
+<p>今天在<a href="http://www.liaoxuefeng.com/">廖雪峰的官方网站</a>学习python,<a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000">教程传送门</a>.</p>
+<p>因为我在windows上使用msys模拟了linux命令行x.于是我想令python在msys里面正常使用.于是我开始了我的折腾之路.</p>]]>
+    
+    </summary>
+    
+      <category term="msys" scheme="http://sparkrat.github.io/tags/msys/"/>
+    
+      <category term="python" scheme="http://sparkrat.github.io/tags/python/"/>
+    
+      <category term="windows" scheme="http://sparkrat.github.io/tags/windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[在慕课网学习bootstrap]]></title>
+    <link href="http://sparkrat.github.io/bootstrap-learn-in-imooc/"/>
+    <id>http://sparkrat.github.io/bootstrap-learn-in-imooc/</id>
+    <published>2015-07-01T13:51:32.000Z</published>
+    <updated>2015-07-10T11:14:34.258Z</updated>
+    <content type="html"><![CDATA[<p><strong>题记:前端猿正在学习进化过程中……</strong></p>
+<p>最近想学bootstrap,因为bootstrap用起来实在是太方便.</p>
+<a id="more"></a>
+<p>然后到处找学习资源,官方文档很详细,但是却不适合初学者,去过极客学院,最后在慕课网上找到了很好的学习资源.</p>
+<p>令我收获最大的就是慕课网的视频中有一个实例教程,然后我照着教程里面把所有代码给搞了一遍,收获颇丰. <a href="http://www.imooc.com/learn/182" target="_blank" rel="external">慕课网教程地址</a></p>
+<h2 id="使用bootstrap">使用bootstrap</h2><p>其实这一步应该是最简单的了.可以直接从<a href="http://getbootstrap.com" target="_blank" rel="external">官网</a>上下载,然后本地引用. 我搬运一下现在的最新版本v3.3.5的<a href="https://github.com/twbs/bootstrap/releases/download/v3.3.5/bootstrap-3.3.5-dist.zip" target="_blank" rel="external">下载地址</a>.</p>
+<p>然后在html里面引用bootstrap.css或者bootstrap.min.css文件.这是最基本的样式表.可以做一些基础布局.</p>
+<p>如果需要使用插件的话,需要引用bootstrap的js文件.由于bootstrap的javascript基于jQuery,所以在引入bootstrap.js或者bootstrap.min.js之前要先引用jquery.js.</p>
+<p>当然也可以使用cdn服务,直接在html文件里面用link和script引入.</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">link</span> <span class="attribute">href</span>=<span class="value">"http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css"</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>这个代码使用的百度的cdn,应该是国内最快的cdn了(:我瞎猜的:)还有,代码文件名里面的min都可以去掉,使用带有min的文件是最小化的样式,优点是加载速度较快,轻便.</p>
+<p>下面说说我学到的一些东西.</p>
+<h2 id="导航">导航</h2><p>产生一个导航栏只需要新建一个<code>div</code>标签并令它的<code>class</code>为<code>navbar</code>即可.</p>
+<p>然后再在这个<code>div</code>标签里面添加<code>navbar-header</code>等元素.</p>
+<p>例如使用下面的代码可以产生一个如效果图所示的导航栏.</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"navbar navbar-inverse"</span> <span class="attribute">role</span>=<span class="value">"navigation"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"container-fluid"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"navbar-header"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> <span class="attribute">class</span>=<span class="value">"navbar-brand"</span>&gt;</span>某管理系统<span class="tag">&lt;/<span class="title">a</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="title">ul</span> <span class="attribute">class</span>=<span class="value">"nav navbar-nav"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"active"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>首页<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="title">li</span> <span class="attribute">class</span>=<span class="value">"dropdown"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span> &gt;</span>功能<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="title">li</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>帮助<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="title">ul</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>效果是这样的</p>
+<p><img src="http://ww2.sinaimg.cn/large/0063AxbLgw1etobr7e5alj308q01mdfr.jpg" alt="导航栏"></p>
+<h3 id="让导航栏自动折叠">让导航栏自动折叠</h3><p>使用响应式布局令导航栏在设备宽度小于一定程度时自动折叠.</p>
+<p>在<code>navbar-header</code>块里面添加一个<code>class</code>为<code>collapsed</code>的<code>button</code>,这个<code>button</code>默认隐藏在屏幕宽度不够的时候出现.</p>
+<p>更多关于导航栏的详细内容戳官方文档<code>component-&gt;navbar</code>栏目.还是放一个<a href="http://getbootstrap.com/components/#navbar" target="_blank" rel="external">传送门</a>吧.</p>
+<h2 id="栅格系统">栅格系统</h2><p>使用<code>class=&quot;row&quot;</code>产生一排.</p>
+<p>使用<code>class=&quot;col-md-*&quot;</code>(*为1-12的数字)的<code>div</code>块,<code>col-md-*</code>只是其中一种样式,更多其他的样式看官方文档.</p>
+<p>并且栅格系统使用响应式布局,可以在设备宽度不同的状态下呈现出不同的样式.</p>
+<p>官方文档里面关于栅格系统的<a href="http://getbootstrap.com/css/#grid" target="_blank" rel="external">传送门</a>.</p>
+<h2 id="更多网页元素">更多网页元素</h2><p>一些网页元素的都可以在bootstrap的官方文档里面找到详细的解释.</p>
+<p>下面放两个传送门吧!</p>
+<ul>
+<li><a href="http://getbootstrap.com/css/" target="_blank" rel="external">Css传送门</a></li>
+<li><a href="http://getbootstrap.com/components/" target="_blank" rel="external">Components传送门</a></li>
+<li><a href="http://getbootstrap.com/javascript/" target="_blank" rel="external">Javascript传送门</a></li>
+</ul>
+<h3 id="标签">标签</h3><p>令<code>class=&quot;label&quot;</code>可以在页面中产生一个标签,可以使用<code>class</code>属性进行更多样式设置.标签的官方文档<a href="http://getbootstrap.com/components/#labels" target="_blank" rel="external">传送门</a>.</p>
+<h3 id="面板">面板</h3><p>令<code>class=&quot;panel&quot;</code>可以在页面中产生一个面板,可以使用<code>class</code>属性进行更多样式设置.面板的官方文档<a href="http://getbootstrap.com/components/#panels" target="_blank" rel="external">传送门</a>.</p>
+<h3 id="按钮组">按钮组</h3><p>令<code>class=&quot;btn&quot;</code>可以在页面中产生一个按钮,令<code>class=&quot;btn-group&quot;</code>可以在页面中产生一个按钮组, 按钮组里面放入<code>type=&quot;button&quot;class=&quot;btn&quot;</code>的按钮, 可以使用bootstrap做好的按钮组,让一系列按钮组成一个group,可以使用<code>class</code>属性进行更多样式设置.按钮的官方文档<a href="http://getbootstrap.com/components/#button" target="_blank" rel="external">传送门</a>.</p>
+<p>样例代码</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"btn-group"</span> <span class="attribute">role</span>=<span class="value">"group"</span> <span class="attribute">aria-label</span>=<span class="value">"..."</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">button</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"btn btn-default"</span>&gt;</span>Left<span class="tag">&lt;/<span class="title">button</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">button</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"btn btn-default"</span>&gt;</span>Middle<span class="tag">&lt;/<span class="title">button</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">button</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"btn btn-default"</span>&gt;</span>Right<span class="tag">&lt;/<span class="title">button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>效果是这样的</p>
+<p><img src="http://ww3.sinaimg.cn/large/0063AxbLgw1etoc3dndwuj305801i0sk.jpg" alt="按钮组效果"></p>
+<p>还有很多元素就不一一列举了.</p>
+<h2 id="我的作品">我的作品</h2><p>我把我在学习bootstrap过程中写的一些网页用git做了备份放到了github上.这里是<a href="https://github.com/SparkRat/bootstrap-learn-in-imooc" target="_blank" rel="external">地址</a></p>
+<p>最主要的两个页面:</p>
+<ul>
+<li>一个是教程里面老师教学演示时做的现代浏览器博物馆页面,我一行一行的把代码全部敲了一遍,这里是<a href="http://sparkrat.github.io/bootstrap-learn-in-imooc-work/">demo传送门</a>.</li>
+<li>第二个是慕课网教程的最后有一个变成挑战任务,认真的一步一步的完成了,这里是<a href="http://sparkrat.github.io/bootstrap-learn-in-imooc-work/homework/homework5.html">demo传送门</a>.</li>
+</ul>
+<p>这两个页面都是一些静态的基本布局,最多最多使用了一些bootstrap提供的js.</p>
+<h2 id="我的收获">我的收获</h2><p>敲了一天的html代码,算是一次不很不错的练习了.对html和css的知识有了更深入的认识.现在让我去写一个基本的网页框架是可以写的出来的了.</p>
+<p>对盒子模型有了更深一步的了解,<code>div</code>元素的使用非常灵活.</p>
+<p>我想,也许我可以开始动手制作自己的jekyll主题了呢~=o=~</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>题记:前端猿正在学习进化过程中……</strong></p>
+<p>最近想学bootstrap,因为bootstrap用起来实在是太方便.</p>]]>
+    
+    </summary>
+    
+      <category term="html&amp;js&amp;css" scheme="http://sparkrat.github.io/tags/html-js-css/"/>
+    
+      <category term="前端" scheme="http://sparkrat.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Sublime Text 编辑器项目管理]]></title>
+    <link href="http://sparkrat.github.io/sublime-text-project/"/>
+    <id>http://sparkrat.github.io/sublime-text-project/</id>
+    <published>2015-06-29T11:34:41.000Z</published>
+    <updated>2015-06-29T12:10:35.896Z</updated>
+    <content type="html"><![CDATA[<p>前天发现了ST的项目管理功能,相信这又会是一个提高编辑效率的好东西,于是写下这篇文章纪念一下.</p>
+<a id="more"></a>
+<p>以前只是知道st支持把一个文件夹给拖入编辑器,然后可以在左边显示一个侧边栏,里面可以管理文件夹现在的文件,非常的快捷方便,就像这样.</p>
+<p><img src="http://ww2.sinaimg.cn/large/0063AxbLtw1etl73faxc8j30up0ajad7.jpg" alt="用ST管理文件夹"></p>
+<p>但是前天,我惊奇的发现st的菜单栏上有project这个项目,于是我花了点时间琢磨了一下这个功能. 在project菜单下面,有这么几个选项.</p>
+<p><img src="http://ww3.sinaimg.cn/large/0063AxbLjw1etl76i21skj30hs0a7jtt.jpg" alt="project下面的选项卡"></p>
+<p>看到这里我突然发现,其实st里面的所有编辑都是以project为单位的,只是一般的情况下如果我们没有发现这个功能,那么我们并不会去保存这个项目.</p>
+<p>ST的一个项目记录了两个信息,项目里有哪些文件夹和打开了哪些文件,st的项目其实还是基于文件夹的.</p>
+<p>Project菜单下面最重要的选项就是<code>Add Folder to Project</code>选项了,它的作用相当于我以前用拖拽的方式把一个文件夹添加到st里面.</p>
+<p>然后第二重要的选项就是<code>Save Project As</code>选项了,因为它可以把项目保存成为st可以识别的文件.</p>
+<p>st项目保存下来会产生两个文件一个是存储项目的<strong>目录信息</strong>,文件后缀是<code>.sublime-project</code>,也即项目里添加了哪些文件夹. </p>
+<p>第二个文件的后缀是<code>.sublime-workspace</code>,它记录的信息则多一些,保存有打开了哪些文件,打开过哪些文件,还有一些乱七八糟的信息我也没看懂.</p>
+<p>这两个文件都是纯文本文件,都可以用st打开查看和修改.</p>
+<p>然后第三重要的就是<code>Switch Project in Window</code>这个简直不要再方便了.它的快捷键是<code>Ctrl+Alt+P</code>,按下后会出现一个这样的窗口.</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLjw1etl7ocmnjbj30b00ey0u8.jpg" alt="Project-Switch-窗口"></p>
+<p>项目切换的速度也是炒鸡快速的,完全没有迟滞的感觉.</p>
+<p>然后其余的一些选项也不是太难懂,用项目管理文件真心是一件开心的事情,最后再给每个项目都使用上git进行版本控制,哈哈哈.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>前天发现了ST的项目管理功能,相信这又会是一个提高编辑效率的好东西,于是写下这篇文章纪念一下.</p>]]>
+    
+    </summary>
+    
+      <category term="editor" scheme="http://sparkrat.github.io/tags/editor/"/>
+    
+      <category term="软件" scheme="http://sparkrat.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[魔鬼代言人观后感]]></title>
+    <link href="http://sparkrat.github.io/The-Devils-Advocate/"/>
+    <id>http://sparkrat.github.io/The-Devils-Advocate/</id>
+    <published>2015-06-28T14:36:47.000Z</published>
+    <updated>2015-07-15T15:59:58.166Z</updated>
+    <content type="html"><![CDATA[<p>昨天晚上我看完了王老师给我推荐的电影,很有感想.这是一部很有深度的电影.</p>
+<p>PS:本来应该今天写的,结果…阿勒,看了一天的日漫.(逃….)</p>
+<a id="more"></a>
+<h2 id="关于这部电影">关于这部电影</h2><p>说实话,在看这部电影之前,我对它几乎没有什么了解,我的片源是从我们学校的ftp上下载的.这是一部很老的电影了,为了了解它,我特地在网络上搜了一些资源.一下是我认为给了我帮助的链接.</p>
+<p>看电影当然找豆瓣电影啦! <a href="http://movie.douban.com/subject/1298909/" target="_blank" rel="external">魔鬼代言人(豆瓣) - 豆瓣电影</a>.</p>
+<p>就是这么水,好水.(逃…)</p>
+<h2 id="为什么看这部电影">为什么看这部电影</h2><p>这部电影是我上个学期思修课的王老师推荐给我看的,说说王老师吧,他的课是我大学所有课程里面唯一一门上课认真听讲,从不睡觉,从不看手机的课,上他的课可以学到很多东西,真的是一种享受.我从来认为如果我上个学期错失他的课的话,那将会是我永久的遗憾.</p>
+<p>王的课真的很精彩,在上课的同时他也给我们推荐了许多书,整整两页纸,可惜我到现在还没有读过里面的一本,但是,不过以后我绝对会读的.</p>
+<p>他在上个学期的期末考试里面给我的分数是我迄今为止拿到的最高分(高数比思修低一分),我相信也会是我整个大学里面所有科目期末考试里面的最高分了吧.</p>
+<p>这部电影是王推荐给学生的少数的几部电影之一了,一般他都是推荐的书,只有寥寥几部电影和电视剧.电视剧我上个学期看了一部(还好看了,不然实践分可拿不到,因为要写读书感悟或者观影感悟),也很有深度.</p>
+<p>因此,扯了这么多,就是为了说一件事,我看这部电影是因为我的老师的推荐.</p>
+<h2 id="我的感受">我的感受</h2><p>这部电影给我的印象很深刻,真的,以前看过的有该电影这种深度的电影大概也就只有我高三班主任让我们看的那两三部了吧——&lt;无人区&gt;,&lt;触手可及&gt;.</p>
+<p>为什么深刻呢?一开始我看这个电影,真心有点看不懂的感觉.</p>
+<p>只有下面一点点的直观的认识:</p>
+<p>那主人公凯文是一个律师,他百战百胜,从来没有输掉过官司.于是他被纽约的一个律师事务所给招聘了,他携带着他的妻子来到了纽约,开始了他们新的生活.</p>
+<p>新出现的老板——米尔顿,在物质上各种满足凯文,让他有了房子,有了钱.新出现的一切无一不在诱惑他,他深陷在了一种叫做虚荣的东西里面.他的虚荣便是他认为他是战无不胜的,是不会失败的.</p>
+<p>但是后来我越看越觉得诡异,甚至可以说是有点恐怖(不是有点,就是恐怖好么?).在新的城市里面,凯文忙于层出不穷的官司,他的妻子则深受魔鬼的折磨.</p>
+<p>凯文因为他的虚荣心一步一步走向深渊,走向魔鬼布置好了的陷阱,而他的妻子也没能逃脱魔鬼的折磨.他的妻子因为受不了发生的一切而选择自杀,而他也开始寻找一切的真相.</p>
+<p>而电影的高潮部分则是一切问题的真相被揭露的那一瞬间和接下来凯文和魔鬼之间的对话.在这里,电影充分给观众阐释了”虚荣是一切罪恶的源头”这句话的内涵.然后剧情的发展就是,凯文似乎被魔鬼说动了,他愿意跟魔鬼合作,自甘堕落,但是结局却并不是这样的.</p>
+<p>凯文在最后的关头自杀了,魔鬼的一切计划付诸东流.然后,凯文醒来了.是的,这个结局并不是悲剧.剧情回到了电影最开始的案件,凯文选择了放弃为那和数学老师辩护.这里真的很好的照顾了观众的感受.</p>
+<p>电影其实有一条一路贯穿下来的暗线,那就是凯文的母亲以及他和他母亲之间的为数不多的对话,对话几乎都是跟&lt;圣经&gt;有关的,这是一个很好很好的提示.</p>
+<p>其实整部电影就是男主人公凯文战胜自己内心的恶魔——虚荣的过程,而恶魔无处不在.整部电影都在告诉我们,虚荣是一切的原罪,是一切罪恶的源头.</p>
+<p>最后引用一句在电影里多次出现的话勉励自己.</p>
+<blockquote>
+<p>我差你們去，如同羊進入狼群，所以你們要靈巧像蛇，馴良像鴿子。</p>
+</blockquote>
+<p>这句话出自 &lt;馬太福音 10章 16节 警戒勉勵&gt;,原文是这样的.</p>
+<blockquote>
+<p>經文：馬太福音十：16<br>『我差你們去，如同羊進入狼群；所以你們要靈巧像蛇，馴良像鴿子。你們要防備人；因為他們要把你們交給公會，也要在會堂裏鞭打你們，並且你們要為我的緣故被送到諸侯君王面前，對他們和外邦人作見證。你們被交的時候，不要思慮怎樣說話，或說甚麼話。到那時候，必賜給你們當說的話；因為不是你們自己說的，乃是你們父的靈在你們裏頭說的』。</p>
+</blockquote>
+<p><strong>千万不要被虚荣蒙蔽了自己的内心.</strong></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>昨天晚上我看完了王老师给我推荐的电影,很有感想.这是一部很有深度的电影.</p>
+<p>PS:本来应该今天写的,结果…阿勒,看了一天的日漫.(逃….)</p>]]>
+    
+    </summary>
+    
+      <category term="读书观影" scheme="http://sparkrat.github.io/tags/%E8%AF%BB%E4%B9%A6%E8%A7%82%E5%BD%B1/"/>
+    
+      <category term="随笔" scheme="http://sparkrat.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我喜欢的软件推荐]]></title>
+    <link href="http://sparkrat.github.io/software-share/"/>
+    <id>http://sparkrat.github.io/software-share/</id>
+    <published>2015-06-27T02:05:57.000Z</published>
+    <updated>2015-06-28T14:06:34.834Z</updated>
+    <content type="html"><![CDATA[<p><strong>题记: 我始终相信,分享是一种美德.</strong></p>
+<p>这篇文章全是广(干)告(货),不喜勿进.</p>
+<a id="more"></a>
+<p>一直想转linux,可惜习惯被windows被绑死了,转linux失败.但是我转linux之心永远不死.</p>
+<p>这篇文章就是用来反思我为什么转linux失败的.<br>　　　　　　　　　　　　　　　　　　　　　　　2015-06-25　——Sparkrat</p>
+<p>PS: 以下所有软件全部在我的windows上存在.</p>
+<h2 id="开篇第一弹——shadowsocks">开篇第一弹——shadowsocks</h2><p>PS: 我奔走在翻墙的第一线,梦想着有一天能够”肉身翻墙”.</p>
+<p>虽然其实这个软件不是windows平台唯一的,但是还是拿出来说说吧.</p>
+<p>我现在就用的ss作为我的梯子, 使用的账号是自己用VPS服务器创建的, 已经在我博客的<a href="/about">关于</a>页面进行了福利分享, 需要的童鞋可以自取, 不过因为流量有限, 使用时请谨慎使用.</p>
+<p>下面是该软件的一系列资源(最后那篇文章很出名哦),</p>
+<ul>
+<li><a href="https://www.wikiwand.com/zh/Shadowsocks" target="_blank" rel="external">wiki</a></li>
+<li><a href="http://shadowsocks.org/" target="_blank" rel="external">官方网站</a> </li>
+<li><a href="http://iweb.dl.sourceforge.net/project/shadowsocksgui/dist/Shadowsocks-win-2.3.zip" target="_blank" rel="external">软件下载地址</a></li>
+<li><a href="https://github.com/shadowsocks/shadowsocks" target="_blank" rel="external">github项目地址</a></li>
+<li><a href="http://www.jianshu.com/p/08ba65d1f91a" target="_blank" rel="external">ShadowSocks—科学上网之瑞士军刀</a></li>
+</ul>
+<p>PS: 以下所有下载链接全部是windows平台的, 非windows平台的朋友别点, 因为所有下载链接全部链接自官网的下载, 点了自动下载.</p>
+<h2 id="航空母舰——chrome">航空母舰——chrome</h2><p>这个才是真爱. 先计较一下windows下的几款浏览器吧,戳这篇博文<a href="http://jimmy66.com/467.html" target="_blank" rel="external">少年我们来谈谈浏览器</a></p>
+<p>我喜欢chrome的几个原因:</p>
+<ul>
+<li>插件功能, 许多插件还是很实用的(不过最新版chrome竟然禁止了所有第三方插件的运行,坑爹),</li>
+<li>许多实用的app, 这个需要去webstore里面好好的挑选, 还有许多好玩的游戏, 虽然chrome商店的app还没有苹果的多,但是至少chrome的商店没有苹果那样店大欺客,对,没错我就是认为苹果店大欺客,</li>
+<li>主题个性化自定义, 在应用商店里可以找到许多漂亮的主题,</li>
+<li>有个好爹, 他爹是谁大家都知道, 有个好爹的好处有很多, 完美支持的同步功能(可惜在大陆被屏蔽, 用起来有点不爽,还好我有梯子),</li>
+<li>运行流畅, 不用说, chrome的速度第一是公认的,</li>
+<li>简直就是个操作系统, 跟emacs的性质有点像.</li>
+</ul>
+<p>但是, chrome也有许多不足, 例如:</p>
+<ul>
+<li>chrome是一个吃内存大户, 运行的插件和app一多, 呵呵哒, 4G内存根本不够玩..</li>
+<li>能耗高, 许多Mac用户不用chrome就是因为Safari比chrome节能(毕竟笔记本电池有限)..</li>
+<li>因为某(他)些(爹)原因, 大陆用户用起来不方便.</li>
+</ul>
+<p>推荐几款好用的插件和app吧:</p>
+<ul>
+<li>EagleGet Free Downloader, eagleget安装的时候自动安装的插件, 最近版本更新才出来的, 使用chrome下载东西自动调用eagleget, 十分方便.</li>
+<li>Bookmark Manager, chrome最新版 把书签管理器改回来了, 以前老版本的书签管理器真心用不得..</li>
+<li>Dropbox for Gmail, 哈, dropbox自动安装的.</li>
+<li><a href="https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd" target="_blank" rel="external">IE Tab</a>, 哈哈有了这家伙, 看一些只支持ie内核的落后网页也就不用切换浏览器了.</li>
+<li><a href="https://chrome.google.com/webstore/detail/infinity-new-tab/dbfmnekepjoapopniengjbcpnbljalfg" target="_blank" rel="external">Infinity New Tab</a>, 漂亮的新标签插件, 自从有了它, 我的chrome更加漂亮.</li>
+<li><a href="https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd" target="_blank" rel="external">LastPass: Free Password Manager</a>, lastpass插件, 管理密码真心方便, 从此不再担心忘记密码, 还可以自动生成高强度的随机密码.</li>
+<li><a href="https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj" target="_blank" rel="external">Save to Pocket</a>, 这个插件是<a href="https://chrome.google.com/webstore/detail/pocket/mjcnijlhddpbdemagnpefmlkjdagkogk" target="_blank" rel="external">Pocket</a>这个app带的插件, 可以把文章添加到pocket里面, pocket是一个类似类似书签管理器的东西, 在chrome更新之前我都用这个代替chrome的书签管理.</li>
+<li><a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank" rel="external">Proxy SwitchyOmega</a>, proxy switchysharp的更新版本, 爬墙辅助工具, 使用chrome爬墙必备插件.</li>
+<li><a href="https://chrome.google.com/webstore/detail/rss-alert/lemgijjifkaldmklohlmjaplmfobgich" target="_blank" rel="external">RSS Alert</a>, rss监控插件, 如果添加了的rss源有更新了, 会从屏幕右下方pop出一个窗口提醒用户关注的rss有更新了. 十分不错的一个软件, 以为有时候rss 阅读器还是没有原始网页阅读体验好.</li>
+<li><a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb" target="_blank" rel="external">Vimium</a>, 键盘狂人必备插件, 不解释.</li>
+<li><a href="https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj" target="_blank" rel="external">Wikiwand: Wikipedia Modernized</a>, wikipedia的增强, 体验更舒适的wiki阅读.</li>
+<li><a href="https://chrome.google.com/webstore/detail/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%E5%9B%BE%E5%BA%8A/fdfdnfpdplfbbnemmmoklbfjbhecpnhf" target="_blank" rel="external">新浪微博图床</a>, 一个好东西,可惜用的人少了点,免费图床哦.</li>
+<li><a href="https://chrome.google.com/webstore/detail/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5/gmhhhkgomcbijkigoakidcpobpioebej" target="_blank" rel="external">知乎日报</a>, 电脑上也能阅读知乎日报哦, 阅读体验还不错哦.</li>
+</ul>
+<h2 id="编辑器——sublime-text">编辑器——sublime-text</h2><p>sublime-text-2(以下简称 ST)是我现在在用的编辑器,算是我最喜欢的编辑器了,别的东西要么就是没有st好用,要么就是太重(notepad++ 是的我觉得它很重),要么就是学习曲线太陡峭(数emacs为最), 要么就是反windows操作习惯(vim).</p>
+<p>St分为2个分支, st2 和 st3, 分别对应python的两个分支——py2 和 py3.</p>
+<p>st有许多可爱的特性:</p>
+<ul>
+<li>插件功能, 不用说, 配合package-control简直好用.</li>
+<li>命令行功能, 可以直接进行python语句的执行.</li>
+<li>以文件为配置, 换了系统也没关系, 配置文件带着走, 还可以用git进行版本控制, 不要再酸爽.</li>
+<li>项目管理, 直接把文件夹拖进st, 项目管理炒鸡便捷,</li>
+<li>快速跳转, goto-anything这个功能有人说是st的最大卖点,</li>
+<li>行编辑功能, 好吧, 我还没有体验到他的好处(可能是我还没有需求吧), 但是很多人都说这个功能很好.</li>
+<li>还有很多…………..</li>
+</ul>
+<p>下载st可以戳<a href="http://www.sublimetext.com/" target="_blank" rel="external">官方网站</a> 默认版本是st2, 也可以选择st3.</p>
+<ul>
+<li><a href="http://www.sublimetext.com/2" target="_blank" rel="external">sublime-text-2</a></li>
+<li><a href="http://www.sublimetext.com/3" target="_blank" rel="external">sublime-text-3</a></li>
+</ul>
+<p>还是搬运一下下载地址(windows版本)吧:</p>
+<ul>
+<li><a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20Setup.exe" target="_blank" rel="external">sublime-text-2-32位-安装版</a></li>
+<li><a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2.zip" target="_blank" rel="external">sublime-text-2-32位-便携版</a></li>
+<li><a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20x64%20Setup.exe" target="_blank" rel="external">sublime-text-2-64位-安装版</a></li>
+<li><a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20x64.zip" target="_blank" rel="external">sublime-text-2-64位-便携版</a></li>
+<li><a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203083%20Setup.exe" target="_blank" rel="external">sublime-text-3-32位-安装版</a></li>
+<li><a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203083.zip" target="_blank" rel="external">sublime-text-3-32位-便携版</a></li>
+<li><a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203083%20x64%20Setup.exe" target="_blank" rel="external">sublime-text-3-64位-安装版</a></li>
+<li><a href="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203083%20x64.zip" target="_blank" rel="external">sublime-text-3-64位-便携版</a></li>
+</ul>
+<p>PS:可惜st不是免费的,买一个个人license需要70刀,好贵的说,虽然网上有license,但是强迫症总觉得需要自己买一个license,可惜没钱.</p>
+<h2 id="邮箱客户端——foxmail">邮箱客户端——foxmail</h2><p>话说这个软件竟然是TX旗下的,惊了个呆. </p>
+<p>不过这个软件的确是我用过的最好用的邮箱客户端软件.<br>它的许多特性个人感觉特别不错.例如:</p>
+<ul>
+<li>email 邮件收发功能, 主要功能, 不多说了.</li>
+<li>agent 代理功能, 不用担心gmail用不了啦.</li>
+<li>rss 阅读功能, 可以自动更新, 手动添加rss源.(我最喜欢的功能)</li>
+<li>note 笔记功能, 可以远程同步, 而且十分简约.</li>
+<li>canlendar 备忘功能, 可以添加备忘事项.</li>
+</ul>
+<p>下载这个软件可以戳他的<a href="http://www.foxmail.com/" target="_blank" rel="external">官方网站</a>, 搬运一下<a href="http://dldir1.qq.com/foxmail/windows/fm727chb21_build_setup.exe" target="_blank" rel="external">下载链接</a>.</p>
+<p>PS:可惜这个软件还是有那么小小的瑕疵的,例如:直接点击关闭窗口退出程序,而不是最小化到后台,很少见这么实诚的软件了啊.最小化这个软件还是有那么一点点麻烦的,需要到状态栏里面去找到图标右键选择最小化.</p>
+<h2 id="键盘狂人必备——executor">键盘狂人必备——executor</h2><p>我现在的桌面上没有一个图标哦.</p>
+<p>它的同类软件有——launchy, wox等</p>
+<p>说实话, 我一开始不是用的这个软件, 而是使用的launchy,但是用了这个之后,我果断的卸载了launchy.</p>
+<p>后来也有朋友给我推荐了wox,我试用了一天,还是换回来了executor.</p>
+<p>至今还没遇到一款比executor还好用的启动软件(听说Mac的dock很好用啊可惜没钱买Mac).</p>
+<p>其实这款软件还是有缺陷的,但是小小的瑕疵是不会掩盖它实用之处的.</p>
+<p>下载executor还是到他的<a href="http://executor.dk/" target="_blank" rel="external">官方网站</a>吧.</p>
+<p>不过我还是搬运一下下载链接(来自官网)吧.</p>
+<ul>
+<li><a href="http://www.1space.dk/executor/ExecutorSetup.exe" target="_blank" rel="external">安装版</a></li>
+<li><a href="http://www.1space.dk/executor/Executor.zip" target="_blank" rel="external">便携版</a></li>
+<li><a href="http://www.1space.dk/executor/ExecutorSetupTestBuild.exe" target="_blank" rel="external">测试版</a></li>
+</ul>
+<p>PS:不过这款软件似乎很久没有更新了.</p>
+<h2 id="音乐——网易云音乐">音乐——网易云音乐</h2><p>这个不要我多介绍了,网上到处都是关于网易云音乐的争论. </p>
+<p>其实网易云音乐不用下载也可以听的, 直接戳它的<a href="http://music.163.com/" target="_blank" rel="external">官方网站</a>就可以听歌.</p>
+<p>客户端下载页面在<a href="http://music.163.com/#/download/" target="_blank" rel="external">这里</a>,下载windows客户端可以戳<a href="http://s1.music.126.net/download/pc/cloudmusicsetup_1_8_0[95604].exe" target="_blank" rel="external">这里</a></p>
+<h2 id="安全上网——DNScrypt">安全上网——DNScrypt</h2><p>该软件可以给电脑设定安全的DNS服务器, 并进行DNS加密.一开始我是用来增强goagent的翻墙能力的,亲测后发现增强幅度很大.于是一直用下来了,现在换成ss之后也没有改了.</p>
+<p>相信一个好的DNS解析可以给网页浏览带来更舒服的体验.</p>
+<p>该软件的<a href="http://dnscrypt.org/" target="_blank" rel="external">官方网站</a>.</p>
+<p>现在windows安装只能找到<a href="https://github.com/opendns/dnscrypt-win-client/blob/master/DNSCryptUpgrade/DNSCrypt-v0.0.6.msi" target="_blank" rel="external">msi安装包</a></p>
+<p>PS:我翻了一下我的安装包文件夹, 当时不知道从哪里下载了一个exe安装包, 不过现在找不到了, 不过msi安装包也是一样的.</p>
+<h2 id="极速下载——Eagleget">极速下载——Eagleget</h2><p>我经历了这个版本的许多个版本更新了.<br>其中有好几个版本有严重的bug,影响使用体验.<br>不过该软件更新的速度十分的快, bug没有几天就被修复了, 现在已经很稳定了.</p>
+<p>不用再说了, 除了不能下载bt种子文件和磁链接, 其他的东西都都可以下载,而且速度虐翻所有同类下载软件.</p>
+<p>还有就是这个软件的嗅探功能炒鸡强悍, 我最开始能发先这个软件还是因为我需要它的嗅探功能, 后来才发现他的下载速度炒鸡快.不用说, 这绝对是一个好软件.</p>
+<p>迅雷跟它比起来就是渣.真不知道为什么这么快.</p>
+<p>PS:本来百度云管家的下载速度可以跟他相提并论的,但是百度公司硬生生的主动把百度云管家的速度卡死,用户一点办法都没有,现在我已经很少使用百度云了.</p>
+<h2 id="广告杀手——Admuncher">广告杀手——Admuncher</h2><p>奶牛其实在广告屏蔽界是很有名气的, 我自从用了奶牛之后再也没换过广告屏蔽工具了.</p>
+<p>需要官方正版可以戳<a href="https://www.admuncher.com/" target="_blank" rel="external">官方网站</a>.不过我还是搬运一下官网安装包的下载地址吧:<a href="https://www.admuncher.com/static/files/AM-Install.exe" target="_blank" rel="external">AM-Installer</a>.</p>
+<p>但是我使用的是绿色精简+汉化版, 总共大小才2M, 可以设置规则更新,我自己手动把更新代理改成了shadowsocks.需要该便携版的请戳<a href="https://www.dropbox.com/s/rj6nvx01z87f4zd/Ad%20Muncher.7z?dl=0" target="_blank" rel="external">DropBox分享</a></p>
+<h2 id="文件同步——dropbox">文件同步——dropbox</h2><p>今天第一次使用(我是不会告诉你我是因为要分享上面的那个奶牛绿色版的压缩包才使用的DropBox的@_@), 在此之前经常听说该软件的大名, 各种被人推荐. 到底感觉怎么样还是要等我体验之后再说.</p>
+<p>了解更多可以戳<a href="https://www.dropbox.com/" target="_blank" rel="external">官方网站</a>, 下载DropBox可以戳<a href="https://www.dropbox.com/downloading" target="_blank" rel="external">下载地址</a></p>
+<p>PS:如果是以前,我一定会推荐百度云盘的,但是现在不会了,不过百度云盘其实是做的不错的.</p>
+<h2 id="查单词——有道词典">查单词——有道词典</h2><p>用过几款同类的产品, 最后还是觉得有道的词典好用(快捷键), 虽然广告多了点.</p>
+<p>了解更多可以戳<a href="http://cidian.youdao.com/" target="_blank" rel="external">官方网站</a>, windows安装包戳<a href="http://cidian.youdao.com/download/YoudaoDict.exe" target="_blank" rel="external">下载地址</a>.</p>
+<h2 id="极速搜索——everything">极速搜索——everything</h2><p>windows自带的搜索功能太渣了.于是有了everything这个搜索神器.</p>
+<p>everything<a href="http://www.voidtools.com/" target="_blank" rel="external">官方网站</a></p>
+<p>下载链接:</p>
+<ul>
+<li><a href="http://www.voidtools.com/Everything-1.3.4.686.x86-Setup.exe" target="_blank" rel="external">英文32位安装包</a></li>
+<li><a href="http://www.voidtools.com/Everything-1.3.4.686.x64-Setup.exe" target="_blank" rel="external">英文64位安装包</a></li>
+<li><a href="http://www.voidtools.com/Everything-1.3.4.686.x86.Multilingual-Setup.exe" target="_blank" rel="external">多国语言32位安装包</a></li>
+<li><a href="http://www.voidtools.com/Everything-1.3.4.686.x64.Multilingual-Setup.exe" target="_blank" rel="external">多国语言64位安装包</a></li>
+</ul>
+<p>PS: 搜索的文件多了之后会有点卡.毕竟它会把整个磁盘里所有的文件都搜出来.</p>
+<h2 id="PDF阅读器——SumatraPdf">PDF阅读器——SumatraPdf</h2><p>超轻量级的pdf阅读器, 使用vim的键盘布局, 是<strong>阅读</strong>pdf的好东西.</p>
+<p>了解更多可以戳<a href="http://www.sumatrapdfreader.org/" target="_blank" rel="external">官方网站</a>.</p>
+<p>下载链接:</p>
+<ul>
+<li><a href="https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.0-install.exe" target="_blank" rel="external">安装版</a></li>
+<li><a href="https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.0.zip" target="_blank" rel="external">便携版</a></li>
+</ul>
+<p>这是个开源软件, 还可以查看<a href="https://github.com/sumatrapdfreader/sumatrapdf/wiki/Contribute-code" target="_blank" rel="external">源代码</a></p>
+<p>PS:其实上面也有很多开源软件,为什么没有贴源代码链接呢? 好奇怪…</p>
+<h2 id="清理电脑——CCleaner">清理电脑——CCleaner</h2><p>这是个收费软件, 不过有免费的试用版, 无限期试用,功能没付费那么好就是了.</p>
+<p>其实我很少用这个软件了,只是偶尔想起这个软件便运行一下.其实电脑清不清理区别真心不大.</p>
+<p>了解更多可以戳<a href="https://www.piriform.com/ccleaner" target="_blank" rel="external">官方网站</a>, 下载链接我就不提供了, 官网有. </p>
+<p>PS:对这款软件不感冒了.</p>
+<h2 id="装机时使用——驱动人生">装机时使用——驱动人生</h2><p>因为我现在装windows都是用微软的原盘iso. 装完之后会缺少很多驱动,很蛋疼.</p>
+<p>驱动人生算是一款很不错的驱动安装软件了, 不过要小心, 别乱点, 不然软件管家就给会进入你的电脑哦.</p>
+<p>了解更多可以戳<a href="http://www.160.com/" target="_blank" rel="external">官方网站</a>, 载链接不提供了, 自己戳官网. </p>
+<p>PS:同样对这款软件不怎么感冒, 只不过有时候有需要啊, 手动安装驱动太蛋疼.</p>
+<h2 id="隐藏任务栏——TaskBarHider">隐藏任务栏——TaskBarHider</h2><p>因为用了executor, 所以任务栏成了多余的了,但是windows自带的自动隐藏任务栏缺陷多多啊.</p>
+<p>于是我上网找了个好东西, 因为这个东西是网友分享的, 我没有找到官网, 需要的戳我的<a href="https://www.dropbox.com/s/leu6sfinda2ug0w/TaskbarHider.7z?dl=0" target="_blank" rel="external">dropbox分享</a>.</p>
+<hr>
+<p>Sparkrat 最后编辑于2015-06-25.</p>
+<hr>
+<h2 id="资源管理器增强——clover">资源管理器增强——clover</h2><p>感谢<a href="http://www.lattespirit.com/" target="_blank" rel="external">@lattespirit</a>的提醒.</p>
+<p>一个把windows的资源管理器变成类似chrome风格的东西, 还支持chrome的主题哦, 把chrome的主题打包成crx,使用clover就可以应用该主题样式了.</p>
+<p>更多的东西戳<a href="http://ejie.me/" target="_blank" rel="external">官方网站</a>,再搬运一下<a href="http://ejie.me/uploads/Clover_Setup_3.0.406.zip" target="_blank" rel="external">下载链接</a></p>
+<p>PS:话说google clover第一次出来的竟然不是这个,无语并吐槽之.</p>
+<hr>
+<p>Sparkrat 最后编辑于2015-06-26</p>
+<hr>
+<h2 id="视频播放器——VLC_media_player">视频播放器——VLC media player</h2><p>一款开源播放器,只有播放功能的播放器,跟市面上大多数打着播放器名号的流氓软件不一样.安装时会自动提醒,是否需要安装解码器,可以支持大多数编码格式,不过似乎内嵌的中文字幕会有乱码.</p>
+<p>更多详细信息戳<a href="http://www.videolan.org" target="_blank" rel="external">官方网站</a>,我搬运的<a href="http://211.64.142.101/files/41070000018C0488/ftp-idc.pconline.com.cn/72ed62d0e64f7a6e0c62b5041eb618c8/pub/download/201010/vlc-2.2.1-win32.exe" target="_blank" rel="external">下载链接</a></p>
+<p>PS:似乎softonic也有下载.</p>
+<h2 id="(解)压缩工具——Bandizip">(解)压缩工具——Bandizip</h2><p>这个工具我也是在看了别人的推荐后才知道的,用了它之后我果断的卸载掉了我的winrar.是的,我以前一直用的winrar,虽然是破解版的,.</p>
+<p>不得不说这个压缩软件比winrar简洁清爽许多.而且支持的压缩格式还挺多的,满足大部分人的要求是足够的.</p>
+<p>更多详细信息戳<a href="http://www.bandisoft.com/bandizip/cn/" target="_blank" rel="external">官方网站</a>,还是搬运一下下载链接吧:</p>
+<ul>
+<li>bandizip(也就是官网)的安装版<a href="http://down.bandisoft.com/bandizip/BANDIZIP-SETUP.EXE" target="_blank" rel="external">下载链接</a></li>
+<li>softonic的安装版<a href="http://gsf-cf.softonic.com/f5b/db5/db2814d83409cdffe6158d59bde1af5c80/BANDIZIP-SETUP.EXE?SD_used=0&amp;channel=WEB&amp;fdh=yes&amp;id_file=329209&amp;instance=softonic_en&amp;type=PROGRAM&amp;Expires=1435398314&amp;Key-Pair-Id=APKAJUA62FNWTI37JTGQ&amp;Signature=aQCCQ4kWEiB9WJFW9kqs~1BtzOnhHi~VC8q9f0KVJv75IABQGY-VcLyjAwjv4r-MUkh8s5x~46c~JiRyQyB2CUaKuk57BPNduHLkAj7NoFWyXywy~96fRC-9Jzd8LfnIQPMonAVtJKtY2wJ5SP7ArwKsd89QNbI5NR44KH4no6s_&amp;filename=BANDIZIP-SETUP.EXE" target="_blank" rel="external">下载链接</a></li>
+<li>bandizip官网便携版的<a href="http://down.bandisoft.com/bandizip/BANDIZIP-PORTABLE-EN.ZIP" target="_blank" rel="external">下载链接</a></li>
+</ul>
+<p>PS:今早起来发现电脑里面还有两款好软件没写到这里来,于是添加之.</p>
+<hr>
+<p>Sparkrat 最后编辑于2015-06-27.</p>
+<hr>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>题记: 我始终相信,分享是一种美德.</strong></p>
+<p>这篇文章全是广(干)告(货),不喜勿进.</p>]]>
+    
+    </summary>
+    
+      <category term="windows" scheme="http://sparkrat.github.io/tags/windows/"/>
+    
+      <category term="分享" scheme="http://sparkrat.github.io/tags/%E5%88%86%E4%BA%AB/"/>
+    
+      <category term="软件" scheme="http://sparkrat.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我和魔兽争霸]]></title>
+    <link href="http://sparkrat.github.io/warcraft-and-me/"/>
+    <id>http://sparkrat.github.io/warcraft-and-me/</id>
+    <published>2015-06-26T13:08:08.000Z</published>
+    <updated>2015-06-28T03:10:16.382Z</updated>
+    <content type="html"><![CDATA[<p>update: 还是觉得这个标题更好.</p>
+<p>突然发现我一个学期没碰游戏了.期末快来了,有点烦,想打打游戏解解闷,结果发生了一件让我哭笑不得的事情.</p>
+<a id="more"></a>
+<p><img src="http://ww1.sinaimg.cn/large/0063AxbLgw1ethsw2x10yj309604074i.jpg" alt="此版本之魔兽争霸III需要特定语言版本之windows"></p>
+<p>真的,看到这里我不知道是要哭还是要笑了.</p>
+<p>本来这个学期的某一天,我突然要求自己不打游戏,专心学习,我确实也做到了,在那之后真心没打多少游戏, 一直到今天,话说今天还是没打成啊.</p>
+<p>不知道从什么时候起,但是应该是在玩过几次DNF之后,我再也没接触过网络游戏.玩的也都是冰封王座.</p>
+<p>我一直是一个魔兽迷,我玩魔兽III的RPG的历史要追溯到我小学三年级,大概有11年多了吧.我一直玩的是RPG地图,作为一个RPG迷,我对于那种因为dota才知道有魔兽争霸这个游戏还特么一看到魔兽就说是dota的失足少年深恶痛绝.</p>
+<p>不得不承认,dota的确是一个很好的地图,我也玩过dota,也深知自己技术不如那些只打dota的童鞋,但是作为一个RPG迷,一个魔兽迷,还是十分讨厌这种以偏概全的行为,有点不能接受.</p>
+<p>继续说我这个语言版本的问题. </p>
+<p>看来我以后玩魔兽还要去下载一个英文版本的了. 不知道是从什么时候开始,我的windows都是用的从微软的itellyou.cn网站上下载下来的英文版圆盘iso文件安装的了.现在也习惯了英文版系统了.要我换回中文版,那是不可能的了(不知道我在努力提高自己的英语水平么~&gt;_&lt;~).</p>
+<p>这个游戏呢,只能当做消遣,偶尔打发时间用了,我现在也不觉得没有游戏怎么样,有也好,没有也罢,不过是消遣而已.其实是因为我打游戏的水平太差OAQ.</p>
+<p>我会更加努力学习以提高自己的技术水平的,肯定不会因为打游戏而占用学习时间的,那真是罪大恶极.不过学习累了还是可以打打游戏的.</p>
+<p>一点小心情,随手记录一下.就这样吧,哈哈.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>update: 还是觉得这个标题更好.</p>
+<p>突然发现我一个学期没碰游戏了.期末快来了,有点烦,想打打游戏解解闷,结果发生了一件让我哭笑不得的事情.</p>]]>
+    
+    </summary>
+    
+      <category term="游戏" scheme="http://sparkrat.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+      <category term="随笔" scheme="http://sparkrat.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[在实验楼学习linux的一次实验报告]]></title>
+    <link href="http://sparkrat.github.io/learn-in-shiyanlou/"/>
+    <id>http://sparkrat.github.io/learn-in-shiyanlou/</id>
+    <published>2015-06-26T09:47:35.000Z</published>
+    <updated>2015-06-26T09:59:20.608Z</updated>
+    <content type="html"><![CDATA[<p>今天下午在实验楼学了一个下午的linux,感觉还是蛮有收获的.再加上实验楼可以边动手边记笔记.</p>
+<p>于是.我把我的学习过程全部记下来了.然后不费吹灰之力.直接copy到我的博客.</p>
+<a id="more"></a>
+<h2 id="df_命令">df 命令</h2><p>查看文件系统和磁盘容量</p>
+<p>使用 -h 参数来让结果以更易懂的方式显示.</p>
+<h2 id="du命令">du命令</h2><p>直接使用 du 命令会显示出当前目录下所有的子文件和子文件夹, 并以block的方式显示文件的大小.</p>
+<p>在du命令后面加上绝对路径 可以以绝对路径输出要显示的文件.例如: <code>du ~</code> 查看家目录下所有的子文件夹.</p>
+<p>使用参数 -h 来令 du 显示的文件大小以更易懂的方式表示</p>
+<p>使用参数-d 来表示 所要查看的深度.. 例如:<code>du -d 0</code> 就表示查看当前目录..不看任何一个子文件夹.</p>
+<p>比较以下几个命令的不同..<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">du </span><br><span class="line">du -<span class="literal">h</span></span><br><span class="line">du ~</span><br><span class="line">du -<span class="keyword">h</span> ~</span><br><span class="line">du -<span class="keyword">d</span> 0</span><br><span class="line">du -<span class="keyword">d</span> 0 ~</span><br><span class="line">du -<span class="keyword">h</span> -<span class="keyword">d</span> 0 ~</span><br></pre></td></tr></table></figure></p>
+<h2 id="dd_命令">dd 命令</h2><blockquote>
+<p>dd命令用于转换和复制文件<br>dd命令的命令行格式为”选项=值”, 而不是更标准的”—选项 值”或”-选项=值”</p>
+</blockquote>
+<h3 id="初次使用dd命令">初次使用dd命令</h3><p>使用命令 <code>dd of=test bs=10 count=1</code> 然后输入一些字符串.可以得到一些提示.<br>但是很难明白什么意思,也不知道为什么会冒出一个 <code>command not found</code>,似乎是因为某些字符被shell认为是命令了,为什么呢?<br>于是仔细读了这段话.</p>
+<blockquote>
+<p>上述命令从标准输入设备读入用户输入（缺省值，所以可省略）然后输出到 test 文件，bs（block size）用于指定块大小（缺省单位为 Byte，也可为其指定如’K’，’M’，’G’等单位），count用于指定块数量。如上图所示，我指定只读取总共 10 个字节的数据，当我输入了“hello shiyanlou”之后加上空格回车总共 16 个字节（一个英文字符占一个字节）内容，显然超过了设定大小。使用和du和cat命令看到的写入完成文件实际内容确实只有 10 个字节（那个黑底百分号表示这里没有换行符）,而其他的多余输入将被截取并保留在标准输入。</p>
+</blockquote>
+<p>然后,明白了.bs可以设定blocks的大小.count设定blocks的数量.<br>dd命令只会接受这么多的信息.剩下的信息被dd命令传出来,传到shell,被shell当成命令.<br>于是出现了上面的那个情况,使用命令<code>cat test</code>可以看到,输出的是<code>hello shiy%</code>.说明 猜想是对的.</p>
+<h3 id="使用dd命令进行数据转换">使用dd命令进行数据转换</h3><p>看这条命令</p>
+<figure class="highlight nix"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dd <span class="variable">if=</span>/dev/stdin <span class="variable">of=</span>test <span class="variable">bs=</span><span class="number">10</span> <span class="variable">count=</span><span class="number">1</span> <span class="variable">conv=</span>ucase</span><br></pre></td></tr></table></figure>
+<p>输完这条命令之后在shell里面输入一串字母,dd命令会将字母转换成大写.然后写入test文件.</p>
+<h3 id="使用dd命令创建虚拟镜像文件">使用dd命令创建虚拟镜像文件</h3><p>终于到重头戏了.</p>
+<p>1.从/dev/zero设备创建一个容量为256M的空文件 使用一条命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#新建文件</span></span><br><span class="line">dd <span class="keyword">if</span>=/dev/zero of=virtual.img bs=<span class="number">1</span>M count=<span class="number">256</span></span><br><span class="line"><span class="comment">#查看文件信息</span></span><br><span class="line">du -h virtual.img</span><br><span class="line"><span class="comment">#好奇怪实验楼字符界面给出的结果是257M</span></span><br></pre></td></tr></table></figure>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435304970187.png" alt="使用dd命令"></p>
+<p>2.将创建好的文件格式化(写入文件系统),<br>使用mkfs命令格式化磁盘(这里将文件当做磁盘), 使用ext4文件系统格式</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkfs.ext4 virtual.img</span><br><span class="line"><span class="comment">#命令会提示 文件不是一个特殊的设备,,,询问是否继续..输入y继续</span></span><br></pre></td></tr></table></figure>
+<p>3.将文件当做磁盘挂载到某个文件夹..</p>
+<blockquote>
+<p>mount命令的使用<br>mount [-o [操作选项]] [-t 文件系统类型] [-w|—rw|—ro] [文件系统源] [挂载点]</p>
+</blockquote>
+<p>输入命令:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">mkdir virtual </span><br><span class="line">mount -o loop -t ext4 virtural.img /home/shiyanlou/virtual/</span><br><span class="line"><span class="comment">#提示mount命令需要root权限</span></span><br><span class="line">sudo mount -o loop -t ext4 virtural.img /home/shiyanlou/virtual/</span><br><span class="line"><span class="comment">#还是报错.说没有loop 设备.什么鬼? 难道是我自己的文件夹不行? 换成mnt试试</span></span><br><span class="line">sudo mount -o loop -t ext4 virtual.img /mnt</span><br><span class="line"><span class="comment">#一样的错误? 这是什么原因?</span></span><br></pre></td></tr></table></figure>
+<p>郁闷死我了,我找了好久的原因.最后发现.后面的文档里竟然有.好吧.以后要先看文档.再动手做.</p>
+<blockquote>
+<p>不过遗憾的是，由于我们环境的问题（环境中使用的 Linux 内核在编译时没有添加对 Loop device的支持），所以你将无法挂载成功：<br>同样因为环境原因中没有物理磁盘，也无法创建虚拟磁盘的原因我们就无法实验练习使用该命令了，下面我将以我的物理主机为例讲解如何为磁盘分区。</p>
+</blockquote>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435306220490.png" alt="实验楼环境挂在镜像文件失败"></p>
+<p>不过实验还是要继续的.于是 我离开实验楼的环境.拿出我的廉价vps.但是因为同样是虚拟环境.擦.竟然也无法成功.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435306255942.png" alt="vps上挂在镜像文件失败"></p>
+<p>我就不信了.打开我的虚拟机.用archlinux试试.竟然成功了.上图!!上图.!!</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435306711772.png" alt="虚拟机上挂在镜像文件成功"></p>
+<p>那么我们来操作操作? 哈哈（ ´∀｀） </p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435306986475.png" alt="在挂载了的virtual目录下操作"></p>
+<p>完全可以当成一个独立的磁盘来玩.原来还可以这样.好吧.这个先放一放.继续我的实验楼学习.</p>
+<h2 id="接下来学习fdisk命令">接下来学习fdisk命令</h2><p>其实这个命令我在很久以前折腾archlinux的时候就用过了.</p>
+<p>说实话..这个命令真是怎么好用怎么用,</p>
+<p>参数: -l 查看磁盘信息.</p>
+<p>好吧..实验楼的环境还是无法使用.那就拿虚拟机开刀咯.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435307347371.png" alt="虚拟机fdisk -l命令演示"></p>
+<p>然后是使用fdisk命令对virtaul.img文件进行问去操作.<br>使用命令:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fdisk virtual.img</span><br></pre></td></tr></table></figure>
+<p>这个命令在实验楼的环境下是可以进行的.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435307824883.png" alt="实验楼环境下的fdisk命令展示"></p>
+<p>然后就是根据命令进行文件的分区咯.这个根据帮助命令可以学会.分好区之后使用w命令 可以将修改写入磁盘.</p>
+<p>实验楼虚拟机有点卡.我还是用我的arch吧.</p>
+<p>建立一个主分区(primary), 我竟然忘记当初是怎么使用fdisk分区了.重新学了一次.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435308697622.png" alt="使用n命令建立一个主分区"></p>
+<p>建立扩展分区(extended).我把剩下的容量全部给了拓展分区.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435308812913.png" alt="建立扩展分区"></p>
+<p>在扩展分区里面建立逻辑分区.我建立了三个拓展分区 分别是一个27M,两个96M.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435309036662.png" alt="建立逻辑分区"></p>
+<p>然后使用p命令查看已经分好的分区.如果不满意可以继续修改.满意了.则使用w命令写入分区信息.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435309112155.png" alt="使用p查看分区信息并使用w写入分区信息"></p>
+<p>关于fdisk的命令就学习到这里了,让我再回到实验楼看一下文档.</p>
+<h2 id="学习losetup命令">学习losetup命令</h2><p>按照实验楼文档输入命令.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 关联回环设备</span></span><br><span class="line">losetup /dev/loop0 virtual.img</span><br><span class="line"><span class="comment"># 解除关联</span></span><br><span class="line">losetup <span class="operator">-d</span> /dev/loop0</span><br></pre></td></tr></table></figure>
+<p>实验楼里面的回环设备是没有的.因此需要到虚拟机上弄.但是.实验楼文档说.需要一个叫做kpartx的工具.但是我用arch的pacman并没有找到kpartx的包.怎么办呢?郁闷了.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435309602088.png" alt="archlinux没有kpartx"></p>
+<p>没办法,只好拿出我的CentOS虚拟机试试.先试了试losetup命令.发现有.哈哈.这就好办了.于是我先在CentOS里面安装一下git.然后从我的实验楼仓库里面把我在实验楼虚拟机里面搞好的virtual.img 文件clone到我的本地虚拟机.分区实在太蛋疼了.分了三次了今天.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435310926814.png" alt="先把文件clone到本地"></p>
+<p>哈哈,这样文件就到手了.继续开干.再次进入实验楼看文档.<br>先使用losetup命令和kpartx命令映射分区.并格式化每个分区.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435311474188.png" alt="使用losetup命令和kpartx命令映射分区"></p>
+<p>再挂载每个分区.用完了再卸载分区.</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435311586005.png" alt="挂载和卸载分区"></p>
+<p>作业.</p>
+<p>安装并使用cowsay</p>
+<p><img src="http://simplecloud.qiniudn.com/question/undefined/1435309806434.png" alt="使用cowsay"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>今天下午在实验楼学了一个下午的linux,感觉还是蛮有收获的.再加上实验楼可以边动手边记笔记.</p>
+<p>于是.我把我的学习过程全部记下来了.然后不费吹灰之力.直接copy到我的博客.</p>]]>
+    
+    </summary>
+    
+      <category term="learn" scheme="http://sparkrat.github.io/tags/learn/"/>
+    
+      <category term="linux" scheme="http://sparkrat.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我的博客被GFW干掉了]]></title>
+    <link href="http://sparkrat.github.io/fucked-by-gfw/"/>
+    <id>http://sparkrat.github.io/fucked-by-gfw/</id>
+    <published>2015-06-23T08:19:30.000Z</published>
+    <updated>2015-06-24T13:13:14.624Z</updated>
+    <content type="html"><![CDATA[<p>今天下午16:19,我惊奇的发现我的博客被GFW干掉了,也许是因为关键字吧,在此之前一直是可以被访问的. </p>
+<a id="more"></a>
+<p>我胡乱猜测的原因:</p>
+<ul>
+<li>难道是因为我刚刚修改了QQ个性签名,然后自动产生的说说链接的原因? 不过说说不是被我及时的删除了么?</li>
+<li>还是因为昨天写的关于里面有痛恨GFW的字眼?不过DIYgod大神的anotherhome的关于里面也有这个…为什么没有墙?</li>
+<li>还是什么其他我不知道的原因?</li>
+</ul>
+<p>╮(╯▽╰)╭不管了,反正我一开始也不指望不会翻墙的人会来看我的博客.被墙就被墙了,我自己有梯子就可以了.我还会在抵制GFW的路上继续走下去的.</p>
+<p><img src="http://ww3.sinaimg.cn/large/0063AxbLgw1ete3vkunklj30zk0k0jv1.jpg" alt="博客被GFW干掉惹"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>今天下午16:19,我惊奇的发现我的博客被GFW干掉了,也许是因为关键字吧,在此之前一直是可以被访问的. </p>]]>
+    
+    </summary>
+    
+      <category term="GFW" scheme="http://sparkrat.github.io/tags/GFW/"/>
+    
+      <category term="科学上网" scheme="http://sparkrat.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[写了个python爬虫]]></title>
+    <link href="http://sparkrat.github.io/crawler/"/>
+    <id>http://sparkrat.github.io/crawler/</id>
+    <published>2015-06-21T06:56:51.000Z</published>
+    <updated>2015-06-25T05:56:25.670Z</updated>
+    <content type="html"><![CDATA[<p><strong><em>题记: 生命的乐趣在于折腾.</em></strong></p>
+<p>这个周末闲来无事,想写个爬虫批量下载图片.</p>
+<a id="more"></a>
+<h2 id="使用正则表达式">使用正则表达式</h2><p>在网上搜了很多资料,很多都是使用的框架,例如<strong>BeautifulSoup</strong>等等,但是我还是用的最原始的办法:<strong>正则表达式</strong>.因为, 抓图使用正则表达式完全足够了.</p>
+<p>我从来没有系统的学习过正则表达式,但是,我写爬虫还是用的正则表达式提取的图片地址.我的正则表达式是用过谷歌临时查的.然后需要什么看什么,不过已经能满足我的需求了.</p>
+<h2 id="出师未捷,爬虫先死">出师未捷,爬虫先死</h2><p>一开始我瞄准了<a href="http://7-themes.com" target="_blank" rel="external">7-themes</a>.没办法,谁叫它的图片质量高.但是这个网站似乎有防爬虫手段(果然,好网站没一个简单的).它的图片原始地址如果通过浏览器访问的话,会自动跳转到一个html页面,而不是单独一张图片,好蛋疼.</p>
+<h2 id="百度图片质量太差">百度图片质量太差</h2><p>于是我又换了目标,这回换成了百度,成功是成功了.使用的正则表达式提取的图片地址.</p>
+<p>代码贴在<a href="http://paste.ubuntu.com/11753981/" target="_blank" rel="external">这里</a>了.</p>
+<p>这个正则表达式适合所有百度贴吧的图片,只要把url改为想要抓取的帖子的地址,然后循环改成帖子的页数就可以了..至于更智能的自动判断页数的虫子我懒得写了..百度的图片太糟糕了.</p>
+<p>但是..因为..百度图片的平均质量太差了.于是我又继续找别的目标了.</p>
+<h2 id="最终版本">最终版本</h2><p>最后我找到了<a href="http://alpha.wallhaven.cc/" target="_blank" rel="external">wallhaven</a>这个图片站.嗯这个站好爬呀.原图片地址也不会跳转啊.于是我成功了.</p>
+<p>结果…我特么爬了一百张看看效果..结果.特么的竟然是缩略图thumb.真是气死我了.于是机智的我发现一个现象..那就是..wallhaven的图片都是用id来标识的.也就是说,每一张图片都有一个唯一的数字id.然后我点开一张原图片的地址..哈哈原来wallhaven的原图地址是这个结构<code>wallpapers.wallhaven.cc/wallpapers/full/wallhaven-图片的数字id.jpg</code></p>
+<p>例如这张图片:</p>
+<p><img src="http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-144985.jpg" alt="示例图片"></p>
+<p>她的id是144985,她的地址就是<a href="http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-144985.jpg" target="_blank" rel="external">http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-144985.jpg</a></p>
+<p>wallhaven还有一个超级棒的功能,就是random推送图片,嘎嘎嘎,随机图片戳<a href="http://alpha.wallhaven.cc/random" target="_blank" rel="external">这里</a>, 嘎嘎嘎</p>
+<p>然后,嘎嘎噶,我只要每次get一个random页面的html源代码,然后从html里面用正则表达式提取出随机图片的id..然后,嘎嘎嘎,把id往原始图片地址的模板里面一嵌套.就可以得到若干个图片的原始地址.</p>
+<h2 id="wget是个好东西">wget是个好东西</h2><p>一开始我用的python自带的urllib库来实现图片的下载..但是,这个功能鸡肋不说,图片下载下来还会出现数据丢失的情况,还有很大可能被网站阻止(因为太多爬虫使用的urllib)..于是我又找到了神器wget.</p>
+<p>使用wget批量下载图片的方式是这样的:</p>
+<ol>
+<li>把图片的原始地址写入一个纯文本文件里面,每行一个图片url(必须每行一个url)</li>
+<li>使用python自带的os库调用wget命令,格式如<code>wget -P $path -c -i $temp_file</code><br> \$path 是保存图片的路径 \$temp_file是存储图片地址的文本文件</li>
+</ol>
+<p>这样子,爬虫的效率提升了不说,还变得更加稳定了,毕竟wget是一个久经考验的神器.而且下载下来的图片还不会出现任何的失真.</p>
+<p>但是windows下使用wget还是要折腾几下的,不过还好我的电脑本身被折腾的很多工具都有了,例如wget就在gow里面自带了.</p>
+<p>最终版爬虫源代码贴在<a href="http://paste.ubuntu.com/11751629/" target="_blank" rel="external">这里</a>.</p>
+<p>妈妈再也不用担心我没有图片用啦~.~</p>
+<h2 id="服务器上的尝试">服务器上的尝试</h2><p>在自己本机上开了半天的爬虫, 发现速度无法忍受, 突然想起我还有一个vps.于是我用scp命令给把python源代码copy到了服务器上运行了一下.</p>
+<p>玛德…服务器的速度好恐怖..平均下载速度5M/s..学校校园网简直坑爹..竟然才300K/s的平均速度.</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etbz8ez7gwj30ly0fik13.jpg" alt="在服务器上运行爬虫"></p>
+<p><img src="http://ww3.sinaimg.cn/large/0063AxbLgw1etbz8v6mfdj30m20fe7ed.jpg" alt="在服务器上运行爬虫"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong><em>题记: 生命的乐趣在于折腾.</em></strong></p>
+<p>这个周末闲来无事,想写个爬虫批量下载图片.</p>]]>
+    
+    </summary>
+    
+      <category term="crawler" scheme="http://sparkrat.github.io/tags/crawler/"/>
+    
+      <category term="python" scheme="http://sparkrat.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[使用上了新浪微博图床]]></title>
+    <link href="http://sparkrat.github.io/use-weibo-picture/"/>
+    <id>http://sparkrat.github.io/use-weibo-picture/</id>
+    <published>2015-06-20T06:07:56.000Z</published>
+    <updated>2015-06-24T13:13:49.843Z</updated>
+    <content type="html"><![CDATA[<p><strong><em>题记: 生命的乐趣在于折腾.</em></strong></p>
+<p>这其实是一篇打(推荐)广告(好东西)的文章, 不喜慎入!</p>
+<a id="more"></a>
+<h2 id="问题来了">问题来了</h2><p>一开始我的图片全部都是存在站内的,因为是静态博客,所以也没有太大关系,但是这样我的文章里面的图片就不能在别的地方使用了…炒鸡蛋疼.</p>
+<p>所以..我开始寻求解决办法,于是我找到了<a href="https://chrome.google.com/webstore/detail/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%E5%9B%BE%E5%BA%8A/fdfdnfpdplfbbnemmmoklbfjbhecpnhf" target="_blank" rel="external">新浪微博图床</a>这个chrome插件.啊哈哈哈,简直不要再好用了.</p>
+<p>新浪的访问速度还是很一流的.不过就是不知道为什么偶尔会有几张图片挂掉.不过总体来说还是不错的..</p>
+<p>其实..这个..可以自己手动到自己的微博去添加图片,但是..有个傻瓜式插件还是很方便的不是吗?</p>
+<p>于是我现在的图片全部换成新浪的地址了.\$_\$</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong><em>题记: 生命的乐趣在于折腾.</em></strong></p>
+<p>这其实是一篇打(推荐)广告(好东西)的文章, 不喜慎入!</p>]]>
+    
+    </summary>
+    
+      <category term="blog" scheme="http://sparkrat.github.io/tags/blog/"/>
+    
+      <category term="图床" scheme="http://sparkrat.github.io/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[使用ssh+rsa连接远程linux服务器]]></title>
+    <link href="http://sparkrat.github.io/ssh-connect/"/>
+    <id>http://sparkrat.github.io/ssh-connect/</id>
+    <published>2015-06-18T09:33:33.000Z</published>
+    <updated>2015-07-03T06:20:08.011Z</updated>
+    <content type="html"><![CDATA[<p><strong><em>题记: 生命的乐趣在于折腾. !#但是#! 工欲善其事,必先利其器.</em></strong></p>
+<p>这是一篇关于菜鸟上路开始折腾linux的学习记录.<br>今天下午折腾了一个东西.终于折腾好了,有点小收获,于是写篇文章纪念一下.</p>
+<a id="more"></a>
+<h2 id="此次折腾的起因">此次折腾的起因</h2><p>最近在慕课网学习linux.视频里面,老师用的是Xshell.于是我也装了个Xshell.结果就是各种坑爹啊.至于哪里坑呢, 不好描述的.但是我就是用不惯Xshell(安装版和便携版我都试过,都不好用,不建议使用).</p>
+<p>还有一个原因就是, 在自己电脑上装虚拟机用起来真心不舒服.不舒服啊不舒服.于是我开始在google上学习, 关于各种远程连接的知识我都搜了一下.然后我发现.</p>
+<p>我的电脑因为被我折腾的不错的原因, 使用windows下的伪bash竟然可以用ssh.啊哈哈哈.</p>
+<p>于是我开始了我的ssh连接远程服务器之路.</p>
+<h2 id="使用密码登陆远程服务器">使用密码登陆远程服务器</h2><p>因为我在windows下模拟的bash还是能满足一些基本的命令需求的.其中就有ssh,它是安装msys自带的.</p>
+<p>因为之前说过使用ssh协议连接远程仓库的事.</p>
+<p>ssh是什么东西呢? 看看<a href="http://www.wikiwand.com/zh/Secure_Shell" target="_blank" rel="external">wikiwand条目</a>吧.</p>
+<blockquote>
+<p><strong>乱入:</strong><br>\$_\$ <a href="http://www.wikiwand.com" target="_blank" rel="external">wikiwand</a> 是我最近发现的一个可以优化wikipedia页面的网站.一开始我找到的是chrome插件.它会自动把wikipedia的页面访问跳转懂啊wikiwand.还不错.<br><strong>乱入结束</strong></p>
+</blockquote>
+<p>然后我又搜索了一下ssh命令的具体<a href="http://man.linuxde.net/ssh" target="_blank" rel="external">使用方法</a>.</p>
+<blockquote>
+<p><strong>乱入</strong><br>哈哈又发现一个好网站<a href="http://man.linuxde.net/" target="_blank" rel="external">linux命令大全</a>,这世界上我们不知道的好东西太多了<br><strong>乱入结束</strong></p>
+</blockquote>
+<p><del>好吧 linuxde.net在我发现一天之后挂掉了.擦! 不过介绍scp命令的使用方法的网站还是有很多的.</del><br>现在已经恢复.</p>
+<p>一开始我曾经用过这个命令 <code>ssh 192.243.116.234</code> 其中<code>192.243.116.234</code> 是我的vps的ip地址(可以是任何一个可以连接到互联网的linux机器), 但是这样并没有什么卵用,因为ssh默认端口是22,但是我的vps打开的ssh端口是27472.</p>
+<p>于是我使用了命令<code>ssh -p 27472 192.243.116.234</code>来连接我的vps.但是还是不行.因为它默认使用的账户是我现在的bash用的账户.而我在windows下的伪bash使用的账户是administrator.就是windows的账户.但是我的vps上只有root账户. 例如:</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etailmqfr9j30ax01h0sv.jpg" alt="使用默认账户连接"></p>
+<p>只有在服务器上有一个与当前本地bash所使用的账户一模一样的账户,并且还知道服务器账户的密码的情况下,可以使用默认账户.</p>
+<p>然后我加上了连接时选择的账户,用了命令<code>ssh -p 27472 root@121.249.204.230</code>来连接.</p>
+<p><img src="http://ww2.sinaimg.cn/large/0063AxbLgw1etaiiv9xo9j30dz02cdgh.jpg" alt="连接vps的root用户"></p>
+<p>哈哈这样就连接上了.</p>
+<h2 id="可是这样问题就来了">可是这样问题就来了</h2><p>但是问题来了.这样子连接很蛋疼有木有? 为什么? 因为每次都要输密码!每次都要输密码!每次都要输密码.! 蛋疼的事情说三遍.</p>
+<p>于是我想到了上次使用rsa密钥来连接github远程仓库的方法,是不是知道在远程服务器上添加上rsa的公钥就可以了? </p>
+<p>于是我又来到了google,哈哈google真实是个好东西.</p>
+<p>然后找到了方法. 那就是 我只需要把我电脑上的id_rsa.pub公钥copy到服务器上,并把文件名改成authorized_keys放到你需要使用rsa密钥登陆的账户的家目录下的.ssh文件夹下面就可以.</p>
+<p>但是怎么把我电脑上的文件copy到远程服务器上呢? 我又在google搜索到了相应的命令,那就是!!<code>scp</code>命令.但是我不会用,于是我又来到了linux命令大全查了查scp命令的<a href="http://man.linuxde.net/scp" target="_blank" rel="external">详细文档</a>.</p>
+<p>然后在远程服务器上确认你需要使用rsa公钥登陆的账户下面是否有.ssh文件夹.如果没有,必须创建.不然scp命令是不会自动创建文件夹的.也就是说如果你使用csp命令把一个文件放入一个不存在的文件夹.scp命令会执行失败.例如:</p>
+<p><img src="http://ww3.sinaimg.cn/large/0063AxbLgw1etaij58b4mj30ip01n3z8.jpg" alt="使用scp命令将文件copy到不存在的文件夹里面"></p>
+<p>因此,需要先使用密码登录到远程服务器上在用户家目录下创建.ssh文件夹.然后再执行scp命令.例如:</p>
+<p><img src="http://ww3.sinaimg.cn/large/0063AxbLgw1etaijdq0vsj30h905nwgw.jpg" alt="在家目录下面创建.ssh文件夹"></p>
+<p>然后再执行scp命令就可以成功了.例如:</p>
+<p><img src="http://ww2.sinaimg.cn/large/0063AxbLgw1etaijkrw8wj30lk01lgm9.jpg" alt="成功上传rsa公钥文件"></p>
+<p>然后我们使用ssh命令登陆一下远程服务器试一试.例如:</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etaijre8iyj30dl01f74p.jpg" alt="成功使用rsa验证登陆服务器"></p>
+<p>其实这不是第一次使用该rsa密钥登陆服务器出现的情况,第一次登陆ssh返回的信息会多一些.例如会显示公钥的指纹什么的.但是一般没什么用.</p>
+<h2 id="但是问题又来了">但是问题又来了</h2><p>蛋疼的事情又来了….</p>
+<p>每次都要输入这么长的命令!!!<br>每次都要输入这么长的命令!!!<br>每次都要输入这么长的命令!!!</p>
+<p>蛋疼的事情说三遍….</p>
+<p>于是我不得不适用shell自带的别名alias功能了.还好我的伪bash有这个功能.不然就真的蛋疼了.</p>
+<p>于是我用了这样一个命令<code>alias my-vps=&quot;ssh -p 27472 root@192.243.116.234&quot;</code></p>
+<p>这样每次要连接我的vps的时候,直接在shell输入my-vps就可以了. 例如:</p>
+<p><img src="http://ww2.sinaimg.cn/large/0063AxbLgw1etaijyc2lxj30d7033mxl.jpg" alt="使用别名登陆远程服务器"></p>
+<p>哈哈,这样不就方便多了?</p>
+<h2 id="这一定是最后一个问题了">这一定是最后一个问题了</h2><p>但是!!还是有问题!!纳尼? 为什么我关掉了shell之后再打开使用my-vps就不可以了呢?例如:</p>
+<p><img src="http://ww3.sinaimg.cn/large/0063AxbLgw1etaik70tmnj309s017aa1.jpg" alt="关掉shell之后再打开别名失效"></p>
+<p>这是为什么? 虽然我知道这是为什么, 但是这里就不说了.</p>
+<p>解决办法呢? 把别名写入.bashrc啊!! 我简直太机智了!(好吧,其实会玩linux的人都知道).例如:</p>
+<p><img src="http://ww1.sinaimg.cn/large/0063AxbLgw1etaikd3pxlj30dv0cldgh.jpg" alt="把别名写入.bashrc文件"></p>
+<p>这样子下来,革命终于完成了!~0~</p>
+<p>以后终于有一个好的玩linux的方法了.啊哈哈哈!</p>
+<p>PS:现阶段,我的vps主要用于shadowsocks服务. vps是搬瓦工的4刀一年的廉价vps.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong><em>题记: 生命的乐趣在于折腾. !#但是#! 工欲善其事,必先利其器.</em></strong></p>
+<p>这是一篇关于菜鸟上路开始折腾linux的学习记录.<br>今天下午折腾了一个东西.终于折腾好了,有点小收获,于是写篇文章纪念一下.</p>]]>
+    
+    </summary>
+    
+      <category term="linux" scheme="http://sparkrat.github.io/tags/linux/"/>
+    
+      <category term="msys" scheme="http://sparkrat.github.io/tags/msys/"/>
+    
+      <category term="ssh" scheme="http://sparkrat.github.io/tags/ssh/"/>
+    
+      <category term="vps" scheme="http://sparkrat.github.io/tags/vps/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我的科学上网历史]]></title>
+    <link href="http://sparkrat.github.io/fuckgfw/"/>
+    <id>http://sparkrat.github.io/fuckgfw/</id>
+    <published>2015-06-16T04:40:24.000Z</published>
+    <updated>2015-06-24T13:19:36.007Z</updated>
+    <content type="html"><![CDATA[<p>写在前面：这篇文章并不介绍科学上网的详细方法。那些文章在网络上已经烂大街了，随便谷歌一下一大堆，G+也有专门的翻墙圈子专门研究翻墙方法。</p>
+<p>这篇文章也不会写太多的翻墙方法，这个世界上翻墙方法多了去了，然而我会用两种就够了！</p>
+<a id="more"></a>
+<h2 id="最初的想法">最初的想法</h2><p>最近看到博友使用付费的科学上网方法，为他的支出赶到有点不值，不过能理解非猿类不想折腾的心态。但是作为一个猿类，我是非常喜欢折腾的，折腾是一种乐趣不是吗? 哈哈</p>
+<p>说起科学上网，我其实一开始是没有这个需求的。我科学上网的历史是这样的。<br>高中的时候参加了竞赛，听到同学和学长在讨论这个问题，完全听不懂他们在说些什么，就是感觉很厉害的样子，后来我自己有时间了，也开始接触这方面的事情了，于是开始了科学上网的不归路。</p>
+<p>我一开始是纯粹为了翻墙而翻墙。根本不是为了看外面的世界，因为我那时候并不知道外面的世界是什么样子的，只是纯粹为了学习技术。后来是为了用谷歌的服务。不得不翻墙了。再后来 才慢慢的上外国的一些社交网站看一些外国的东西。其实我觉得我们内网的环境也不错，就是少了点自由，但是缺少自由真的很让人不爽。</p>
+<h2 id="第一个工具">第一个工具</h2><p>我第一个使用的工具是自由门，可惜现在不能使用了。不过听说还有人在用，但是这种小众翻墙软件还是少用的比较好。还有就是千万不要使用一个来源不明，一听就知道不是好东西的翻墙软件，因为可能有后门。</p>
+<h2 id="真正使用到现在的工具">真正使用到现在的工具</h2><p>GoAgent真是个好东西。这是一个开源的免费软件。不过听说作者已经肉身翻墙了。这是严格意义上我使用的第一个翻墙工具。</p>
+<h3 id="使用GoAgent需要的东西">使用GoAgent需要的东西</h3><p>其实也不要别的，就需要谷歌账户一枚而已。</p>
+<p>有了谷歌账户，然后申请gae的appid，然后把goagent的服务器端部署到gae上面再配置一下下goagent的客户端就可以了。</p>
+<h3 id="goagent也被封杀过">goagent也被封杀过</h3><p>因为某些原因，谷歌的服务器IP在大陆这边惨遭封杀，以前的IP通信是可以的，仅仅只是把一个常用的端口封杀了，所以goagent使用别的端口还是可以连接得上谷歌的服务器的，那时候goagent用起来还是很舒服的。</p>
+<p>但是，从2015年4月开始，谷歌的IP直接被封锁了，所有信息交流都不允许了。</p>
+<h3 id="复活GoAgent">复活GoAgent</h3><p>但是因为用goagent的人比较多，因此就有一些大牛写了另外一个小工具gogotester把goagent给复活了。</p>
+<p>原理是这样子的：通过检测一些可以连接谷歌服务器的服务器，然后将流量转移到这些服务器，间接地与谷歌的服务器进行信息交换。</p>
+<p>在此之后，网络上一时间出现无数文章来说明：如何复活你的goagent，其实大部分都是互相转载的。</p>
+<p>当然，其实不用gogotester也是可以的，使用hosts文件来达到目的也是可以的，但是这样我也折腾过，似乎效率并不高。</p>
+<h2 id="新的高科技">新的高科技</h2><p>最近，我又发现了新的高科技，这还要归结于今年4月份，谷歌IP惨遭封杀，GOA无故无法使用说起。</p>
+<p>因为GOA突然间的无法使用，我开始寻求解救办法和新的方法；解救办法是找到了，那就是用gogotester扫描IP；新的办法就是ss了，相对于GOA，不得不说ss真是一个高科技。</p>
+<p>上个月开始，我有了自己的shadowsocks服务器了，买的是搬瓦工的VPS搭建的ss服务器。在此之前，我在网上看到了很多关于ss科学上网的介绍。</p>
+<p>shadowsocks的方法相对于goagent又高级了很多，GOA使用的是原始的HTTP 1.1协议，而ss使用的是socks5协议，无可否认的是socks5协议的安全性和稳定性都更高一筹。</p>
+<p>shadowsocks的客户端比goagent的客户端要轻量级的太多。可行性程序只有500K不到的大小，而goagent却有13M之大。</p>
+<p>然而我还是要小小的吐槽一下，goagent有实时的日志，可以实时监控状态，但是ss的日志就不是那么人性化了。</p>
+<p>还有就是，因为谷歌的ip被封锁了，所以goagent在手机上的使用很坑爹，反正我是没有折腾成功过，不过ss根本不用折腾，只需要有账号，直接一个apk装上就可以使用。</p>
+<h2 id="在个人电脑上的便捷配置">在个人电脑上的便捷配置</h2><p>前面一直在说如何使用工具，但是工具配置好了，使用起来其实还是有麻烦的。为什么？</p>
+<p>一般的工具，无论是goagent还是shadowsocks，他们只有两种模式——要么全部代理，要么不代理。</p>
+<p>全部代理的意思是，打开你的浏览器，不管你是访问国内的网站，还是访问需要代理的网站，工具们都会给你把流量先跑一次代理，也就是说你的浏览器的流量全部走代理。于是当你访问国内网站的时候，你会发现，速度变得和外国网站一样慢了，完全没有了不用代理的优势。</p>
+<p>还有一个就是，如果从国外的代理访问国内的网站，流量多了就会被GFW发现，从而将你的代理服务器给封杀。</p>
+<p>因此人们需要一个工具来自动判断哪些流量是需要代理的，哪些流量是不需要代理的。于是，便有了switchysharp类的插件，现如今最新的最好用的插件改版了，叫做SwitchyOmega了。</p>
+<p>这个插件是运行在谷歌浏览器chrome上面的， 不过火狐上也有这种插件。</p>
+<p>其实一开始我也是不会用这个工具的，一直是手动切换模式。但是配置好过滤规则之后之后，我才发现，一切都是自动化，最多有时候出现紧急情况（例如一个月前的中文维基百科突然被封杀），才需要自己手动添加一点点规则。</p>
+<p>这个插件相关的使用方法在网络上其实也有很多。</p>
+<h2 id="关于翻墙的奇闻异事">关于翻墙的奇闻异事</h2><p>前段时间爆出一个新闻，说上海一个哥们，因为太过乐于分享自己的翻墙经验而惨遭拘留，为这个哥们默哀。 下面丢一个新闻链接吧。</p>
+<p><a href="http://www.chinagfw.org/2015/06/blog-post_10.html" target="_blank" rel="external">网友陈乐福因“破坏计算机信息系统罪”被拘</a></p>
+<p>好吧，上面这个网页需要翻墙。然后我在百度贴吧找到了这个帖子。</p>
+<p><a href="http://tieba.baidu.com/p/3814764339" target="_blank" rel="external">上海网友陈某因研究翻墙软件被刑拘</a></p>
+<p>然而我并没有能够在国内找到关于这件事情的新闻，真是垢了。</p>
+<p>更多关于GFW的东西可以戳维基百科<a href="https://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E" target="_blank" rel="external">GFW条目</a>。</p>
+<p>下面是我曾经看过的一篇文章，这里分享一下。</p>
+<p><a href="http://web.archive.org/web/20100507065344/http://freemorenews.com/2009/08/30/burn-after-reading-gfw/" target="_blank" rel="external">阅后即焚：“GFW”</a></p>
+<p>下面是我读过的一篇关于GFW的原理探讨的文章，值得一读。</p>
+<p><a href="http://gfwrev.blogspot.com/2010/02/gfw.html" target="_blank" rel="external">GFW技术评论: 深入理解GFW内部结构</a></p>
+<p>最后的最后，感谢一下GFW的存在，让我掌握了许多网络知识（这是真的，在翻墙的过程中，我学到了许许多多的计算机网络的知识），也让我明白了这个世界上并不会有绝对的真正的自由，也让我更深刻的理解了那句话：“什么东西都有其两面性”。</p>
+<p>以上内容，如有错漏，欢迎指出，谢谢！</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>写在前面：这篇文章并不介绍科学上网的详细方法。那些文章在网络上已经烂大街了，随便谷歌一下一大堆，G+也有专门的翻墙圈子专门研究翻墙方法。</p>
+<p>这篇文章也不会写太多的翻墙方法，这个世界上翻墙方法多了去了，然而我会用两种就够了！</p>]]>
+    
+    </summary>
+    
+      <category term="GFW" scheme="http://sparkrat.github.io/tags/GFW/"/>
+    
+      <category term="科学上网" scheme="http://sparkrat.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[对计算机磁盘文件系统的学习]]></title>
+    <link href="http://sparkrat.github.io/fs-learn/"/>
+    <id>http://sparkrat.github.io/fs-learn/</id>
+    <published>2015-06-15T11:47:34.000Z</published>
+    <updated>2015-07-03T06:21:29.772Z</updated>
+    <content type="html"><![CDATA[<p>最近发现了一个学习的好地方——<a href="http://www.imooc.com" target="_blank" rel="external">慕课网</a>。好吧，我又安利了，虽然我知道这不好。但这真的是个不错的自学平台。</p>
+<p>然后我又学了一下linux相关的知识，虽然讲linux的那个视频里面有很多值(you)得(cuo)吐(wu)槽的地方，但是不得不说，这个视频让我对linux的理解又更深入了一层。</p>
+<p>然后在看这个视频之后，我最大的收获就是对文件系统终于有了自己科学的认识了。</p>
+<a id="more"></a>
+<h2 id="关于文件系统">关于文件系统</h2><p>以前一直不知道文件系统保存和检索文件的原理。但是在昨天看了linux的慕课之后，发现对计算机的文件系统形成了自己的认识了。</p>
+<p>下面是我在维基百科上查到的关于文件系统的概述。</p>
+<blockquote>
+<p>计算机的文件系统是一种存储和组织计算机数据的方法，它使得对其访问和查找变得容易，文件系统使用文件和树形目录的抽象逻辑概念代替了硬盘和光盘等物理设备使用数据块的概念，用户使用文件系统来保存数据不必关心数据实际保存在硬盘（或者光盘）的地址为多少的数据块上，只需要记住这个文件的所属目录和文件名。在写入新数据之前，用户不必关心硬盘上的那个块地址没有被使用，硬盘上的存储空间管理（分配和释放）功能由文件系统自动完成，用户只需要记住数据被写入到了哪个文件中。</p>
+<p>文件系统是一种用于向用户提供底层数据访问的机制。它将设备中的空间划分为特定大小的块（扇区），一般每块512字节。数据存储在这些块中，大小被修正为占用整数个块。由文件系统软件来负责将这些块组织为文件和目录，并记录哪些块被分配给了哪个文件，以及哪些块没有被使用。</p>
+</blockquote>
+<p>简单来说，文件系统就是一种在计算机上存储和检索文件的一种规定（约定），使用这种规定，可以让计算机能够高效的检索到存储在存储设备上的文件。</p>
+<p>因为是一种规定，所以文件系统肯定不止一种，例如我们常见的文件系统有：</p>
+<ul>
+<li>FAT       又分为FAT16（太古老了） 和 FAT32（有时候还会使用）</li>
+<li>NTFS      现在的windows机器上最常用的文件系统格式</li>
+<li>exFAT     又名FAT64，是一种较适合于闪存的文件系统。</li>
+<li>EXT       有EXT2、EXT3、EXT4三种，linux现在使用这种文件系统格式</li>
+<li>HFS和HFS+ 苹果的Mac电脑（好想要啊！可惜没钱）用的文件系统格式</li>
+<li>········</li>
+</ul>
+<p>还有一些其他的乱七八糟的格式就不一一列举了。</p>
+<h2 id="关于格式化">关于格式化</h2><p>还是先在互联网上查一查，学一学，于是我又找到了维基百科。</p>
+<p>下面是维基百科对于格式化的解释：</p>
+<blockquote>
+<p>格式化是指对磁盘或磁盘中的分区（partition）进行初始化的一种操作，这种操作通常会导致现有的磁盘或分区中所有的文件被清除。<br>格式化通常分为低级格式化和高级格式化。如果没有特别指明，对硬盘的格式化通常是指高级格式化，而对软盘的格式化则通常同时包括这两者。</p>
+</blockquote>
+<p>然后是低级格式化，也就是人们常说的低格：</p>
+<blockquote>
+<p>低级格式化（Low-Level Formatting）又称低层格式化或物理格式化（Physical Format），对于部分硬盘制造厂商，它也被称为初始化（initialization）。最早，伴随着应用CHS编址方法、频率调制（FM）、改进频率调制（MFM）等编码方案的磁盘的出现，低级格式化被用于指代对磁盘进行划分柱面、磁道、扇区的操作。</p>
+</blockquote>
+<p>然后是高级格式化，也就是人们常说的格式化：</p>
+<blockquote>
+<p>高级格式化又称逻辑格式化，它是指根据用户选定的文件系统（如FAT12、FAT16、FAT32、NTFS、EXT2、EXT3等），在磁盘的特定区域写入特定数据，以达到初始化磁盘或磁盘分区、清除原磁盘或磁盘分区中所有文件的一个操作。高级格式化包括对主引导记录中分区表相应区域的重写、根据用户选定的文件系统，在分区中划出一片用于存放文件分配表、目录表等用于文件管理的磁盘空间，以便用户使用该分区管理文件。</p>
+</blockquote>
+<p>话说很多人对于格式化的理解还停留在“格式化会清除硬盘上的所有文件”的概念上。好吧，虽然我也用过格式化的功能来清除文件，但是我还是知道格式化的作用其实不是用来干这个的。</p>
+<p>格式化的真正作用，其实一直都是用来 <strong>写入文件系统用的</strong>。</p>
+<h2 id="磁盘文件的检索">磁盘文件的检索</h2><p>其实在昨天之前我一直不知道计算机是如何检索磁盘上的文件的，但是从昨天开始，我终于有了一点浅薄的认识了。</p>
+<p>首先，计算机在往磁盘上存储文件之前，必须要先进行磁盘格式化，因为计算机必须要识别文件系统。为什么呢？</p>
+<p>那是因为格式化会将分区的磁盘空间平均分成无数个小块（通常被称为block，其实它真正的称呼是簇(ㄒoㄒ)/~~），而所有的文件都是打散了存在这些小小的block里面的。至于block的大小嘛，不同的文件系统格式不同。例如NTFS的簇的大小就是4096字节。</p>
+<p>然后，引用维基百科的一段文字来帮助理解。</p>
+<blockquote>
+<p>每簇4,096字节的NTFS文件系统，每个文件5字节，共100,000个文件， 逻辑字节总共500,000字节，但由于一个文件需独占整数倍个簇（最后一簇无论是否沾满，仍会独占一整个簇），实际占用磁盘空间409,600,000字节（每个文件5字节独占一个簇）</p>
+</blockquote>
+<p>这段话是什么意思呢？就是说，NTFS文件系统对文件的存放的最小单位是4096字节。如果一个文件的大小小于4096字节，那么。。。这个文件还是会占用4096字节，也就是说：！！一个簇只能属于唯一一个文件，不能属于多个文件！！！</p>
+<p>看下面这张图片，这是我临时在我的电脑里面找到的一个纯文本文档。</p>
+<p><img src="http://ww1.sinaimg.cn/large/0063AxbLgw1etai0piwepj308v01wgll.jpg" alt="小于4096字节的文本文件占用磁盘4096字节"></p>
+<p>有没有发现。实际大小只有354字节的文件却占用我了4096字节的磁盘空间。</p>
+<p>所以“零碎的文件会加剧磁盘的空间开销”这句话我以前是知道的，但是这是我自己观察电脑文件发现的，却不知道为什么，现在知道了。</p>
+<p>因此“纯文本的压缩率极高”这句话我现在也理解了，因为纯文本的大小一般很小，所以纯文本数量一多，必然会浪费很多磁盘空间，但是经过压缩软件一压缩，全部成为连续的数据了，因此压缩率高。</p>
+<p>好吧，跑偏了，回到正题！！！</p>
+<p>然后，格式化会在分区里面生成一个表，在这个表里面，会存储下该磁盘所有文件的信息，例如文件名、文件的属性（时间戳等等）、文件的大小、文件具体占用了哪些簇（也就是文件的簇的位置）等等。</p>
+<p>这也是为什么计算机在格式化一个磁盘后。磁盘的可用空间总是会比磁盘的总空间要笑那么一点点的原因了。因为要单独分配一些磁盘空间来记录磁盘的文件信息。</p>
+<p>因此，我也就理解了为什么计算机文件在磁盘上的存储绝对不是连续的了，不然就不用开一个单独的表来记录文件的簇的位置了。</p>
+<p>于是，我也就理解了，为什么计算机删除文件的速度那么快了，因为其实在删除文件的时候根本没有删除真正的文件数据，而是删除的表中的信息。。这个当然很快咯。。</p>
+<p>所以，实际上计算机在磁盘上查找文件的顺序应该是这样的:</p>
+<ol>
+<li>先在分区的表里头根据文件名查找文件的属性以及簇的位置</li>
+<li>然后依次遍历文件所占用的簇</li>
+<li>要么读取数据，要么写入数据</li>
+</ol>
+<p>好吧，其实没这么简单。还有很多东西是我无法想象也考虑不到的。但是我现在的认识也就是这样子的了吧。</p>
+<h2 id="关于linux文件">关于linux文件</h2><p>为什么要把这个单独拿出来讲呢？ 因为我现在在学linux。</p>
+<p>关于linux下的文件操作，当然第一个命令必须是ls啦！</p>
+<p>好吧，这个命令我也去查了维基百科，但是似乎维基百科的这个条目已经2年多没更新了。最后更新时间竟然是2013年3月9日，无奈之。</p>
+<p>ls的几个个参数 -a -i -l -h -F -R 具体内容和用法可以谷歌。</p>
+<p>这里说说-i参数，-i参数的作用是显示每个文件报告第一列中的索引节点号，也就是上面说的那个簇的编号。</p>
+<p>看一张linux的<code>ls -lai</code>命令的经典图吧。</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etai2c323rj30fx07bjup.jpg" alt="ls命令示例"></p>
+<p>其中标注的第一列是inode节点号。第二列是权限。第三列是该文件的硬链接数目。后面的是一些别的属性，例如文件的所有者，文件所属的组，文件的大小，最后的修改日期，文件的名字等。</p>
+<p>然后是关于linux文件的两种链接——硬链接和软连接。</p>
+<p>好吧，维基百科竟然没有硬链接的条目。不过我还是搜到了硬链接的一些解释。</p>
+<p>这是我的一些看法，硬链接其实就是文件的索引，相当于一个实体文件有多个彼此平等的名字，这也是为什么我将上面那张图片里面第三列叫做硬链接的数量的原因。</p>
+<p>其实可以这样理解（不知道对不对）：每个文件都是它本身的硬链接，给一个文件创建一个硬链接就是给一个文件再添加一个索引。</p>
+<p>还有就是，硬链接不能跨分区。也就是说，不能在一个分区里面创建另一个分区的文件的硬链接。</p>
+<p>其实想想也对，硬链接本身就是一个索引，而上面提过，索引是存在每个分区的一个单独的表里面的。当然不能在一个分区表里面创建另一个分区文件的索引啦。</p>
+<p>关于软链接。</p>
+<blockquote>
+<p>符号链接（软链接）是一类特殊的文件， 其包含有一条以绝对路径或者相对路径的形式指向其它文件或者目录的引用。</p>
+</blockquote>
+<p>linux下使用命令<code>ln -s 目标 链接名称</code>来创建一个软连接。</p>
+<p>好吧，linux下的软连接其实相当于windows下的快捷方式。就是文件的block快里面的信息其实是文件的硬链接信息。根据软链接来检索文件其实是一个这样的过程，首先根据软连接来找到硬链接，然后再根据硬链接找到文件的真正信息。</p>
+<p>然后，软连接其实也是硬链接的一种是不是？软连接可不可以有多个硬链接？好吧，我其实是没有尝试过的。</p>
+<p>关于这两个链接，我还在维基百科上找到了很多冷门知识。有一条是这样的。</p>
+<blockquote>
+<p>创建一个目录时，实际做了3件事：在其“父目录文件”中增加一个条目；分配一个inode；再分配一个存储块，用来保存当前被创建目录包含的文件与子目录。被创建的“目录文件”中自动生成两个子目录的条目，名称分别是：“.”和“..”。前者与该目录具有相同的inode号码，因此是该目录的一个“硬链接”。后者的inode号码就是该目录的父目录的inode号码。所以，任何一个目录的”硬链接”总数，总是等于它的子目录总数（含隐藏目录）加2。即每个“子目录文件”中的“..”条目，加上它自身的“目录文件”中的“.”条目，再加上“父目录文件”中的对应该目录的条目。</p>
+</blockquote>
+<p>这个只是点够生僻的了吧。</p>
+<p>最后，画一个图片来形象的表示计算机磁盘的文件系统吧。</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etai2uln37j30jf0dcaea.jpg" alt="计算机磁盘文件系统示意图"></p>
+<p>左边表示磁盘被分成有限个等大小的block，右边表示文件索引表，这个表存储了这个磁盘里所有的硬链接信息。</p>
+<p>=_=# 好吧, 其实这张图并没有什么卵用。这也不是最后，后面还有最后。</p>
+<p>最后，向发明这些规则的前辈们致敬。唯有膜拜一词能表达我的感情。</p>
+<p>最后的最后，容许我再默背一遍，linux下一切皆文件↖(^ω^)↗。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近发现了一个学习的好地方——<a href="http://www.imooc.com">慕课网</a>。好吧，我又安利了，虽然我知道这不好。但这真的是个不错的自学平台。</p>
+<p>然后我又学了一下linux相关的知识，虽然讲linux的那个视频里面有很多值(you)得(cuo)吐(wu)槽的地方，但是不得不说，这个视频让我对linux的理解又更深入了一层。</p>
+<p>然后在看这个视频之后，我最大的收获就是对文件系统终于有了自己科学的认识了。</p>]]>
+    
+    </summary>
+    
+      <category term="file-system" scheme="http://sparkrat.github.io/tags/file-system/"/>
+    
+      <category term="linux" scheme="http://sparkrat.github.io/tags/linux/"/>
+    
+  </entry>
+  
+</feed>

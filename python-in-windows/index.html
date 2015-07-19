@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>在windwos上折腾python | 傻傻的程序猿</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="题记:生命的乐趣在于折腾!
+今天在廖雪峰的官方网站学习python,教程传送门.
+因为我在windows上使用msys模拟了linux命令行x.于是我想令python在msys里面正常使用.于是我开始了我的折腾之路.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在windwos上折腾python">
+<meta property="og:url" content="http://sparkrat.github.io/python-in-windows/index.html">
+<meta property="og:site_name" content="傻傻的程序猿">
+<meta property="og:description" content="题记:生命的乐趣在于折腾!
+今天在廖雪峰的官方网站学习python,教程传送门.
+因为我在windows上使用msys模拟了linux命令行x.于是我想令python在msys里面正常使用.于是我开始了我的折腾之路.">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/0063AxbLgw1etphnxyvfij30ay046q3q.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/0063AxbLgw1etpgvm2ck4j30bm08q40t.jpg">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/0063AxbLgw1etph337fhcj30bk09j76g.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/0063AxbLgw1etpj0cdt8vj30b709ktaq.jpg">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/0063AxbLgw1etpjcgdn36j30n90l0du7.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/0063AxbLgw1etpj9qt7njj30n90gq49s.jpg">
+<meta property="og:updated_time" content="2015-07-03T06:18:12.272Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="在windwos上折腾python">
+<meta name="twitter:description" content="题记:生命的乐趣在于折腾!
+今天在廖雪峰的官方网站学习python,教程传送门.
+因为我在windows上使用msys模拟了linux命令行x.于是我想令python在msys里面正常使用.于是我开始了我的折腾之路.">
+  
+    <link rel="alternative" href="atom.xml" title="傻傻的程序猿" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Lyeec</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">一只傻傻的程序猿</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/memo">备忘录</a></li>
+				        
+							<li><a href="/about">关于</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+					        
+								<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+					        
+								<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/ACM/" style="font-size: 16.67px;">ACM</a> <a href="/tags/C/" style="font-size: 10px;">C++</a> <a href="/tags/C语言/" style="font-size: 16.67px;">C语言</a> <a href="/tags/GFW/" style="font-size: 11.67px;">GFW</a> <a href="/tags/blog/" style="font-size: 13.33px;">blog</a> <a href="/tags/codeforces/" style="font-size: 10px;">codeforces</a> <a href="/tags/contest/" style="font-size: 10px;">contest</a> <a href="/tags/crawler/" style="font-size: 10px;">crawler</a> <a href="/tags/cygwin/" style="font-size: 10px;">cygwin</a> <a href="/tags/editor/" style="font-size: 11.67px;">editor</a> <a href="/tags/file-system/" style="font-size: 10px;">file-system</a> <a href="/tags/git/" style="font-size: 11.67px;">git</a> <a href="/tags/github/" style="font-size: 11.67px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/html-js-css/" style="font-size: 15px;">html&js&css</a> <a href="/tags/jekyll/" style="font-size: 11.67px;">jekyll</a> <a href="/tags/learn/" style="font-size: 10px;">learn</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/msys/" style="font-size: 13.33px;">msys</a> <a href="/tags/program/" style="font-size: 16.67px;">program</a> <a href="/tags/python/" style="font-size: 11.67px;">python</a> <a href="/tags/ssh/" style="font-size: 10px;">ssh</a> <a href="/tags/theme/" style="font-size: 11.67px;">theme</a> <a href="/tags/vps/" style="font-size: 10px;">vps</a> <a href="/tags/windows/" style="font-size: 11.67px;">windows</a> <a href="/tags/分享/" style="font-size: 10px;">分享</a> <a href="/tags/前端/" style="font-size: 18.33px;">前端</a> <a href="/tags/图床/" style="font-size: 10px;">图床</a> <a href="/tags/数据结构/" style="font-size: 13.33px;">数据结构</a> <a href="/tags/旅行/" style="font-size: 10px;">旅行</a> <a href="/tags/游戏/" style="font-size: 10px;">游戏</a> <a href="/tags/科学上网/" style="font-size: 11.67px;">科学上网</a> <a href="/tags/算法/" style="font-size: 11.67px;">算法</a> <a href="/tags/读书观影/" style="font-size: 11.67px;">读书观影</a> <a href="/tags/软件/" style="font-size: 11.67px;">软件</a> <a href="/tags/随笔/" style="font-size: 20px;">随笔</a>
+					</div>
+				</section>
+				
+				
+				
+
+				
+			</div>
+		</div>
+	</header>				
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Lyeec</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Lyeec</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">一只傻傻的程序猿</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/memo">备忘录</a></li>
+		        
+					<li><a href="/about">关于</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+			        
+						<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+			        
+						<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-python-in-windows" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/python-in-windows/" class="article-date">
+  	<time datetime="2015-07-03T04:08:47.000Z" itemprop="datePublished">Jul 3</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      在windwos上折腾python
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/msys/">msys</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/windows/">windows</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong>题记:生命的乐趣在于折腾!</strong></p>
+<p>今天在<a href="http://www.liaoxuefeng.com/" target="_blank" rel="external">廖雪峰的官方网站</a>学习python,<a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="external">教程传送门</a>.</p>
+<p>因为我在windows上使用msys模拟了linux命令行x.于是我想令python在msys里面正常使用.于是我开始了我的折腾之路.</p>
+<a id="more"></a>
+<h2 id="让msys找到python的方法">让msys找到python的方法</h2><p>一开始我的电脑里面只有py2, 所以我直接把py2的目录放到了PATH变量里面.</p>
+<p><img src="http://ww3.sinaimg.cn/large/0063AxbLgw1etphnxyvfij30ay046q3q.jpg" alt="通过环境变量PATH来访问python"></p>
+<p>这样msys就可以找到了,但是这样是有问题的.问题是什么呢?</p>
+<h2 id="两个版本冲突">两个版本冲突</h2><p>我一开始是安装的py2, 但是廖雪峰教程里面用的是py3,于是我不得不安装两个版本的python..于是问题来了.</p>
+<p>两个版本的python的可执行文件都是python.exe…我擦..怎么搞?<br>使用<code>#!/usr/bin/env python</code>指定解释器到底会用哪个版本的python? 还是随机选择? 不要这么坑好不好?</p>
+<p>于是我把环境变量PATH里面的路径去掉了…于是msys找不到python了..</p>
+<p>于是我机智的用了两条命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ln <span class="operator">-s</span> /d/python27/python.exe /usr/bin/python</span><br><span class="line">ln <span class="operator">-s</span> /d/python34/python.exe /usr/bin/python</span><br></pre></td></tr></table></figure>
+<p>哈哈,这样不就区分开来了嘛!下面是我的操作过程.</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etpgvm2ck4j30bm08q40t.jpg" alt="让msys区分两个版本的py"></p>
+<p>这样两个版本的python就完美的被区分开来了.</p>
+<p>而且,而且,这样子,还可以直接在msys的bash里面通过文件名执行py代码哦,只要把脚本解释语句写好了!</p>
+<p>例如这样!</p>
+<p><img src="http://ww3.sinaimg.cn/large/0063AxbLgw1etph337fhcj30bk09j76g.jpg" alt="使用不用版本的py解释py脚本"></p>
+<p>验证解释的正确性,写了另外两个脚本..</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etpj0cdt8vj30b709ktaq.jpg" alt="验证脚本解释语句的正确性"></p>
+<h2 id="使用pip">使用pip</h2><p>众所周知python的pip是一个很好的包管理工具啊, 使用python必不可少啊.</p>
+<p>但是我的msys并不知道pip是什么鬼啊…因为安装的时候python的安装包不知道我用的msys啊, 不会往msys的环境变量里面添加pip命令啊.没办法,我只好手动折腾咯.</p>
+<p>看了看python的官方文档, 调用python的模块的命令格式是这样的</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#py2</span></span><br><span class="line">python -m <span class="string">'模块名'</span></span><br><span class="line"><span class="comment">#py3</span></span><br><span class="line">python3 -m <span class="string">'模块名'</span></span><br></pre></td></tr></table></figure>
+<p>因为windows的python安装包自动给安装了pip模块,所以是可以直接使用的.</p>
+<p>好吧,直接给pip设置别名就可以了</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">alias</span> pip=<span class="string">'python -m pip'</span></span><br><span class="line"><span class="built_in">alias</span> pip3=<span class="string">'python3 -m pip'</span></span><br></pre></td></tr></table></figure>
+<p>没错就是这么简单,把这两行添加到家目录下面的.bashrc文件里面作为永久别名就可以了.</p>
+<h2 id="然而还有是有问题">然而还有是有问题</h2><p>例如这个</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etpjcgdn36j30n90l0du7.jpg" alt="pip安装模块的时缺少编译器py2"></p>
+<p><img src="http://ww1.sinaimg.cn/large/0063AxbLgw1etpj9qt7njj30n90gq49s.jpg" alt="pip安装模块的时缺少编译器py3"></p>
+<p>使用pip安装一些模块竟然还要使用巨硬的编译器vc…没办法,只能到巨硬官网去下载一个补丁咯,附上<a href="http://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi" target="_blank" rel="external">传送门</a>,点击即可下载. 这个是py2的解决方案. </p>
+<p>py3用的是VC2010的编译器,因此还是到官网去下载一个VC2010的免费编译器咯,<a href="http://download.microsoft.com/download/3/2/2/3224B87F-CFA0-4E70-BDA3-3DE650EFEBA5/vcredist_x64.exe" target="_blank" rel="external">64位传送门</a>, <a href="http://download.microsoft.com/download/5/B/C/5BC5DBB3-652D-4DCE-B14A-475AB85EEF6E/vcredist_x86.exe" target="_blank" rel="external">32位传送门</a>点击即可下载哦.</p>
+<p>当然,如果懒得安装巨硬的编译器,那就去<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/" target="_blank" rel="external">这里</a>下载对应的模块文件,然后直接安装就可以了.</p>
+<p>到此,基本上linux可以用的python功能在msys都能用了,虽然pip还有很多问题根本无法解决,碰到不能解决的问题,那就只好用python自带的IDE去折腾咯,或者直接上linux.</p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/html-mathjax/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          用mathjax做了一个公式显示工具
+        
+      </div>
+    </a>
+  
+  
+    <a href="/bootstrap-learn-in-imooc/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">在慕课网学习bootstrap</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+  <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+</article>
+
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="python-in-windows" data-title="在windwos上折腾python" data-url="http://sparkrat.github.io/python-in-windows/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"sparkrat"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2015 Lyeec
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: true
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63665478-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>

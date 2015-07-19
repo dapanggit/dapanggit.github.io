@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>树状数组 | 傻傻的程序猿</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="树状数组是什么东西？先戳维基百科树状数组条目
+简单来说，树状数组就是一种可以大大降低维护一个数字序列的时间复杂度的数据结构。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="树状数组">
+<meta property="og:url" content="http://sparkrat.github.io/BIT/index.html">
+<meta property="og:site_name" content="傻傻的程序猿">
+<meta property="og:description" content="树状数组是什么东西？先戳维基百科树状数组条目
+简单来说，树状数组就是一种可以大大降低维护一个数字序列的时间复杂度的数据结构。">
+<meta property="og:image" content="http://ww3.sinaimg.cn/large/0063AxbLgw1etahpn72njj30lh0dsq4c.jpg">
+<meta property="og:updated_time" content="2015-06-24T13:26:28.437Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="树状数组">
+<meta name="twitter:description" content="树状数组是什么东西？先戳维基百科树状数组条目
+简单来说，树状数组就是一种可以大大降低维护一个数字序列的时间复杂度的数据结构。">
+  
+    <link rel="alternative" href="atom.xml" title="傻傻的程序猿" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Lyeec</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">一只傻傻的程序猿</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/memo">备忘录</a></li>
+				        
+							<li><a href="/about">关于</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+					        
+								<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+					        
+								<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/ACM/" style="font-size: 16.67px;">ACM</a> <a href="/tags/C/" style="font-size: 10px;">C++</a> <a href="/tags/C语言/" style="font-size: 16.67px;">C语言</a> <a href="/tags/GFW/" style="font-size: 11.67px;">GFW</a> <a href="/tags/blog/" style="font-size: 13.33px;">blog</a> <a href="/tags/codeforces/" style="font-size: 10px;">codeforces</a> <a href="/tags/contest/" style="font-size: 10px;">contest</a> <a href="/tags/crawler/" style="font-size: 10px;">crawler</a> <a href="/tags/cygwin/" style="font-size: 10px;">cygwin</a> <a href="/tags/editor/" style="font-size: 11.67px;">editor</a> <a href="/tags/file-system/" style="font-size: 10px;">file-system</a> <a href="/tags/git/" style="font-size: 11.67px;">git</a> <a href="/tags/github/" style="font-size: 11.67px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/html-js-css/" style="font-size: 15px;">html&js&css</a> <a href="/tags/jekyll/" style="font-size: 11.67px;">jekyll</a> <a href="/tags/learn/" style="font-size: 10px;">learn</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/msys/" style="font-size: 13.33px;">msys</a> <a href="/tags/program/" style="font-size: 16.67px;">program</a> <a href="/tags/python/" style="font-size: 11.67px;">python</a> <a href="/tags/ssh/" style="font-size: 10px;">ssh</a> <a href="/tags/theme/" style="font-size: 11.67px;">theme</a> <a href="/tags/vps/" style="font-size: 10px;">vps</a> <a href="/tags/windows/" style="font-size: 11.67px;">windows</a> <a href="/tags/分享/" style="font-size: 10px;">分享</a> <a href="/tags/前端/" style="font-size: 18.33px;">前端</a> <a href="/tags/图床/" style="font-size: 10px;">图床</a> <a href="/tags/数据结构/" style="font-size: 13.33px;">数据结构</a> <a href="/tags/旅行/" style="font-size: 10px;">旅行</a> <a href="/tags/游戏/" style="font-size: 10px;">游戏</a> <a href="/tags/科学上网/" style="font-size: 11.67px;">科学上网</a> <a href="/tags/算法/" style="font-size: 11.67px;">算法</a> <a href="/tags/读书观影/" style="font-size: 11.67px;">读书观影</a> <a href="/tags/软件/" style="font-size: 11.67px;">软件</a> <a href="/tags/随笔/" style="font-size: 20px;">随笔</a>
+					</div>
+				</section>
+				
+				
+				
+
+				
+			</div>
+		</div>
+	</header>				
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Lyeec</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Lyeec</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">一只傻傻的程序猿</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/memo">备忘录</a></li>
+		        
+					<li><a href="/about">关于</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+			        
+						<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+			        
+						<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-BIT" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/BIT/" class="article-date">
+  	<time datetime="2015-06-05T03:28:00.000Z" itemprop="datePublished">Jun 5</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      树状数组
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ACM/">ACM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/program/">program</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/数据结构/">数据结构</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="树状数组是什么东西？">树状数组是什么东西？</h2><p>先戳维基百科<a href="http://zh.wikipedia.org/wiki/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84" target="_blank" rel="external">树状数组条目</a></p>
+<p>简单来说，树状数组就是一种可以大大降低<strong>维护一个数字序列</strong>的时间复杂度的数据结构。</p>
+<a id="more"></a>
+<h3 id="树状数组的定义">树状数组的定义</h3><p>树状数组的具体做法是这样的：<br>假设原始的数字序列为\(A_ {i}\),树状数组的序列为\(C_ {i}\)。<br>则有：</p>
+<ul>
+<li>\(C_{1} = A_{1}\)</li>
+<li>\(C_{2} = A_{1}+A_ {2}\)</li>
+<li>\(C_{3} = A_{3}\)</li>
+<li>\(C_{4} = A_{1}+A_{2}+A_{3}+A_{4}\)</li>
+<li>\( \cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\)</li>
+<li>\(C_{n} = A_{n-lowbit(n)+1}+ A_{n-lowbit(n)+2}+\cdots\cdots+A_{n}\)</li>
+</ul>
+<p>然后看完这张经典的图之后，大概就可以明白树状数组是怎么回事了。</p>
+<p><img src="http://ww3.sinaimg.cn/large/0063AxbLgw1etahpn72njj30lh0dsq4c.jpg" alt="树状数组"></p>
+<h3 id="lowbit是什么鬼？">lowbit是什么鬼？</h3><p>这里不得不提一下lowbit()函数。<br>它返回的是：参数转为二进制后, 最后一个1的位置所代表的数值。<br>其实lowbit的意思就是最低位的意思，也就是参数的二进制形式最低位的1所代表的数字。</p>
+<p>lowbit()函数有三种具体的实现方法，用的都是位运算的知识。</p>
+<ul>
+<li>lowbit1(x) = x&amp;(x^(x-1)) </li>
+<li>lowbit2(x) = x&amp;(~x+1)</li>
+<li>lowbit3(x) = x&amp;(-x)</li>
+</ul>
+<h3 id="优点和缺点">优点和缺点</h3><h4 id="为什么要这么做呢？用lowbit有什么好处呢？">为什么要这么做呢？用lowbit有什么好处呢？</h4><p>最大的优点当然是维护一个序列啦，时间复杂度好低的, 只有\(log_ {2}(n)\)哦！<br>还有一个优点就是实现起来灰常简单，简单到爆，这是一个小巧。</p>
+<p>如果我们要知道某个数字之前所有数字的和，可以这么做：</p>
+<p>\[\sum _{i=1} ^{n}{A_i}=C _{n} + C _{n-lowbit(n)} + C _{n-lowbit(n)-lowbit(n-lowbit(n))} + \cdots\cdots\cdots \]</p>
+<p>要知道一个区间(x,y)的数字的和，用\[\sum _{i=1} ^{y}{A_i}- \sum _{i=1} ^{x-1}{A_i}\]即可求出。</p>
+<p>要修改某个位置(x)的值，需要修改\[C _{x}, C _{x+lowbit(x)}, C _{x+lowbit(x)+lowbit(x+lowbit(x))}, \cdots\cdots\cdots\cdots \]等一系列节点，时间复杂度也不会超过\(log _{2} (n)\)</p>
+<h4 id="那么树状数组有什么缺点呢？">那么树状数组有什么缺点呢？</h4><p>当然是：应用范围太狭窄了！ 它只能维护序列前缀和有木有？</p>
+<p>但是聪明的人类总能想到各种各样奇葩(机智)的用法。</p>
+<h2 id="树状数组的用途">树状数组的用途</h2><h3 id="C语言实现">C语言实现</h3><h4 id="lowbit函数">lowbit函数</h4><p>好吧，我喜欢用宏定义(昨天灵机一动写出来的)。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#<span class="keyword">define</span> lowbit(o) (&#123;int _=o; _&amp;(~_+1);&#125;)</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> LINT <span class="comment">//再来个typedef方便使用</span></span><br></pre></td></tr></table></figure>
+<h4 id="更新节点">更新节点</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span><br><span class="line">@bint  树状数组</span><br><span class="line">@pos   需要更新的节点</span><br><span class="line">@value 需要更新的值</span><br><span class="line">@lmt   树状数组的最大范围</span><br><span class="line">*/</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">add</span><span class="params">(LINT *bint, <span class="keyword">int</span> pos, <span class="keyword">int</span> value, <span class="keyword">int</span> lmt)</span></span>&#123;</span><br><span class="line">    <span class="keyword">while</span>(pos &gt; <span class="number">0</span> &amp;&amp; pos &lt; lmt)&#123;</span><br><span class="line">        bint[pos] += value;</span><br><span class="line">        pos += lowbit(pos);</span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="求和函数">求和函数</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">LINT <span class="title">sum</span><span class="params">(LINT *bint, <span class="keyword">int</span> pos, <span class="keyword">int</span> lmt)</span></span>&#123;</span><br><span class="line">    LINT ans = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(pos &gt; <span class="number">0</span> &amp;&amp; pos &lt; lmt)&#123;</span><br><span class="line">        ans += bint[pos];</span><br><span class="line">        pos -= lowbit(pos);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="三种神奇的用法">三种神奇的用法</h3><h4 id="修改点值，求区间和">修改点值，求区间和</h4><p>修改：把pos位置的值加上或者减去一个值delta。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">add(bint, pos, delta, n+<span class="number">1</span>);</span><br></pre></td></tr></table></figure>
+<p>询问：求区间\((left,right)\)的区间和。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sum(bint, left, n+<span class="number">1</span>)-sum(bint, right, n+<span class="number">1</span>);</span><br></pre></td></tr></table></figure>
+<h4 id="修改区间，求点值">修改区间，求点值</h4><p>需要更改一下策略：用树状数组维护原始数组的前缀和</p>
+<p>修改：把区间\((left,right)\)的每个位置的值都加上或者减去一个值delta。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">add(bint, left, delta, n+<span class="number">1</span>);</span><br><span class="line">add(bint, right+<span class="number">1</span>, -delta, n+<span class="number">1</span>);</span><br></pre></td></tr></table></figure>
+<p>询问：求pos位置的值。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sum(bint, pos, n+<span class="number">1</span>);</span><br></pre></td></tr></table></figure>
+<h4 id="修改区间，求区间和">修改区间，求区间和</h4><p>待补充。</p>
+<h3 id="强力扩展——二维树状数组">强力扩展——二维树状数组</h3><p>待补充。</p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/jekyll-to-hexo/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          成功叛逃到hexo
+        
+      </div>
+    </a>
+  
+  
+    <a href="/C-learn/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">C语言小问题</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+  <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+</article>
+
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="BIT" data-title="树状数组" data-url="http://sparkrat.github.io/BIT/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"sparkrat"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2015 Lyeec
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: true
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63665478-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>

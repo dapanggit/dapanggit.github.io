@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>用mathjax做了一个公式显示工具 | 傻傻的程序猿</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="题记:前端猿正在学习进化过程中….
+今天下午练习了一下javascript, 做了一个页面,写篇文章纪念一下.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="用mathjax做了一个公式显示工具">
+<meta property="og:url" content="http://sparkrat.github.io/html-mathjax/index.html">
+<meta property="og:site_name" content="傻傻的程序猿">
+<meta property="og:description" content="题记:前端猿正在学习进化过程中….
+今天下午练习了一下javascript, 做了一个页面,写篇文章纪念一下.">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/0063AxbLgw1etqurmskppj30eh0873yx.jpg">
+<meta property="og:updated_time" content="2015-07-10T11:15:24.126Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="用mathjax做了一个公式显示工具">
+<meta name="twitter:description" content="题记:前端猿正在学习进化过程中….
+今天下午练习了一下javascript, 做了一个页面,写篇文章纪念一下.">
+  
+    <link rel="alternative" href="atom.xml" title="傻傻的程序猿" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Lyeec</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">一只傻傻的程序猿</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/memo">备忘录</a></li>
+				        
+							<li><a href="/about">关于</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+					        
+								<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+					        
+								<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/ACM/" style="font-size: 16.67px;">ACM</a> <a href="/tags/C/" style="font-size: 10px;">C++</a> <a href="/tags/C语言/" style="font-size: 16.67px;">C语言</a> <a href="/tags/GFW/" style="font-size: 11.67px;">GFW</a> <a href="/tags/blog/" style="font-size: 13.33px;">blog</a> <a href="/tags/codeforces/" style="font-size: 10px;">codeforces</a> <a href="/tags/contest/" style="font-size: 10px;">contest</a> <a href="/tags/crawler/" style="font-size: 10px;">crawler</a> <a href="/tags/cygwin/" style="font-size: 10px;">cygwin</a> <a href="/tags/editor/" style="font-size: 11.67px;">editor</a> <a href="/tags/file-system/" style="font-size: 10px;">file-system</a> <a href="/tags/git/" style="font-size: 11.67px;">git</a> <a href="/tags/github/" style="font-size: 11.67px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/html-js-css/" style="font-size: 15px;">html&js&css</a> <a href="/tags/jekyll/" style="font-size: 11.67px;">jekyll</a> <a href="/tags/learn/" style="font-size: 10px;">learn</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/msys/" style="font-size: 13.33px;">msys</a> <a href="/tags/program/" style="font-size: 16.67px;">program</a> <a href="/tags/python/" style="font-size: 11.67px;">python</a> <a href="/tags/ssh/" style="font-size: 10px;">ssh</a> <a href="/tags/theme/" style="font-size: 11.67px;">theme</a> <a href="/tags/vps/" style="font-size: 10px;">vps</a> <a href="/tags/windows/" style="font-size: 11.67px;">windows</a> <a href="/tags/分享/" style="font-size: 10px;">分享</a> <a href="/tags/前端/" style="font-size: 18.33px;">前端</a> <a href="/tags/图床/" style="font-size: 10px;">图床</a> <a href="/tags/数据结构/" style="font-size: 13.33px;">数据结构</a> <a href="/tags/旅行/" style="font-size: 10px;">旅行</a> <a href="/tags/游戏/" style="font-size: 10px;">游戏</a> <a href="/tags/科学上网/" style="font-size: 11.67px;">科学上网</a> <a href="/tags/算法/" style="font-size: 11.67px;">算法</a> <a href="/tags/读书观影/" style="font-size: 11.67px;">读书观影</a> <a href="/tags/软件/" style="font-size: 11.67px;">软件</a> <a href="/tags/随笔/" style="font-size: 20px;">随笔</a>
+					</div>
+				</section>
+				
+				
+				
+
+				
+			</div>
+		</div>
+	</header>				
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Lyeec</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="http://ww4.sinaimg.cn/large/0063AxbLgw1etwtv6c9kgg305k05kgou.gif" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Lyeec</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">一只傻傻的程序猿</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/memo">备忘录</a></li>
+		        
+					<li><a href="/about">关于</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/sparkrat" title="github">github</a>
+			        
+						<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+			        
+						<a class="mail" target="_blank" href="mailto:hucxarch@gmail.com" title="mail">mail</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-html-mathjax" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/html-mathjax/" class="article-date">
+  	<time datetime="2015-07-04T09:01:16.000Z" itemprop="datePublished">Jul 4</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      用mathjax做了一个公式显示工具
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/html-js-css/">html&js&css</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端/">前端</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong>题记:前端猿正在学习进化过程中….</strong></p>
+<p>今天下午练习了一下javascript, 做了一个页面,写篇文章纪念一下.</p>
+<a id="more"></a>
+<h2 id="不许无聊">不许无聊</h2><p>今天下午不知道怎么的(还不是因为无聊?)就萌生出了用javascript写一个基于mathjax的公式显示工具的想法.</p>
+<h2 id="作品的目标">作品的目标</h2><p>让用户输入公式代码,然后通过mathjax脚本将代码渲染显示出来.</p>
+<h2 id="使用mathjax">使用mathjax</h2><p>调用mathjax脚本很简单,谷歌一下到处都是,不过我还是贴一下html的引用代码.</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"</span> <span class="attribute">id</span>=<span class="value">"MathJax"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>这个东西是我在折腾jekyll搭建博客的时候学会的,当时使用的jekyll主题作者没有将mathjax添加到主题里面,于是我自己把mathjax折腾进去了.然后就学会了这个方法.</p>
+<p>将这句脚本引用到html文档中,如果html页面里面出现了mathjax认可的公式代码,那么这个脚本就会自动把公式渲染.</p>
+<h2 id="我的处理">我的处理</h2><p>上面的方法是同步加载mathjax脚本,就是在页面加载的时候就加载mathjax,这显然不符合我的要求,我需要在用户输入代码之后再进行公示的渲染.</p>
+<p>所以我就想到了我上次折腾博客的时候学到的异步加载脚本的方法,于是我想先让用户输入代码,然后把代码添加到html文档中,然后通过按钮来加载mathjax脚本进行公式渲染.</p>
+<p>大致思路是这样的:</p>
+<ol>
+<li>现在页面里面放一个文本框,让用户输入公式代码,</li>
+<li>然后把代码写入html文档的特定区域,</li>
+<li>最后用mathjax的脚本将公式代码渲染成公式,</li>
+</ol>
+<p>其实思路就是这么简单.然后…我就开始做了..然而我还是花了将近一个多小时.真菜,这点东西就花了一个小时.</p>
+<h2 id="关于异步加载">关于异步加载</h2><p>异步加载js的方法有很多,这里我选取了<a href="http://coolshell.cn" target="_blank" rel="external">酷壳</a>的<a href="http://coolshell.cn/articles/9749.html" target="_blank" rel="external">这篇文章</a>里面的一段代码(一个函数).(汗,其实这个函数我自己是写的出来的, 感觉我好懒)</p>
+<p>还是贴一下js代码吧.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">loadjs</span>(<span class="params">script_filename</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> script = <span class="built_in">document</span>.createElement(<span class="string">'script'</span>);</span><br><span class="line">    script.setAttribute(<span class="string">'type'</span>, <span class="string">'text/javascript'</span>);</span><br><span class="line">    script.setAttribute(<span class="string">'src'</span>, script_filename);</span><br><span class="line">    script.setAttribute(<span class="string">'id'</span>, <span class="string">'coolshell_script_id'</span>);</span><br><span class="line">    script_id = <span class="built_in">document</span>.getElementById(<span class="string">'coolshell_script_id'</span>);</span><br><span class="line">    <span class="keyword">if</span>(script_id)&#123;</span><br><span class="line">        <span class="built_in">document</span>.getElementsByTagName(<span class="string">'head'</span>)[<span class="number">0</span>].removeChild(script_id);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">document</span>.getElementsByTagName(<span class="string">'head'</span>)[<span class="number">0</span>].appendChild(script);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="缺点">缺点</h2><p>这个页面还是有缺点的,就是无法实时显示代码,暂时还没有想到好的办法(好吧,我太菜了),所以只能在每次渲染完了之后刷新页面之后才能再次使用.</p>
+<p>于是我就设置成了三个按钮, 一个按钮添加代码, 一个按钮显示公式, 一个按钮刷新页面.</p>
+<p>然后把按钮设置成:</p>
+<ul>
+<li>按下了显示公式按钮之后显示刷新按钮(其实是用js代码在html文档里面write了一个按钮).</li>
+<li>刷新按钮出现之后把添加按钮和渲染按钮隐藏掉(其实是删除掉了).</li>
+</ul>
+<h2 id="后续想法">后续想法</h2><p>这个页面还是太简单了,如果以后有时间再慢慢添加元素.</p>
+<p>例如可以加上对公式进行管理的功能:</p>
+<ul>
+<li>编辑指定的公式</li>
+<li>删除指定的公式</li>
+</ul>
+<p>还可以做一下界面,这个想法也不错.</p>
+<p>最重要的是,我想做到实时显示代码,不过似乎现在的水平还不够.</p>
+<h2 id="效果展示">效果展示</h2><p>好吧,这是我作品的最后效果.(吐槽:测试的代码忘记删除了,不过这样也好)</p>
+<p><img src="http://ww4.sinaimg.cn/large/0063AxbLgw1etqurmskppj30eh0873yx.jpg" alt="效果展示"></p>
+<p>这只是一次练习,所以就懒得做页面的样式了,<a href="http://sparkrat.github.io/html-work/mathjax.html">这里是demo</a>.</p>
+<p>我把这个html代码托管在github上面,<a href="https://github.com/SparkRat/html-work" target="_blank" rel="external">这里是代码仓库</a>.</p>
+<h2 id="题外话">题外话</h2><p>这个代码仓库应该是我以后所有的html作品的家了, 现在里面有另外一个作品.</p>
+<p>那是我在很早之前在慕课网学照片的瀑布流布局的时候随堂写的一个页面,用的也是js.</p>
+<p><a href="http://sparkrat.github.io/html-work/waterfall/">这里是demo地址</a>,这个东西如果有后端支持还是蛮漂亮的, 没有后端的话, 我不知道怎么动态的添加不同的图片.</p>
+<p>我突然有一个炒鸡不错的想法,可以把我前面写的那个python爬虫用上:</p>
+<ul>
+<li>使用爬虫抓取图片地址,</li>
+<li>然后用nodejs或者python做一个后端,</li>
+<li>把爬虫爬到的照片通过瀑布流展示出来,</li>
+<li>最后再把后台放到我的vps上面去,一切是如此的美好.</li>
+</ul>
+<p>嗯,期末考试完了之后有时间就去折腾.</p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/diary2/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          随笔-2015-07-07
+        
+      </div>
+    </a>
+  
+  
+    <a href="/python-in-windows/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">在windwos上折腾python</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+  <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+</article>
+
+
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="html-mathjax" data-title="用mathjax做了一个公式显示工具" data-url="http://sparkrat.github.io/html-mathjax/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"sparkrat"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2015 Lyeec
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: true
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63665478-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>
